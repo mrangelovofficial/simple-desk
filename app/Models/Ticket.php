@@ -10,9 +10,12 @@ class Ticket extends Model
     use HasFactory;
     
     protected $fillable = [
-        'user_id',
         'subject',
-        'content'
+        'content',
+        'user_id',
+        'status_id',
+        'priority_id',
+        'category_id',
     ];
 
     protected $casts = [
@@ -21,6 +24,18 @@ class Ticket extends Model
 
     public function user(){
         return $this->belongsTo(User::class);
+    }
+
+    public function priority(){
+        return $this->belongsTo(Priority::class);
+    }
+
+    public function status(){
+        return $this->belongsTo(Status::class);
+    }
+
+    public function category(){
+        return $this->belongsTo(Category::class);
     }
 
 }

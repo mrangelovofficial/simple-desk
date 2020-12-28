@@ -13,6 +13,19 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        $this->call([
+            PrioritySeeder::class, //Can be used in prod
+            StatusSeeder::class, //Can be used in prod
+        ]);
+
+        // Only for local environment
+        if (\Illuminate\Support\Facades\App::environment('local')) {
+            $this->call([
+                UserSeeder::class, //Fake users
+                CategorySeeder::class, //Fake category
+                TicketSeeder::class //Fake category
+            ]);
+
+        }
     }
 }
