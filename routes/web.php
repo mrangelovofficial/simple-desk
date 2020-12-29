@@ -25,6 +25,11 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function() {
         Route::resource('/dashboard',   App\Http\Controllers\Admin\DashboardController::class);
         Route::resource('/ticket',      App\Http\Controllers\Admin\TicketController::class);
         Route::resource('/client',      App\Http\Controllers\Admin\ClientController::class);
+
+        Route::group(['middleware' => 'superadmin'], function() {
+            Route::resource('/staff',   App\Http\Controllers\Admin\StaffController::class);
+        });
+
     });
 
     //Client Routes

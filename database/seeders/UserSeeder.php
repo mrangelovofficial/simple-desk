@@ -22,5 +22,10 @@ class UserSeeder extends Seeder
             'email'     => 'client@example.com',
             'is_admin'     => '0',
         ]);
+        \App\Models\User::factory()->create([
+            'email'     => 'superadmin@example.com',
+            'is_superadmin'     => '1',
+            'is_admin'     => '1',
+        ]);
     }
 }

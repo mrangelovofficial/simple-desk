@@ -23,7 +23,8 @@ class StatusFactory extends Factory
     {
         return [
             'name' => $this->faker->sentence,
-            'color' => $this->faker->safeHexColor,
+            'bg_color' => $this->faker->safeHexColor,
+            'text_color' => $this->faker->safeHexColor,
         ];
     }
 }

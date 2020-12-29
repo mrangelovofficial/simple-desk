@@ -81,8 +81,8 @@
 
                 </div>
 
-                <h2 class="text-xs font-bold text-gray-600 mt-8 uppercase tracking-wide">Admin</h2>
-                <div class="mt-2 -mx-1">
+                <h2 v-if="$page.user.is_superadmin" class="text-xs font-bold text-gray-600 mt-8 uppercase tracking-wide">Admin</h2>
+                <div v-if="$page.user.is_superadmin" class="mt-2 -mx-1">
                    
                     <jet-nav-link :href="route('admin.dashboard.index')" :active="route().current('admin.dashboard.index')">
                         <template v-slot:svg>
@@ -117,7 +117,7 @@
                         Security
                     </jet-nav-link>
 
-                    <jet-nav-link :href="route('admin.dashboard.index')" :active="route().current('admin.dashboard.index')">
+                    <jet-nav-link :href="route('admin.staff.index')" :active="route().current('admin.staff.index')">
                         <template v-slot:svg>
                             <path d="M322.773,191.746l-11.051-4.875c-0.43-1.543-0.893-3.036-1.391-4.481l6.148-10.609c1.414-2.441,1.438-5.447,0.062-7.91
 	c-3.232-5.773-7.092-11.171-11.512-16.094c-1.941-2.17-4.909-3.113-7.746-2.461l-9.223,2.112V96.121
@@ -331,7 +331,7 @@
                     <!-- Show only on mobile -->
                      <div class="md:hidden">
                         <form method="POST" @submit.prevent="logout">
-                            <jet-nav-link>
+                            <jet-nav-link :href="route('logout')">
                                 <template v-slot:svg>
                                     <path d="M296,280h-8.8c-3.31,0.006-6.271-2.059-7.408-5.168c-0.976-2.56-2.024-5.064-3.152-7.544
                                         c-1.402-3.016-0.762-6.587,1.6-8.928l6.272-6.28c9.311-9.393,9.294-24.541-0.04-33.912l-22.608-22.608

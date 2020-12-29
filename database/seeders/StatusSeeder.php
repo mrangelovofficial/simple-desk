@@ -14,18 +14,19 @@ class StatusSeeder extends Seeder
     public function run()
     {
         $priorities = [
-            ['name' =>  'New',      'color' =>  '#FFA500'],
-            ['name' =>  'Open',     'color' =>  '#000080'],
-            ['name' =>  'On Hold',  'color' =>  '#35530a'],
-            ['name' =>  'Solved',   'color' =>  '#90EE90'],
-            ['name' =>  'Closed',   'color' =>  '#808080'],
+            ['name' =>  'New',      'bg_color' =>  'bg-orange-500',     'text_color' =>  'text-orange-100'],
+            ['name' =>  'Open',     'bg_color' =>  'bg-blue-500',       'text_color' =>  'text-blue-100'],
+            ['name' =>  'On Hold',  'bg_color' =>  'bg-red-600',        'text_color' =>  'text-red-100'],
+            ['name' =>  'Client',   'bg_color' =>  'bg-green-400',      'text_color' =>  'text-green-100'],
+            ['name' =>  'Closed',   'bg_color' =>  'bg-gray-200',       'text_color' =>  'text-gray-600'],
         ];
 
         foreach($priorities as $priority)
         {
             \App\Models\Status::factory()->create([
                 'name'      => $priority['name'],
-                'color'     => $priority['color'],
+                'bg_color'     => $priority['bg_color'],
+                'text_color'     => $priority['text_color'],
             ]);
         }
     }

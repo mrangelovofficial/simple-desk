@@ -11,7 +11,8 @@ class Status extends Model
 
     protected $fillable = [
         'name',
-        'color'
+        'bg_color',
+        'text_color',
     ];
 
     public function tickets(){

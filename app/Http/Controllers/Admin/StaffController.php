@@ -3,11 +3,11 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Ticket;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
+use App\Models\User;
 
-class TicketController extends Controller
+class StaffController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,14 +16,10 @@ class TicketController extends Controller
      */
     public function index()
     {
-        $tickets = Ticket::with('status','priority','category','user')
-        ->where('completed_at',null)
-        ->orderBy('priority_id')
-        ->get();
-
-        return Inertia::render('Admin/Ticket/Index',
+        $staff = User::where('is_admin',1)->get();
+        return Inertia::render('Admin/Staff/Index',
             [
-                'tickets' => $tickets
+                'staff' => $staff
             ]
         );
     }
