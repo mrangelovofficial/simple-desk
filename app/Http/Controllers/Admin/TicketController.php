@@ -14,12 +14,17 @@ class TicketController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+
         $tickets = Ticket::with('status','priority','category','user')
         ->where('completed_at',null)
         ->orderBy('priority_id')
-        ->get();
+        ->paginate();
+
+        if($request->wantsJson()){
+            return $tickets;
+        }
 
         return Inertia::render('Admin/Ticket/Index',
             [

@@ -14,10 +14,10 @@ class PrioritySeeder extends Seeder
     public function run()
     {
         $priorities = [
-            ['name' =>  'Critical', 'color'  =>  '#FF0000'],
-            ['name' =>  'High',     'color'  =>  '#FFFF00'],
-            ['name' =>  'Medium',   'color'  =>  '#0000FF'],
-            ['name' =>  'Low',      'color'  =>  '#008000'],
+            ['name' =>  'Critical', 'color'  =>  'text-red-700'],
+            ['name' =>  'High',     'color'  =>  'text-yellow-300'],
+            ['name' =>  'Medium',   'color'  =>  'text-blue-500'],
+            ['name' =>  'Low',      'color'  =>  'text-green-400'],
         ];
 
         foreach($priorities as $priority)

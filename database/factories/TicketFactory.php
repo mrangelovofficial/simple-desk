@@ -28,7 +28,7 @@ class TicketFactory extends Factory
             $status_id = random_int(1, \App\Models\Status::count());
         
             return [
-                'subject'       => $this->faker->paragraph,
+                'subject'       => $this->faker->sentence,
                 'content'       => $this->faker->paragraph,
                 'user_id'       =>  $user_id,
                 'priority_id'   =>  $priority_id,
