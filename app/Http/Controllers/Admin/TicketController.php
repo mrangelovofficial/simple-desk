@@ -10,7 +10,7 @@ use Inertia\Inertia;
 class TicketController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing pending tickets.
      *
      * @return \Illuminate\Http\Response
      */
@@ -97,5 +97,54 @@ class TicketController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+     /**
+     * Display a listing closed tickets.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function closed(Request $request)
+    {
+
+        $tickets = Ticket::with('status','priority','category','user')
+        ->where('completed_at','<>',null)
+        ->orderBy('priority_id')
+        ->paginate();
+
+        if($request->wantsJson()){
+            return $tickets;
+        }
+
+        return Inertia::render('Admin/Ticket/Index',
+            [
+                'tickets' => $tickets
+            ]
+        );
+    }
+
+    /**
+     * Return a search listing of tickets.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function ticketList(Request $request)
+    {
+
+        $searchKeyword = strip_tags($request->search);
+
+        if(!empty($searchKeyword)){
+            $tickets = Ticket::with('status','priority','category','user')
+            ->where('completed_at',null)
+            ->where('subject', 'like', '%' . $searchKeyword . '%')
+            ->orderBy('priority_id')
+            ->limit(5)
+            ->get();
+        }else{
+            $tickets = new Ticket();
+        }
+
+        return $tickets;
+
     }
 }

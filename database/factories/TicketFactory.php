@@ -27,6 +27,7 @@ class TicketFactory extends Factory
             $category_id = random_int(1, \App\Models\Category::count());
             $status_id = random_int(1, \App\Models\Status::count());
         
+            $completed_at = (\App\Models\Status::find($status_id)->name == "Closed" ? now() : null);
             return [
                 'subject'       => $this->faker->sentence,
                 'content'       => $this->faker->paragraph,
@@ -34,6 +35,7 @@ class TicketFactory extends Factory
                 'priority_id'   =>  $priority_id,
                 'category_id'   =>  $category_id,
                 'status_id'     =>  $status_id,
+                'completed_at'  =>  $completed_at
             ];
         }
     }
