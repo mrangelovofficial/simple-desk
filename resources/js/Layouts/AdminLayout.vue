@@ -1,7 +1,7 @@
 <template>
      <div class="min-h-screen flex">
         <div class="w-64 bg-white px-8 py-4 min-h-screen lg:block lg:relative" :class="{'block fixed z-30 border-r': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}">
-            <img src="/images/main/SimpleDesk.png" alt="" class="h-9" />
+            <img src="/images/main/SimpleDesk.png" alt="Logo" class="h-9" />
 
             <!-- User Profile Section on Mobile -->
             <div class="md:hidden mt-4">

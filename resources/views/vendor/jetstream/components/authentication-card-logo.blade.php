@@ -1,0 +1,1 @@
+<img src="/images/main/SimpleDesk.png" alt="Logo" class="h-12" />
