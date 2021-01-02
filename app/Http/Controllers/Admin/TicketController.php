@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Comment;
 use App\Models\Ticket;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -55,14 +56,26 @@ class TicketController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified ticket.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
     {
-        //
+        $ticket = Ticket::with('status','priority','category','user')
+        ->find($id);
+
+        $comments = Comment::where('ticket_id',$id)
+        ->with('user')
+        ->get();
+
+        return Inertia::render('Admin/Ticket/Show',
+            [
+                'comments' => $comments,
+                'ticket' => $ticket
+            ]
+        );
     }
 
     /**

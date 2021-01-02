@@ -23,7 +23,8 @@ class DatabaseSeeder extends Seeder
             $this->call([
                 UserSeeder::class, //Fake users
                 CategorySeeder::class, //Fake category
-                TicketSeeder::class //Fake category
+                TicketSeeder::class, //Fake category
+                CommentSeeder::class //Fake comments
             ]);
 
         }

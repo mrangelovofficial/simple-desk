@@ -506,7 +506,7 @@
                         </div>
                     </div>
             </header>
-            <section class="py-12">
+            <section :class="contentClasses ? contentClasses : 'py-12'">
                 <slot></slot>
             </section>
         </main>
@@ -525,6 +525,7 @@
     import JetResponsiveNavLink from '@/Jetstream/ResponsiveNavLink'
 
     export default {
+        props: ['contentClasses'],
         components: {
             JetApplicationMark,
             JetDropdown,
