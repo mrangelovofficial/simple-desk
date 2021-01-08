@@ -7,12 +7,12 @@
             <div class="md:hidden mt-4">
                  <div class="flex items-center ">
                         <div class="flex-shrink-0">
-                            <img class="h-10 w-10 rounded-full" :src="$page.user.profile_photo_url" :alt="$page.user.name" />
+                            <img class="h-10 w-10 rounded-full" :src="$page.props.user.profile_photo_url" :alt="$page.props.user.name" />
                         </div>
 
                         <div class="ml-3">
-                            <div class="font-medium text-base text-gray-800">{{ $page.user.name }}</div>
-                            <div class="font-medium text-sm text-gray-500">{{ $page.user.email }}</div>
+                            <div class="font-medium text-base text-gray-800">{{ $page.props.user.name }}</div>
+                            <div class="font-medium text-sm text-gray-500">{{ $page.props.user.email }}</div>
                         </div>
                     </div>
             </div>
@@ -446,8 +446,8 @@
                                 <!-- Drpp down trigger -->
                                 <template #trigger>
                                     <button class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
-                                        <div>{{ $page.user.name }}</div>
-                                        <img class="h-8 w-8 rounded-full mx-2 object-cover" :src="$page.user.profile_photo_url" :alt="$page.user.name" />
+                                        <div>{{ $page.props.user.name }}</div>
+                                        <img class="h-8 w-8 rounded-full mx-2 object-cover" :src="$page.props.user.profile_photo_url" :alt="$page.props.user.name" />
 
                                         <div class="ml-1">
                                             <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">

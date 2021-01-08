@@ -61977,8 +61977,8 @@ var render = function() {
                 _c("img", {
                   staticClass: "h-10 w-10 rounded-full",
                   attrs: {
-                    src: _vm.$page.user.profile_photo_url,
-                    alt: _vm.$page.user.name
+                    src: _vm.$page.props.user.profile_photo_url,
+                    alt: _vm.$page.props.user.name
                   }
                 })
               ]),
@@ -61987,13 +61987,13 @@ var render = function() {
                 _c(
                   "div",
                   { staticClass: "font-medium text-base text-gray-800" },
-                  [_vm._v(_vm._s(_vm.$page.user.name))]
+                  [_vm._v(_vm._s(_vm.$page.props.user.name))]
                 ),
                 _vm._v(" "),
                 _c(
                   "div",
                   { staticClass: "font-medium text-sm text-gray-500" },
-                  [_vm._v(_vm._s(_vm.$page.user.email))]
+                  [_vm._v(_vm._s(_vm.$page.props.user.email))]
                 )
               ])
             ])
@@ -62694,15 +62694,16 @@ var render = function() {
                                 },
                                 [
                                   _c("div", [
-                                    _vm._v(_vm._s(_vm.$page.user.name))
+                                    _vm._v(_vm._s(_vm.$page.props.user.name))
                                   ]),
                                   _vm._v(" "),
                                   _c("img", {
                                     staticClass:
                                       "h-8 w-8 rounded-full mx-2 object-cover",
                                     attrs: {
-                                      src: _vm.$page.user.profile_photo_url,
-                                      alt: _vm.$page.user.name
+                                      src:
+                                        _vm.$page.props.user.profile_photo_url,
+                                      alt: _vm.$page.props.user.name
                                     }
                                   }),
                                   _vm._v(" "),
