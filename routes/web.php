@@ -30,6 +30,9 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function() {
         Route::get('/ticket/ticketList',      [App\Http\Controllers\Admin\TicketController::class, 'ticketList'])->name('ticket.ticketList');
         Route::resource('/ticket',      App\Http\Controllers\Admin\TicketController::class);
 
+        //Comment
+        Route::resource('/comment',      App\Http\Controllers\Admin\CommentController::class);
+
         //Clients
         Route::resource('/client',      App\Http\Controllers\Admin\ClientController::class);
 

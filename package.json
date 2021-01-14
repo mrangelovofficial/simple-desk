@@ -12,7 +12,7 @@
         "@inertiajs/inertia": "^0.8.2",
         "@inertiajs/inertia-vue": "^0.5.4",
         "@tailwindcss/ui": "^0.6.0",
-        "axios": "^0.19",
+        "axios": "^0.21.1",
         "cross-env": "^7.0",
         "laravel-jetstream": "^1.2.0",
         "laravel-mix": "^6.0.0-beta.17",
@@ -28,6 +28,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@tinymce/tinymce-vue": "^3.2.7",
         "autoprefixer": "^10.2.0"
     }
 }

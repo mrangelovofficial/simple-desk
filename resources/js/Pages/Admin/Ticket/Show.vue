@@ -1,6 +1,6 @@
 <template>
-    <admin-layout :contentClasses="'py-0 px-10 '">
-      <div class="flex bg-white py-7">
+    <admin-layout :contentClasses="'py-10 px-10 bg-gray-100'">
+      <div class="flex bg-white border-b-2 border-gray-50 py-7 px-5">
         <div class="flex">
           <div class="text-lg font-bold">
           {{ticket.subject}}
@@ -16,7 +16,7 @@
         </div>
       </div>
 
-      <div id="ticketDescription" class="shadow-lg py-5 px-4 mb-10 rounded-md">
+      <div id="ticketDescription" class="shadow-lg py-5 px-4 border-b-2 border-gray-50 bg-white">
         <div class="flex justify-between">
           <div class="flex items-center">
             <div class="relative w-15 h-15 mr-3">
@@ -26,8 +26,11 @@
                 alt=""
                 loading="lazy"/>
             </div>
-            <div class="text-md font-semibold text-gray-900">
-              {{ticket.user.name}}
+            <div>
+              <div class="flex">
+                <div class="text-md font-semibold text-gray-900">{{ticket.user.name}}</div>
+                <span v-if="!ticket.user.is_admin" class="bg-yellow-200 text-white p-1 ml-2 text-xs rounded">Client</span>
+              </div>
               <div class="text-xs font-light text-gray-400">{{ticket.created_at}}</div>
             </div>
           </div>
@@ -43,7 +46,7 @@ Jornalists call this critical, introductory section the "Lede," and when bridge 
 <br>Jason Muller</div>
       </div>
       
-      <div v-for="comment in comments" :key="comment.id" class="shadow-md bg-gray-50 mt-10 py-5 px-4 rounded-md">
+      <div v-for="comment in this.commentsData" :key="comment.id" class="shadow-md border-b-2 border-gray-50 bg-white py-5 px-4 ">
         <div class="flex justify-between">
           <div class="flex items-center">
             <div class="relative w-15 h-15 mr-3">
@@ -53,31 +56,114 @@ Jornalists call this critical, introductory section the "Lede," and when bridge 
                 alt=""
                 loading="lazy"/>
             </div>
-            <div class="text-md font-semibold text-gray-900">
-              {{comment.user.name}}
+            <div>
+              <div class="flex">
+                <div class="text-md font-semibold text-gray-900">{{comment.user.name}}</div>
+                <span v-if="!comment.user.is_admin" class="bg-yellow-200 text-white p-1 ml-2 text-xs rounded">Client</span>
+              </div>
+              
               <div class="text-xs font-light text-gray-400">{{comment.created_at}}</div>
             </div>
           </div>
         </div>
-        <div class="text-md mt-5">{{comment.content}}</div>
+        <div class="text-md mt-5" v-html="comment.content"></div>
+      </div>
+      <div class="shadow-lg py-5 px-4 border-b-2 border-gray-50 bg-white">
+         <div class="flex justify-between mb-5">
+          <div class="flex items-center">
+            <div class="relative w-15 h-15 mr-3">
+              <img
+                class="object-cover w-full h-full rounded-md"
+                :src="user.profile_photo_url"
+                alt=""
+                loading="lazy"/>
+            </div>
+            <div>
+              <div class="flex">
+                <div class="text-md font-semibold text-gray-900">{{user.name}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <form @submit.prevent="submit">
+            <editor
+            id="contentEditor"
+          api-key="e5p6hfqugjwwhg2e3xv5zp7vufwap73uo5z964azuofqg5qx"
+          :init="{
+            height: 200,
+            menubar: false,
+            forced_root_block: '',
+            plugins: [
+              'advlist autolink lists link image charmap preview anchor',
+              'searchreplace visualblocks code fullscreen',
+              'insertdatetime media table paste code wordcount'
+            ],
+            toolbar:
+              'bold italic backcolor | \
+                bullist numlist outdent indent | removeformat'
+          }"
+        />
+          <span id="errorEditor"  class="text-red-500" v-text="this.errorEditor"></span>
+
+          <div class="flex justify-end">
+            <button type="submit" class="bg-blue-500 text-white text-lg py-2 px-8 mt-3 ml-5 rounded">Send</button>
+          </div>
+      </form>
+
       </div>          
-             
+      
 
     </admin-layout>
 </template>
 
 <script>
     import AdminLayout from '@/Layouts/AdminLayout'
+    import Editor from '@tinymce/tinymce-vue'
 
     export default {
       props: {
-        comments: Array,
         ticket: Object,
+        user: Object,
+        comments: Array,
       },
+      data() {
+            return {
+                commentsData: this.comments,
+                errorEditor: '',
+            }
+        },
 
       components: {
           AdminLayout,
+          'editor': Editor
       },
+
+      methods: {
+        submit() {
+
+          let content = tinymce.get("contentEditor").getContent();
+          let token  = document.querySelector('meta[name="csrf-token"]').content;
+
+          if(content != ''){
+
+            axios.post(route('admin.comment.store'), {
+              content: content,
+              ticket_id: this.ticket.id,
+              _token: token
+            })
+            .then((response) => {
+              this.commentsData.push(response.data);
+              tinymce.get("contentEditor").setContent('');
+            }, (error) => {
+              this.errorEditor = "Something went wrong. Please try later.";
+              console.log(error);
+            });
+          }else{
+            this.errorEditor = "Ticket message can't be empty.";
+          }
+
+        },
+      }
  
     }
 </script>
