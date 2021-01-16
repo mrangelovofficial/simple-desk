@@ -1,29 +1,28 @@
 <template>
-    <admin-layout>
-        <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-                Dashboard
-            </h2>
-        </template>
+    <admin-layout :contentClasses="'py-10 px-10'">
 
-        <div class="py-12">
-            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-                    <welcome />
-                </div>
-            </div>
+        <div class="py-12 grid grid-cols-3 gap-x-15">
+            <stat-message :head="'Pending Tickets'" :stat="pendingTickets" :background="'bg-red-500'"></stat-message>
+            <stat-message :head="'Today\'s Closed Tickets'" :stat="closedTicketsToday"></stat-message>
+            <stat-message :head="'Monthly Closed Tickets'" :stat="closedTicketsMonth" :background="'bg-green-600'"></stat-message>
         </div>
+        
     </admin-layout>
 </template>
 
 <script>
     import AdminLayout from '@/Layouts/AdminLayout'
-    import Welcome from '@/Jetstream/Welcome'
+    import StatMessage from '@/Components/StatMessage'
 
     export default {
+        props: {
+            pendingTickets: Number,
+            closedTicketsToday: Number,
+            closedTicketsMonth: Number
+        },
         components: {
             AdminLayout,
-            Welcome,
+            StatMessage,
         },
     }
 </script>

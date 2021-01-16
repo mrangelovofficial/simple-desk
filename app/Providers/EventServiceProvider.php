@@ -27,6 +27,6 @@ class EventServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        \App\Models\Comment::observe(\App\Observers\CommentObserver::class);
     }
 }

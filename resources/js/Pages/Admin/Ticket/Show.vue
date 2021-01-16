@@ -88,7 +88,7 @@ Jornalists call this critical, introductory section the "Lede," and when bridge 
          <form @submit.prevent="submit">
             <editor
             id="contentEditor"
-          api-key="e5p6hfqugjwwhg2e3xv5zp7vufwap73uo5z964azuofqg5qx"
+         :api-key="tinymceKEY"
           :init="{
             height: 200,
             menubar: false,
@@ -125,9 +125,11 @@ Jornalists call this critical, introductory section the "Lede," and when bridge 
         ticket: Object,
         user: Object,
         comments: Array,
+        tinymce_app_key: String,
       },
       data() {
             return {
+                tinymceKEY: this.tinymce_app_key,
                 commentsData: this.comments,
                 errorEditor: '',
             }

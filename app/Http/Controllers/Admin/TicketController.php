@@ -73,7 +73,8 @@ class TicketController extends Controller
         return Inertia::render('Admin/Ticket/Show',
             [
                 'comments' => $comments,
-                'ticket' => $ticket
+                'ticket' => $ticket,
+                'tinymce_app_key'   =>  env('TINYMCE_APP_KEY'),
             ]
         );
     }
@@ -119,7 +120,6 @@ class TicketController extends Controller
      */
     public function closed(Request $request)
     {
-
         $tickets = Ticket::with('status','priority','category','user')
         ->where('completed_at','<>',null)
         ->orderBy('priority_id')
@@ -131,7 +131,7 @@ class TicketController extends Controller
 
         return Inertia::render('Admin/Ticket/Index',
             [
-                'tickets' => $tickets
+                'tickets'           =>  $tickets,
             ]
         );
     }
