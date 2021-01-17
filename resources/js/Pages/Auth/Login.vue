@@ -84,7 +84,10 @@
                     //     remember: this.form.remember ? 'on' : ''
                     // }))
                     .post(this.route('login'), {
-                        onFinish: () => this.form.reset('password'),
+                        onFinish: () => {
+                            this.form.reset('password');
+                            this.form.processing = false;
+                        },
                     })
             }
         }

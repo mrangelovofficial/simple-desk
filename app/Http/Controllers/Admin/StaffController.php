@@ -3,9 +3,13 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Admin\StaffStoreRequest;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\User;
+use App\Notifications\StaffCreatedNotification;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Redirect;
 
 class StaffController extends Controller
 {
@@ -31,18 +35,27 @@ class StaffController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('Admin/Staff/Show');
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Http\Requests\Admin\StaffStoreRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StaffStoreRequest $request)
     {
-        //
+        $client =   User::create([
+            'name'      =>  $request->name,
+            'email'     =>  $request->email,
+            'password'  =>  Hash::make($request->password),
+            'is_admin'  =>  true,
+        ]);
+
+        $client->notify(new StaffCreatedNotification($request->password));
+
+        return Redirect::route('admin.staff.index');
     }
 
     /**

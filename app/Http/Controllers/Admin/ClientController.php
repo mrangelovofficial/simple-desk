@@ -3,9 +3,13 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Admin\ClientStoreRequest;
 use App\Models\Client;
 use App\Models\User;
+use App\Notifications\ClientCreatedNotification;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
 
 class ClientController extends Controller
@@ -32,18 +36,26 @@ class ClientController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('Admin/Client/Show');
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param   \App\Http\Requests\Admin\ClientStoreRequest  $request
+     * @return  \App\Models\User
      */
-    public function store(Request $request)
+    public function store(ClientStoreRequest $request)
     {
-        //
+        $client =   User::create([
+            'name'      =>  $request->name,
+            'email'     =>  $request->email,
+            'password'  =>  Hash::make($request->password),
+        ]);
+
+        $client->notify(new ClientCreatedNotification($request->password));
+
+        return Redirect::route('admin.client.index');
     }
 
     /**

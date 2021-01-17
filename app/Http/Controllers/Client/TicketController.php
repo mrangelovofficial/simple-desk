@@ -14,10 +14,18 @@ class TicketController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $tickets = auth()->user()->tickets()->get();
-        
+        $tickets = Ticket::with('status','priority','category','user')
+        ->where('completed_at',null)
+        ->where('user_id', auth()->user()->id)
+        ->orderBy('priority_id')
+        ->paginate();
+
+        if($request->wantsJson()){
+            return $tickets;
+        }
+
         return Inertia::render('Client/Ticket/Index',
             [
                 'tickets' => $tickets
@@ -95,5 +103,24 @@ class TicketController extends Controller
     public function destroy(Ticket $ticket)
     {
         //
+    }
+
+    public function closed(Request $request)
+    {
+        $tickets = Ticket::with('status','priority','category','user')
+        ->where('completed_at','<>',null)
+        ->where('user_id', auth()->user()->id)
+        ->orderBy('priority_id')
+        ->paginate();
+
+        if($request->wantsJson()){
+            return $tickets;
+        }
+
+        return Inertia::render('Client/Ticket/Index',
+            [
+                'tickets'           =>  $tickets,
+            ]
+        );
     }
 }

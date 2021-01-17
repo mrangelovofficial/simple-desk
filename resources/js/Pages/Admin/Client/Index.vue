@@ -11,8 +11,6 @@
                     <img class="w-full h-56 object-cover object-center" :src="person.profile_photo_url" alt="avatar">
                     <div class="py-4 px-6">
                         <h1 class="text-2xl font-semibold text-gray-800">{{person.name}}</h1>
-                        <p v-if="person.is_superadmin" class="py-2 text-lg text-gray-700">SuperAdmin</p>
-                        <p v-else class="py-2 text-lg text-gray-700">Employee</p>
                     </div>
                 </div>
             </div>

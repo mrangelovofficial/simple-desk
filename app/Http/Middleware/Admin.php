@@ -17,6 +17,9 @@ class Admin
     public function handle(Request $request, Closure $next)
     {
         if(auth()->user()->is_admin ){
+            if(auth()->user()->changePassword){
+                return redirect()->route('profile.show');
+            }
             return $next($request);
         }
         return redirect()->route('client.dashboard.index');

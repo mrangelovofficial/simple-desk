@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
 
 //Auth Routes
@@ -47,6 +47,9 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function() {
     //Client Routes
     Route::group(['middleware' => 'client', 'prefix' => 'client','as' => 'client.'], function() {
         Route::resource('/dashboard', App\Http\Controllers\Client\DashboardController::class);
+
+        //Ticket
+        Route::get('/ticket/closed',      [App\Http\Controllers\Client\TicketController::class, 'closed'])->name('ticket.closed');
         Route::resource('/ticket', App\Http\Controllers\Client\TicketController::class);
     });
 
