@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Client;
 
 use App\Http\Controllers\Controller;
+use App\Models\Comment;
 use App\Models\Ticket;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -66,9 +67,22 @@ class TicketController extends Controller
      * @param  \App\Models\Ticket  $ticket
      * @return \Illuminate\Http\Response
      */
-    public function show(Ticket $ticket)
+    public function show($id)
     {
-        //
+        $ticket = Ticket::with('status','priority','category','user')
+        ->find($id);
+
+        $comments = Comment::where('ticket_id',$id)
+        ->with('user')
+        ->get();
+
+        return Inertia::render('Client/Ticket/Show',
+            [
+                'comments' => $comments,
+                'ticket' => $ticket,
+                'tinymce_app_key'   =>  env('TINYMCE_APP_KEY'),
+            ]
+        );
     }
 
     /**

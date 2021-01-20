@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-screen flex">
-        <div class="w-64 bg-white px-8 py-4 min-h-screen lg:block lg:relative" :class="{'block fixed z-30 border-r': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}">
-            <img src="/images/main/SimpleDesk.png" alt="" class="h-9" />
+        <div class="w-64 bg-gray-800 px-8 py-4 min-h-screen lg:block lg:relative" :class="{'block fixed z-30 border-r': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}">
+            <img src="/images/main/SimpleDeskWhite.png" alt="" class="h-9" />
 
             <!-- User Profile Section on Mobile -->
             <div class="md:hidden mt-4">
@@ -29,7 +29,7 @@
 
             <!-- Navigation -->
             <nav class="mt-4 md:mt-8">
-                <h2 class="text-xs font-bold text-gray-600 uppercase tracking-wide">My desk</h2>
+                <h2 class="text-sm font-bold text-gray-200 uppercase tracking-wide">My desk</h2>
                 <div class="mt-2 -mx-1">
                    
                     <jet-nav-link :href="route('client.dashboard.index')" :active="route().current('client.dashboard.index')">
@@ -71,10 +71,10 @@
 
                 </div>
 
-                <h2 class="text-xs font-bold text-gray-600 mt-8 uppercase tracking-wide">Settings</h2>
+                <h2 class="text-sm font-bold text-gray-200 mt-8 uppercase tracking-wide">Settings</h2>
                 <div class="mt-2 -mx-1">
                    
-                    <jet-nav-link :href="route('client.dashboard.index')" :active="route().current('client.dashboard.index')">
+                    <jet-nav-link :href="route('client.dashboard.index')" :active="route().current('client.dashboard.isndex')">
                         <template v-slot:svg>
                             <path d="M466.395,88.411C395.95,69.109,325.091,39.054,261.478,1.496c-3.379-1.995-7.572-1.995-10.95,0
                                 C185.08,40.133,118.05,68.562,45.605,88.411c-4.68,1.281-7.924,5.535-7.924,10.388v110.046
@@ -106,7 +106,7 @@
                         </template>
                         Notifications
                     </jet-nav-link>
-                    <jet-nav-link :href="route('client.dashboard.index')" :active="route().current('client.dashboard.index')">
+                    <jet-nav-link :href="route('client.dashboard.index')" :active="route().current('client.dashboard.indexs')">
                         <template v-slot:svg>
                             <path d="M322.773,191.746l-11.051-4.875c-0.43-1.543-0.893-3.036-1.391-4.481l6.148-10.609c1.414-2.441,1.438-5.447,0.062-7.91
 	c-3.232-5.773-7.092-11.171-11.512-16.094c-1.941-2.17-4.909-3.113-7.746-2.461l-9.223,2.112V96.121

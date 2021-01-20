@@ -1,7 +1,7 @@
 <template>
      <div class="min-h-screen flex">
-        <div class="w-64 bg-white px-8 py-4 min-h-screen lg:block lg:relative" :class="{'block fixed z-30 border-r': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}">
-            <img src="/images/main/SimpleDesk.png" alt="Logo" class="h-9" />
+        <div class="w-64 bg-gray-800 px-8 py-4 min-h-screen lg:block lg:relative" :class="{'block fixed z-30 border-r': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}">
+            <img src="/images/main/SimpleDeskWhite.png" alt="Logo" class="h-9" />
 
             <!-- User Profile Section on Mobile -->
             <div class="md:hidden mt-4">
@@ -29,7 +29,7 @@
 
             <!-- Navigation -->
             <nav class="mt-8">
-                <h2 class="text-xs font-bold text-gray-600 uppercase tracking-wide">My desk</h2>
+                <h2 class="text-sm font-bold text-gray-200 uppercase tracking-wide">My desk</h2>
                 <div class="mt-2 -mx-1">
                     
                     <jet-nav-link :href="route('admin.dashboard.index')" :active="route().current('admin.dashboard.index')">
@@ -396,9 +396,9 @@
         </div>
 
         <!-- Page Content -->
-        <main class="w-full flex-1 bg-white sm:min-w-0">
+        <main class="w-full bg-gray-100 flex-1 bg-white sm:min-w-0">
             <!-- Page Heading -->
-            <header class="border-b-2 border-gray-200 px-8 py-3 flex justify-between">
+            <header class="border-b-2 bg-white border-gray-200 px-8 py-3 flex justify-between">
                     <!-- Left Side -->
                     <div class="flex">
                         <!-- Hamburger on mobile-->
@@ -473,7 +473,7 @@
                         </div>
                     </div>
             </header>
-            <section :class="contentClasses ? contentClasses : 'py-12'">
+            <section class="p-10">
                 <slot></slot>
             </section>
         </main>
@@ -492,7 +492,6 @@
     import JetResponsiveNavLink from '@/Jetstream/ResponsiveNavLink'
 
     export default {
-        props: ['contentClasses'],
         components: {
             JetApplicationMark,
             JetDropdown,

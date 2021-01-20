@@ -1,5 +1,5 @@
 <template>
-    <admin-layout>
+    <client-layout :contentClasses="'py-10 px-10 bg-gray-100'">
       <div class="flex bg-white border-b-2 border-gray-50 py-7 px-5">
         <div class="flex">
           <div class="text-lg font-bold">
@@ -105,11 +105,11 @@
       </div>          
       
 
-    </admin-layout>
+    </client-layout>
 </template>
 
 <script>
-    import AdminLayout from '@/Layouts/AdminLayout'
+    import ClientLayout from '@/Layouts/ClientLayout'
     import Editor from '@tinymce/tinymce-vue'
 
     export default {
@@ -128,7 +128,7 @@
         },
 
       components: {
-          AdminLayout,
+          ClientLayout,
           'editor': Editor
       },
 
@@ -140,7 +140,7 @@
 
           if(content != ''){
 
-            axios.post(route('admin.comment.store'), {
+            axios.post(route('client.comment.store'), {
               content: content,
               ticket_id: this.ticket.id,
               _token: token

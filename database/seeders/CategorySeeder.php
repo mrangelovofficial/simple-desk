@@ -13,7 +13,14 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\Category::factory(8)->create();
+        $categories = ['Bugs',  'Feature requests', 'Technical questions',  'Billing issues',   'How to\'s'];
+        foreach($categories as $category){
+            \App\Models\Category::factory()
+                    ->create([
+                        'name'=>$category
+                    ]);
+
+        }
 
     }
 }

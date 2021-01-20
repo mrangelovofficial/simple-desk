@@ -51,6 +51,9 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function() {
         //Ticket
         Route::get('/ticket/closed',      [App\Http\Controllers\Client\TicketController::class, 'closed'])->name('ticket.closed');
         Route::resource('/ticket', App\Http\Controllers\Client\TicketController::class);
+
+        //Comment
+        Route::resource('/comment',      App\Http\Controllers\Client\CommentController::class);
     });
 
 });

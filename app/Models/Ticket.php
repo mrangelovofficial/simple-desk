@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,9 +20,17 @@ class Ticket extends Model
     ];
 
     protected $casts = [
-        'created_at' => 'datetime:Y-m-d',
         'updated_at' => 'datetime:Y-m-d',
     ];
+    public function getCreatedAtAttribute($date) {
+        $date = Carbon::parse($date);
+        $today = Carbon::today();
+        if($date->isSameDay($today)){
+            return $date->format('g:i A');
+        }else{
+            return $date->format('j M');
+        }
+    }
 
     public function user(){
         return $this->belongsTo(User::class);

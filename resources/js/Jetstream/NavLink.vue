@@ -22,12 +22,12 @@
                             : 'flex justify-between items-center py-2 px-3 '
             },classesSpan() {
                 return this.active
-                            ? 'text-sm text-gray-900 flex font-semibold'
-                            : 'text-sm text-gray-400 flex font-semibold'
+                            ? 'text-md text-gray-50 flex font-bold'
+                            : 'text-md text-gray-500 flex font-bold'
             },classesSVG() {
                 return this.active
                             ? 'h-5 mr-3 fill-current text-green-400'
-                            : 'h-5 mr-3 fill-current text-gray-400'
+                            : 'h-5 mr-3 fill-current text-gray-500'
             }
 
         }

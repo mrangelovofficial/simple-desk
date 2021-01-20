@@ -20,7 +20,7 @@ class CreateTicketsTable extends Migration
             $table->foreignId('user_id')->constrained();
             $table->foreignId('priority_id')->constrained();
             $table->foreignId('status_id')->constrained();
-            $table->foreignId('category_id')->constrained();
+            $table->foreignId('category_id')->nullable()->constrained();
             $table->timestamps();
             $table->timestamp('completed_at')->nullable();
         });
