@@ -3,17 +3,22 @@
       <div class="flex bg-white border-b-2 border-gray-50 py-7 px-5">
         <div class="flex">
           <div class="text-lg font-bold">
-          {{ticket.subject}}
+          {{ticketData.subject}}
           </div>
 
           <div>
-            <span :class="ticket.status.bg_color + ' ' + ticket.status.text_color"
+            <span :class="ticketData.status.bg_color + ' ' + ticketData.status.text_color"
             class="px-2 py-1 font-semibold leading-tight text-xs ml-3  rounded-full">
-              {{ticket.status.name}}
+              {{ticketData.status.name}}
             </span>
           </div>
 
         </div>
+         <div class="ml-auto">
+            <select @change="onChangeStatus($event)"  class="px-4 py-2 mb-3 outline-none rounded-md text-white bg-gray-700">
+            <option :selected="(status.id == ticketData.status.id)" v-for="status in statuses" :key="status.id" :value="status.id">{{status.name}}</option>
+          </select>
+          </div>
       </div>
 
       <div id="ticketDescription" class="shadow-lg py-5 px-4 border-b-2 border-gray-50 bg-white">
@@ -22,20 +27,20 @@
             <div class="relative w-15 h-15 mr-3">
               <img
                 class="object-cover w-full h-full rounded-md"
-                :src="ticket.user.profile_photo_url"
+                :src="ticketData.user.profile_photo_url"
                 alt=""
                 loading="lazy"/>
             </div>
             <div>
               <div class="flex">
-                <div class="text-md font-semibold text-gray-900">{{ticket.user.name}}</div>
-                <span v-if="!ticket.user.is_admin" class="bg-yellow-200 text-white p-1 ml-2 text-xs rounded">Client</span>
+                <div class="text-md font-semibold text-gray-900">{{ticketData.user.name}}</div>
+                <span v-if="!ticketData.user.is_admin" class="bg-yellow-200 text-white p-1 ml-2 text-xs rounded">Client</span>
               </div>
-              <div class="text-xs font-light text-gray-400">{{ticket.created_at}}</div>
+              <div class="text-xs font-light text-gray-400">{{ticketData.created_at}}</div>
             </div>
           </div>
         </div>
-        <div class="text-md mt-5">{{ticket.content}}</div>
+        <div class="text-md mt-5">{{ticketData.content}}</div>
       </div>
       
       <div v-for="comment in this.commentsData" :key="comment.id" class="shadow-md border-b-2 border-gray-50 bg-white py-5 px-4 ">
@@ -117,13 +122,16 @@
         ticket: Object,
         user: Object,
         comments: Array,
+        statuses: Array,
         tinymce_app_key: String,
       },
       data() {
             return {
+                ticketData: this.ticket,
                 tinymceKEY: this.tinymce_app_key,
                 commentsData: this.comments,
                 errorEditor: '',
+                keyOnChangeStatus: this.ticket.status.name,
             }
         },
 
@@ -142,7 +150,7 @@
 
             axios.post(route('admin.comment.store'), {
               content: content,
-              ticket_id: this.ticket.id,
+              ticket_id: this.ticketData.id,
               _token: token
             })
             .then((response) => {
@@ -150,13 +158,22 @@
               tinymce.get("contentEditor").setContent('');
             }, (error) => {
               this.errorEditor = "Something went wrong. Please try later.";
-              console.log(error);
             });
           }else{
             this.errorEditor = "Ticket message can't be empty.";
           }
 
         },
+        onChangeStatus(event) {
+          const status = event.target.value;
+          let token  = document.querySelector('meta[name="csrf-token"]').content;
+            axios.put(route('admin.ticket.update',this.ticketData.id), {
+              status: status,
+              _token: token
+            }).then((response) => {
+                this.ticketData = response.data;
+            });
+        }
       }
  
     }

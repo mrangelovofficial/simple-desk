@@ -51,7 +51,7 @@
                         Dashboard   
                     </jet-nav-link>
 
-                    <jet-nav-link :href="route('admin.ticket.index')" :active="route().current('admin.ticket.index') || route().current('admin.ticket.closed')">
+                    <jet-nav-link :href="route('admin.ticket.index')" :active="route().current('admin.ticket.index') || route().current('admin.ticket.closed') || route().current('admin.ticket.show')">
                         <template v-slot:svg>
                             <path d="m234.74 47.421h230.22c4.137 0 7.49-3.353 7.49-7.49s-3.353-7.491-7.49-7.491h-230.22c-4.137 0-7.491 3.353-7.491 7.491 0 4.137 3.354 7.49 7.491 7.49z"/>
                             <path d="m464.96 69.585h-230.22c-4.137 0-7.491 3.353-7.491 7.491 0 4.137 3.354 7.49 7.491 7.49h230.22c4.137 0 7.49-3.353 7.49-7.49s-3.353-7.491-7.49-7.491z"/>

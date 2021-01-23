@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Observers\TicketObserver;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -17,6 +18,7 @@ class Ticket extends Model
         'status_id',
         'priority_id',
         'category_id',
+        'completed_at',
     ];
 
     protected $casts = [
@@ -30,6 +32,12 @@ class Ticket extends Model
         }else{
             return $date->format('j M');
         }
+    }
+
+    protected static function boot()
+    {
+        parent::boot();
+        Ticket::observe(TicketObserver::class);
     }
 
     public function user(){

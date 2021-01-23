@@ -21,7 +21,12 @@
                     loading="lazy"/>
                 </div>
                 <div>
-                  <p class="font-semibold">{{ticket.user.name}}</p>
+                  <p class="font-semibold">{{ticket.user.name}}
+                    <span :class="ticket.status.bg_color"
+                    class="px-2 py-1 font-semibold leading-tight text-xs mr-2 text-white rounded-full ">
+                      {{ticket.status.name}}
+                    </span>
+                  </p>
                 </div>
               </div>
             </td>

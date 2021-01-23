@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Admin\UpdateTicketStatusRequest;
 use App\Models\Comment;
+use App\Models\Status;
 use App\Models\Ticket;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -70,10 +72,13 @@ class TicketController extends Controller
         ->with('user')
         ->get();
 
+        $statuses = Status::all();
+
         return Inertia::render('Admin/Ticket/Show',
             [
-                'comments' => $comments,
-                'ticket' => $ticket,
+                'comments'          => $comments,
+                'ticket'            => $ticket,
+                'statuses'          =>  $statuses,
                 'tinymce_app_key'   =>  env('TINYMCE_APP_KEY'),
             ]
         );
@@ -93,13 +98,18 @@ class TicketController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Http\Requests\Admin\UpdateTicketStatusRequest  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UpdateTicketStatusRequest $request, $id)
     {
-        //
+        $ticket = Ticket::findOrFail($id);
+        $ticket->status_id = $request->status;
+        $ticket->completed_at = ($request->status == 5 ? now() : null);
+        $ticket->save();
+
+        return $ticket->fresh(['status','priority','category','user']);
     }
 
     /**

@@ -6215,6 +6215,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -6381,6 +6386,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -6388,13 +6398,16 @@ __webpack_require__.r(__webpack_exports__);
     ticket: Object,
     user: Object,
     comments: Array,
+    statuses: Array,
     tinymce_app_key: String
   },
   data: function data() {
     return {
+      ticketData: this.ticket,
       tinymceKEY: this.tinymce_app_key,
       commentsData: this.comments,
-      errorEditor: ''
+      errorEditor: '',
+      keyOnChangeStatus: this.ticket.status.name
     };
   },
   components: {
@@ -6411,7 +6424,7 @@ __webpack_require__.r(__webpack_exports__);
       if (content != '') {
         axios.post(route('admin.comment.store'), {
           content: content,
-          ticket_id: this.ticket.id,
+          ticket_id: this.ticketData.id,
           _token: token
         }).then(function (response) {
           _this.commentsData.push(response.data);
@@ -6419,11 +6432,22 @@ __webpack_require__.r(__webpack_exports__);
           tinymce.get("contentEditor").setContent('');
         }, function (error) {
           _this.errorEditor = "Something went wrong. Please try later.";
-          console.log(error);
         });
       } else {
         this.errorEditor = "Ticket message can't be empty.";
       }
+    },
+    onChangeStatus: function onChangeStatus(event) {
+      var _this2 = this;
+
+      var status = event.target.value;
+      var token = document.querySelector('meta[name="csrf-token"]').content;
+      axios.put(route('admin.ticket.update', this.ticketData.id), {
+        status: status,
+        _token: token
+      }).then(function (response) {
+        _this2.ticketData = response.data;
+      });
     }
   }
 });
@@ -64226,7 +64250,8 @@ var render = function() {
                       href: _vm.route("admin.ticket.index"),
                       active:
                         _vm.route().current("admin.ticket.index") ||
-                        _vm.route().current("admin.ticket.closed")
+                        _vm.route().current("admin.ticket.closed") ||
+                        _vm.route().current("admin.ticket.show")
                     },
                     scopedSlots: _vm._u([
                       {
@@ -67106,7 +67131,22 @@ var render = function() {
                   _vm._v(" "),
                   _c("div", [
                     _c("p", { staticClass: "font-semibold" }, [
-                      _vm._v(_vm._s(ticket.user.name))
+                      _vm._v(_vm._s(ticket.user.name) + "\n                "),
+                      _c(
+                        "span",
+                        {
+                          staticClass:
+                            "px-2 py-1 font-semibold leading-tight text-xs mr-2 text-white rounded-full ",
+                          class: ticket.status.bg_color
+                        },
+                        [
+                          _vm._v(
+                            "\n                  " +
+                              _vm._s(ticket.status.name) +
+                              "\n                "
+                          )
+                        ]
+                      )
                     ])
                   ])
                 ])
@@ -67237,7 +67277,7 @@ var render = function() {
         [
           _c("div", { staticClass: "flex" }, [
             _c("div", { staticClass: "text-lg font-bold" }, [
-              _vm._v("\n      " + _vm._s(_vm.ticket.subject) + "\n      ")
+              _vm._v("\n      " + _vm._s(_vm.ticketData.subject) + "\n      ")
             ]),
             _vm._v(" "),
             _c("div", [
@@ -67247,19 +67287,48 @@ var render = function() {
                   staticClass:
                     "px-2 py-1 font-semibold leading-tight text-xs ml-3  rounded-full",
                   class:
-                    _vm.ticket.status.bg_color +
+                    _vm.ticketData.status.bg_color +
                     " " +
-                    _vm.ticket.status.text_color
+                    _vm.ticketData.status.text_color
                 },
                 [
                   _vm._v(
                     "\n          " +
-                      _vm._s(_vm.ticket.status.name) +
+                      _vm._s(_vm.ticketData.status.name) +
                       "\n        "
                   )
                 ]
               )
             ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "ml-auto" }, [
+            _c(
+              "select",
+              {
+                staticClass:
+                  "px-4 py-2 mb-3 outline-none rounded-md text-white bg-gray-700",
+                on: {
+                  change: function($event) {
+                    return _vm.onChangeStatus($event)
+                  }
+                }
+              },
+              _vm._l(_vm.statuses, function(status) {
+                return _c(
+                  "option",
+                  {
+                    key: status.id,
+                    domProps: {
+                      selected: status.id == _vm.ticketData.status.id,
+                      value: status.id
+                    }
+                  },
+                  [_vm._v(_vm._s(status.name))]
+                )
+              }),
+              0
+            )
           ])
         ]
       ),
@@ -67277,7 +67346,7 @@ var render = function() {
                 _c("img", {
                   staticClass: "object-cover w-full h-full rounded-md",
                   attrs: {
-                    src: _vm.ticket.user.profile_photo_url,
+                    src: _vm.ticketData.user.profile_photo_url,
                     alt: "",
                     loading: "lazy"
                   }
@@ -67289,10 +67358,10 @@ var render = function() {
                   _c(
                     "div",
                     { staticClass: "text-md font-semibold text-gray-900" },
-                    [_vm._v(_vm._s(_vm.ticket.user.name))]
+                    [_vm._v(_vm._s(_vm.ticketData.user.name))]
                   ),
                   _vm._v(" "),
-                  !_vm.ticket.user.is_admin
+                  !_vm.ticketData.user.is_admin
                     ? _c(
                         "span",
                         {
@@ -67305,14 +67374,14 @@ var render = function() {
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "text-xs font-light text-gray-400" }, [
-                  _vm._v(_vm._s(_vm.ticket.created_at))
+                  _vm._v(_vm._s(_vm.ticketData.created_at))
                 ])
               ])
             ])
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "text-md mt-5" }, [
-            _vm._v(_vm._s(_vm.ticket.content))
+            _vm._v(_vm._s(_vm.ticketData.content))
           ])
         ]
       ),
