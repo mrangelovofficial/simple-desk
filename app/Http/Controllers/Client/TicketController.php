@@ -137,4 +137,30 @@ class TicketController extends Controller
             ]
         );
     }
+
+    /**
+     * Return a search listing of tickets.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function ticketList(Request $request)
+    {
+
+        $searchKeyword = strip_tags($request->search);
+
+        if(!empty($searchKeyword)){
+            $tickets = Ticket::with('status','priority','category','user')
+            ->where('completed_at',null)
+            ->where('user_id', auth()->user()->id)
+            ->where('subject', 'like', '%' . $searchKeyword . '%')
+            ->orderBy('priority_id')
+            ->limit(5)
+            ->get();
+        }else{
+            $tickets = new Ticket();
+        }
+
+        return $tickets;
+
+    }
 }

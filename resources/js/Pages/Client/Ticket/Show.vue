@@ -29,7 +29,7 @@
             <div>
               <div class="flex">
                 <div class="text-md font-semibold text-gray-900">{{ticket.user.name}}</div>
-                <span v-if="!ticket.user.is_admin" class="bg-yellow-200 text-white p-1 ml-2 text-xs rounded">Client</span>
+                <span v-if="ticket.user.id == user.id" class="bg-green-400 text-white p-1 ml-2 text-xs rounded">Client</span>
               </div>
               <div class="text-xs font-light text-gray-400">{{ticket.created_at}}</div>
             </div>
@@ -51,7 +51,7 @@
             <div>
               <div class="flex">
                 <div class="text-md font-semibold text-gray-900">{{comment.user.name}}</div>
-                <span v-if="!comment.user.is_admin" class="bg-yellow-200 text-white p-1 ml-2 text-xs rounded">Client</span>
+                <span v-if="comment.user.id == user.id" class="bg-green-400 text-white p-1 ml-2 text-xs rounded">Client</span>
               </div>
               
               <div class="text-xs font-light text-gray-400">{{comment.created_at}}</div>

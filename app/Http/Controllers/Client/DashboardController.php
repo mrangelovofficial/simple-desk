@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Client;
 
 use App\Http\Controllers\Controller;
+use App\Models\Ticket;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
@@ -15,7 +17,15 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Client/Dashboard');
+        $pendingTickets     =   Ticket::where('completed_at',null)->where('user_id',auth()->user()->id)->count();
+        $closedTicketsToday =   Ticket::where('completed_at','<>',null)->where('user_id',auth()->user()->id)->whereDate('completed_at', Carbon::today())->count();
+        $closedTicketsMonth =   Ticket::where('completed_at','<>',null)->where('user_id',auth()->user()->id)->whereMonth('completed_at', Carbon::today()->month)->whereYear('completed_at', Carbon::today()->year)->count();
+
+        return Inertia::render('Client/Dashboard',[
+            'pendingTickets'    =>  $pendingTickets,
+            'closedTicketsToday'    =>  $closedTicketsToday,
+            'closedTicketsMonth'    =>  $closedTicketsMonth,
+        ]);
     }
 
     /**

@@ -4273,122 +4273,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Welcome.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Welcome.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
-/* harmony export */ });
-/* harmony import */ var _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Jetstream/ApplicationLogo */ "./resources/js/Jetstream/ApplicationLogo.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  components: {
-    JetApplicationLogo: _Jetstream_ApplicationLogo__WEBPACK_IMPORTED_MODULE_0__.default
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Layouts/AdminLayout.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Layouts/AdminLayout.vue?vue&type=script&lang=js& ***!
@@ -4411,6 +4295,121 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -4955,20 +4954,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Jetstream_DropdownLink__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/Jetstream/DropdownLink */ "./resources/js/Jetstream/DropdownLink.vue");
 /* harmony import */ var _Jetstream_NavLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/Jetstream/NavLink */ "./resources/js/Jetstream/NavLink.vue");
 /* harmony import */ var _Jetstream_ResponsiveNavLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/Jetstream/ResponsiveNavLink */ "./resources/js/Jetstream/ResponsiveNavLink.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 //
 //
 //
@@ -5453,15 +5444,21 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
+      search: '',
+      searchResponse: '',
       showingNavigationDropdown: false
     };
   },
   methods: {
-    switchToTeam: function switchToTeam(team) {
-      this.$inertia.put(route('current-team.update'), {
-        'team_id': team.id
-      }, {
-        preserveState: false
+    searchResult: function searchResult() {
+      var _this = this;
+
+      axios.get(route('client.ticket.ticketList'), {
+        params: {
+          search: this.search
+        }
+      }).then(function (response) {
+        _this.searchResponse = _objectSpread({}, response.data);
       });
     },
     logout: function logout() {
@@ -7217,15 +7214,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
 /* harmony export */ });
 /* harmony import */ var _Layouts_ClientLayout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Layouts/ClientLayout */ "./resources/js/Layouts/ClientLayout.vue");
-/* harmony import */ var _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Jetstream/Welcome */ "./resources/js/Jetstream/Welcome.vue");
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _Components_StatMessage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Components/StatMessage */ "./resources/js/Components/StatMessage.vue");
 //
 //
 //
@@ -7239,9 +7228,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: {
+    pendingTickets: Number,
+    closedTicketsToday: Number,
+    closedTicketsMonth: Number
+  },
   components: {
     ClientLayout: _Layouts_ClientLayout__WEBPACK_IMPORTED_MODULE_0__.default,
-    Welcome: _Jetstream_Welcome__WEBPACK_IMPORTED_MODULE_1__.default
+    StatMessage: _Components_StatMessage__WEBPACK_IMPORTED_MODULE_1__.default
   }
 });
 
@@ -7314,33 +7308,6 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -58255,43 +58222,6 @@ component.options.__file = "resources/js/Jetstream/ActionSection.vue"
 
 /***/ }),
 
-/***/ "./resources/js/Jetstream/ApplicationLogo.vue":
-/*!****************************************************!*\
-  !*** ./resources/js/Jetstream/ApplicationLogo.vue ***!
-  \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
-/* harmony export */ });
-/* harmony import */ var _ApplicationLogo_vue_vue_type_template_id_4e07f5d2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApplicationLogo.vue?vue&type=template&id=4e07f5d2& */ "./resources/js/Jetstream/ApplicationLogo.vue?vue&type=template&id=4e07f5d2&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-var script = {}
-
-
-/* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
-  script,
-  _ApplicationLogo_vue_vue_type_template_id_4e07f5d2___WEBPACK_IMPORTED_MODULE_0__.render,
-  _ApplicationLogo_vue_vue_type_template_id_4e07f5d2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/Jetstream/ApplicationLogo.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
 /***/ "./resources/js/Jetstream/ApplicationMark.vue":
 /*!****************************************************!*\
   !*** ./resources/js/Jetstream/ApplicationMark.vue ***!
@@ -59175,45 +59105,6 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/Jetstream/ValidationErrors.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/Jetstream/Welcome.vue":
-/*!********************************************!*\
-  !*** ./resources/js/Jetstream/Welcome.vue ***!
-  \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
-/* harmony export */ });
-/* harmony import */ var _Welcome_vue_vue_type_template_id_70e39c44___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Welcome.vue?vue&type=template&id=70e39c44& */ "./resources/js/Jetstream/Welcome.vue?vue&type=template&id=70e39c44&");
-/* harmony import */ var _Welcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Welcome.vue?vue&type=script&lang=js& */ "./resources/js/Jetstream/Welcome.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
-  _Welcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
-  _Welcome_vue_vue_type_template_id_70e39c44___WEBPACK_IMPORTED_MODULE_0__.render,
-  _Welcome_vue_vue_type_template_id_70e39c44___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  null,
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/Jetstream/Welcome.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -60685,22 +60576,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Jetstream/Welcome.vue?vue&type=script&lang=js&":
-/*!*********************************************************************!*\
-  !*** ./resources/js/Jetstream/Welcome.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Welcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Welcome.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Welcome.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Welcome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
-
-/***/ }),
-
 /***/ "./resources/js/Layouts/AdminLayout.vue?vue&type=script&lang=js&":
 /*!***********************************************************************!*\
   !*** ./resources/js/Layouts/AdminLayout.vue?vue&type=script&lang=js& ***!
@@ -61216,23 +61091,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/Jetstream/ApplicationLogo.vue?vue&type=template&id=4e07f5d2&":
-/*!***********************************************************************************!*\
-  !*** ./resources/js/Jetstream/ApplicationLogo.vue?vue&type=template&id=4e07f5d2& ***!
-  \***********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApplicationLogo_vue_vue_type_template_id_4e07f5d2___WEBPACK_IMPORTED_MODULE_0__.render,
-/* harmony export */   "staticRenderFns": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApplicationLogo_vue_vue_type_template_id_4e07f5d2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
-/* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApplicationLogo_vue_vue_type_template_id_4e07f5d2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ApplicationLogo.vue?vue&type=template&id=4e07f5d2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/ApplicationLogo.vue?vue&type=template&id=4e07f5d2&");
-
-
-/***/ }),
-
 /***/ "./resources/js/Jetstream/ApplicationMark.vue?vue&type=template&id=6ed2e539&":
 /*!***********************************************************************************!*\
   !*** ./resources/js/Jetstream/ApplicationMark.vue?vue&type=template&id=6ed2e539& ***!
@@ -61620,23 +61478,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ValidationErrors_vue_vue_type_template_id_0118f178___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ValidationErrors_vue_vue_type_template_id_0118f178___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ValidationErrors.vue?vue&type=template&id=0118f178& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/ValidationErrors.vue?vue&type=template&id=0118f178&");
-
-
-/***/ }),
-
-/***/ "./resources/js/Jetstream/Welcome.vue?vue&type=template&id=70e39c44&":
-/*!***************************************************************************!*\
-  !*** ./resources/js/Jetstream/Welcome.vue?vue&type=template&id=70e39c44& ***!
-  \***************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Welcome_vue_vue_type_template_id_70e39c44___WEBPACK_IMPORTED_MODULE_0__.render,
-/* harmony export */   "staticRenderFns": () => /* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Welcome_vue_vue_type_template_id_70e39c44___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns
-/* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Welcome_vue_vue_type_template_id_70e39c44___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Welcome.vue?vue&type=template&id=70e39c44& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Welcome.vue?vue&type=template&id=70e39c44&");
 
 
 /***/ }),
@@ -62304,65 +62145,6 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/ApplicationLogo.vue?vue&type=template&id=4e07f5d2&":
-/*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/ApplicationLogo.vue?vue&type=template&id=4e07f5d2& ***!
-  \**************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => /* binding */ render,
-/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
-/* harmony export */ });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "svg",
-    {
-      attrs: {
-        viewBox: "0 0 317 48",
-        fill: "none",
-        xmlns: "http://www.w3.org/2000/svg"
-      }
-    },
-    [
-      _c("path", {
-        attrs: {
-          d:
-            "M74.09 30.04V13h-4.14v21H82.1v-3.96h-8.01zM95.379 19v1.77c-1.08-1.35-2.7-2.19-4.89-2.19-3.99 0-7.29 3.45-7.29 7.92s3.3 7.92 7.29 7.92c2.19 0 3.81-.84 4.89-2.19V34h3.87V19h-3.87zm-4.17 11.73c-2.37 0-4.14-1.71-4.14-4.23 0-2.52 1.77-4.23 4.14-4.23 2.4 0 4.17 1.71 4.17 4.23 0 2.52-1.77 4.23-4.17 4.23zM106.628 21.58V19h-3.87v15h3.87v-7.17c0-3.15 2.55-4.05 4.56-3.81V18.7c-1.89 0-3.78.84-4.56 2.88zM124.295 19v1.77c-1.08-1.35-2.7-2.19-4.89-2.19-3.99 0-7.29 3.45-7.29 7.92s3.3 7.92 7.29 7.92c2.19 0 3.81-.84 4.89-2.19V34h3.87V19h-3.87zm-4.17 11.73c-2.37 0-4.14-1.71-4.14-4.23 0-2.52 1.77-4.23 4.14-4.23 2.4 0 4.17 1.71 4.17 4.23 0 2.52-1.77 4.23-4.17 4.23zM141.544 19l-3.66 10.5-3.63-10.5h-4.26l5.7 15h4.41l5.7-15h-4.26zM150.354 28.09h11.31c.09-.51.15-1.02.15-1.59 0-4.41-3.15-7.92-7.59-7.92-4.71 0-7.92 3.45-7.92 7.92s3.18 7.92 8.22 7.92c2.88 0 5.13-1.17 6.54-3.21l-3.12-1.8c-.66.87-1.86 1.5-3.36 1.5-2.04 0-3.69-.84-4.23-2.82zm-.06-3c.45-1.92 1.86-3.03 3.93-3.03 1.62 0 3.24.87 3.72 3.03h-7.65zM164.516 34h3.87V12.1h-3.87V34zM185.248 34.36c3.69 0 6.9-2.01 6.9-6.3V13h-2.1v15.06c0 3.03-2.07 4.26-4.8 4.26-2.19 0-3.93-.78-4.62-2.61l-1.77 1.05c1.05 2.43 3.57 3.6 6.39 3.6zM203.124 18.64c-4.65 0-7.83 3.45-7.83 7.86 0 4.53 3.24 7.86 7.98 7.86 3.03 0 5.34-1.41 6.6-3.45l-1.74-1.02c-.81 1.44-2.46 2.55-4.83 2.55-3.18 0-5.55-1.89-5.97-4.95h13.17c.03-.3.06-.63.06-.93 0-4.11-2.85-7.92-7.44-7.92zm0 1.92c2.58 0 4.98 1.71 5.4 5.01h-11.19c.39-2.94 2.64-5.01 5.79-5.01zM221.224 20.92V19h-4.32v-4.2l-1.98.6V19h-3.15v1.92h3.15v9.09c0 3.6 2.25 4.59 6.3 3.99v-1.74c-2.91.12-4.32.33-4.32-2.25v-9.09h4.32zM225.176 22.93c0-1.62 1.59-2.37 3.15-2.37 1.44 0 2.97.57 3.6 2.1l1.65-.96c-.87-1.86-2.79-3.06-5.25-3.06-3 0-5.13 1.89-5.13 4.29 0 5.52 8.76 3.39 8.76 7.11 0 1.77-1.68 2.4-3.45 2.4-2.01 0-3.57-.99-4.11-2.52l-1.68.99c.75 1.92 2.79 3.45 5.79 3.45 3.21 0 5.43-1.77 5.43-4.32 0-5.52-8.76-3.39-8.76-7.11zM244.603 20.92V19h-4.32v-4.2l-1.98.6V19h-3.15v1.92h3.15v9.09c0 3.6 2.25 4.59 6.3 3.99v-1.74c-2.91.12-4.32.33-4.32-2.25v-9.09h4.32zM249.883 21.49V19h-1.98v15h1.98v-8.34c0-3.72 2.34-4.98 4.74-4.98v-1.92c-1.92 0-3.69.63-4.74 2.73zM263.358 18.64c-4.65 0-7.83 3.45-7.83 7.86 0 4.53 3.24 7.86 7.98 7.86 3.03 0 5.34-1.41 6.6-3.45l-1.74-1.02c-.81 1.44-2.46 2.55-4.83 2.55-3.18 0-5.55-1.89-5.97-4.95h13.17c.03-.3.06-.63.06-.93 0-4.11-2.85-7.92-7.44-7.92zm0 1.92c2.58 0 4.98 1.71 5.4 5.01h-11.19c.39-2.94 2.64-5.01 5.79-5.01zM286.848 19v2.94c-1.26-2.01-3.39-3.3-6.06-3.3-4.23 0-7.74 3.42-7.74 7.86s3.51 7.86 7.74 7.86c2.67 0 4.8-1.29 6.06-3.3V34h1.98V19h-1.98zm-5.91 13.44c-3.33 0-5.91-2.61-5.91-5.94 0-3.33 2.58-5.94 5.91-5.94s5.91 2.61 5.91 5.94c0 3.33-2.58 5.94-5.91 5.94zM309.01 18.64c-1.92 0-3.75.87-4.86 2.73-.84-1.74-2.46-2.73-4.56-2.73-1.8 0-3.42.72-4.59 2.55V19h-1.98v15H295v-8.31c0-3.72 2.16-5.13 4.32-5.13 2.13 0 3.51 1.41 3.51 4.08V34h1.98v-8.31c0-3.72 1.86-5.13 4.17-5.13 2.13 0 3.66 1.41 3.66 4.08V34h1.98v-9.36c0-3.75-2.31-6-5.61-6z",
-          fill: "#000"
-        }
-      }),
-      _vm._v(" "),
-      _c("path", {
-        attrs: {
-          d:
-            "M11.395 44.428C4.557 40.198 0 32.632 0 24 0 10.745 10.745 0 24 0a23.891 23.891 0 0113.997 4.502c-.2 17.907-11.097 33.245-26.602 39.926z",
-          fill: "#6875F5"
-        }
-      }),
-      _vm._v(" "),
-      _c("path", {
-        attrs: {
-          d:
-            "M14.134 45.885A23.914 23.914 0 0024 48c13.255 0 24-10.745 24-24 0-3.516-.756-6.856-2.115-9.866-4.659 15.143-16.608 27.092-31.75 31.751z",
-          fill: "#6875F5"
-        }
-      })
-    ]
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/ApplicationMark.vue?vue&type=template&id=6ed2e539&":
 /*!**************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/ApplicationMark.vue?vue&type=template&id=6ed2e539& ***!
@@ -62475,10 +62257,160 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("inertia-link", { attrs: { href: "/" } }, [
-    _c("img", {
-      staticClass: "h-15",
-      attrs: { src: "/images/main/SimpleDeskWhite.png", alt: "Logo" }
-    })
+    _c(
+      "svg",
+      {
+        staticClass: "w-full",
+        attrs: {
+          version: "1.1",
+          xmlns: "http://www.w3.org/2000/svg",
+          "xmlns:xlink": "http://www.w3.org/1999/xlink",
+          x: "0px",
+          y: "0px",
+          viewBox: "0 0 255.1 47.3",
+          "enable-background": "new 0 0 255.1 47.3",
+          "xml:space": "preserve"
+        }
+      },
+      [
+        _c("g", { attrs: { id: "XMLID_2_" } }, [
+          _c("path", {
+            attrs: {
+              id: "XMLID_25_",
+              fill: "#B6D435",
+              d:
+                "M10.2,2.6c0.4-0.1,19.9,0,20.3,0c0,0.1,0,0.2,0,0.2c0,0.1,0,0.2,0,0.3c0,6.4,0,12.8,0,19.2\n                    c0,0.2,0,0.3,0,0.5c-0.1,0-0.2,0-0.3,0c-0.1,0-0.2,0-0.3,0c-6.4,0-12.8,0-19.2,0c-0.2,0-0.3,0-0.5,0c0-0.1,0-0.2,0-0.2\n                    c0-0.1,0-0.2,0-0.3c0-6.4,0-12.8,0-19.2C10.2,3,10.2,2.8,10.2,2.6z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_24_",
+              fill: "#BADB94",
+              d:
+                "M52.4,44.7c-0.5,0.1-17.9,0.1-20,0c-0.1,0-0.2,0-0.3,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.4\n                    c0-6.3,0-12.7,0-19c0-0.2,0-0.4,0-0.6c0.1,0,0.2-0.1,0.3-0.1c0.1,0,0.2,0,0.4,0c6.4,0,12.7,0,19.1,0c0.2,0,0.3,0,0.5,0\n                    c0,0.1,0,0.2,0.1,0.3c0,0.1,0,0.2,0,0.3c0,6.4,0,12.7,0,19.1C52.5,44.3,52.4,44.5,52.4,44.7z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_23_",
+              fill: "#4DBFA7",
+              d:
+                "M20.4,24.7c5.4,0,10,4.3,10,10c0,5.5-4.4,9.9-10,9.9c-5.7,0-10-4.6-10-10\n                    C10.4,29.1,14.8,24.7,20.4,24.7z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_22_",
+              fill: "#FFFFFF",
+              d:
+                "M110.4,30.2c0.8,0,1.5,0,2.3,0c0,0.1,0,0.1,0,0.2c0,1,0,1.9,0,2.9c0,0.1,0,0.1,0,0.2\n                    c-0.4,0.1-7.8,0.1-8.2,0c-0.1-0.3-0.1-2.8,0-3.2c0.2-0.1,0.5,0,0.7,0c0.2,0,0.5,0,0.7,0c0.2,0,0.5,0,0.8,0c0-0.1,0-0.2,0-0.3\n                    c0-1.5,0-3,0-4.5c0-0.6-0.1-1.1-0.3-1.6c-0.4-1.2-1.3-1.9-2.6-2.1c-1.1-0.2-2.1,0.1-2.9,0.9c-0.3,0.2-0.5,0.5-0.8,0.8\n                    c-0.1,0.2-0.2,0.3-0.2,0.6c0,0.3,0,0.7,0,1c0,1.6,0,3.2,0,4.8c0,0.2,0,0.3,0,0.5c0.8,0.1,1.6,0,2.3,0c0.1,0.4,0.1,2.8,0,3.2\n                    c-0.1,0-0.1,0-0.2,0c-1,0-7.6,0-8,0c-0.1-0.3-0.1-2.6,0-3.2c0.1,0,0.2,0,0.2,0c0.5,0,1,0,1.5,0c0.1,0,0.3,0,0.4,0\n                    c0.1-0.1,0.1-0.3,0.1-0.4c0-1.4,0-2.9,0-4.3c0-1,0-1.9,0-2.9c0-0.1,0-0.3,0-0.5c-0.1,0-0.2,0-0.3,0c-0.5,0-1,0-1.5,0\n                    c-0.1,0-0.3,0-0.5,0c0-0.1-0.1-0.1-0.1-0.2c0-1,0-1.9,0-2.9c0,0,0-0.1,0-0.1c0.1,0,0.1,0,0.2,0c1.8,0,3.6,0,5.4,0\n                    c0.1,0,0.1,0,0.2,0c0.1,0.3,0,0.6,0.1,0.9c0.1,0,0.2,0,0.2-0.1c0.9-0.8,1.9-1.2,3.1-1.3c1-0.1,2,0.1,3,0.4c0.8,0.3,1.5,0.8,2.1,1.5\n                    c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0,0,0.1,0c0.2-0.2,0.4-0.3,0.6-0.5c0.8-0.6,1.6-1.1,2.6-1.4c1.3-0.4,2.7-0.5,4-0.1\n                    c2,0.5,3.4,1.8,4.2,3.7c0.4,1,0.6,2,0.6,3.1c0,1.4,0,2.8,0,4.3c0,0.2,0,0.3,0,0.5c0.1,0,0.2,0,0.3,0c0.5,0,1.1,0,1.6,0\n                    c0.1,0,0.3,0,0.4,0c0.1,0.4,0,0.7,0,1.1c0,0.4,0,0.7,0,1.1c0,0.3,0,0.7,0,1c-0.2,0.1-0.3,0.1-0.5,0.1c-2.2,0-4.4,0-6.5,0\n                    c-0.3,0-0.6,0-1,0c-0.1,0-0.2,0-0.3,0c-0.1-0.6,0-1.1,0-1.6c0-0.5,0-1,0-1.6c0.1,0,0.2,0,0.3,0c0.6,0,1.1,0,1.7,0\n                    c0.1,0,0.2,0,0.4,0c0-0.1,0-0.2,0-0.3c0-1.5,0-3,0-4.4c0-0.6-0.1-1.1-0.3-1.6c-0.4-1.3-1.3-2-2.6-2.2c-1.2-0.2-2.3,0.2-3.2,1\n                    c-0.3,0.2-0.5,0.5-0.7,0.8c-0.1,0.1-0.1,0.2-0.1,0.4c0.1,0.6,0.1,1.3,0.1,1.9c0,1.3,0,2.6,0,3.9C110.3,29.8,110.3,30,110.4,30.2z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_19_",
+              fill: "#FFFFFF",
+              d:
+                "M171.2,15.7c-0.9,0-1.7,0-2.6,0c0-0.1,0-0.1,0-0.2c0-1,0-2,0-2.9c0,0,0-0.1,0-0.1\n                    c0.1,0,0.2,0,0.3,0c3.4,0,6.9,0,10.3,0c1.9,0,3.8,0.4,5.5,1.3c2.9,1.5,4.7,3.8,5.4,7c0.7,3.3,0,6.3-2.1,8.9\n                    c-1.3,1.6-3.1,2.7-5.1,3.3c-1.2,0.4-2.4,0.5-3.7,0.6c-3.4,0-6.9,0-10.3,0c-0.1,0-0.2,0-0.3,0c-0.1-0.3-0.1-2.7,0-3.2\n                    c0.1,0,0.2,0,0.3,0c0.6,0,1.2,0,1.8,0c0.1,0,0.3,0,0.5,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c0-4.5,0-8.9,0-13.4\n                    C171.2,16.1,171.2,15.9,171.2,15.7z M174.9,30c0.1,0,0.2,0,0.3,0c1.4,0,2.7,0,4.1,0c0.8,0,1.5-0.1,2.2-0.4c3.5-1.1,5.5-4.4,4.9-8\n                    c-0.3-1.7-1.1-3.1-2.5-4.2c-1.3-1.1-2.9-1.6-4.6-1.6c-1.4,0-2.7,0-4.1,0c-0.1,0-0.2,0-0.3,0C174.9,20.6,174.9,25.3,174.9,30z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_18_",
+              fill: "#FFFFFF",
+              d:
+                "M63.8,33.4c0-2.3,0-4.5,0-6.8c0.1,0,0.2,0,0.3,0c1,0,2,0,3,0c0.1,0,0.1,0,0.2,0\n                    c0.2,0.3,0.4,0.5,0.6,0.8c0.4,0.5,0.7,0.9,1.2,1.3c1.1,1.1,2.5,1.6,4,1.8c0.6,0,1.2,0.1,1.8,0c0.6-0.1,1.1-0.2,1.6-0.4\n                    c0.2-0.1,0.4-0.2,0.6-0.4c1.2-0.9,1.1-2.6,0.3-3.4c-0.3-0.3-0.6-0.5-0.9-0.7c-0.5-0.3-1-0.4-1.6-0.5c-1.4-0.2-2.9-0.5-4.3-0.7\n                    c-0.9-0.2-1.9-0.4-2.7-0.8c-0.6-0.3-1.2-0.6-1.7-1.1c-1-0.9-1.6-2-1.7-3.4c-0.1-0.9-0.1-1.8,0.2-2.6c0.4-1.3,1.1-2.4,2.3-3.1\n                    c0.8-0.5,1.6-0.9,2.5-1.1c1.8-0.4,3.6-0.4,5.5,0c1.2,0.3,2.3,0.9,3.2,1.8c0,0,0.1,0.1,0.2,0.1c0.1-0.2,0-0.4,0-0.5\n                    c0-0.2,0-0.4,0-0.5c0-0.2,0-0.4,0-0.5c0,0,0-0.1,0.1-0.1c0,0,0,0,0,0c0.9,0,1.8,0,2.8,0c0.1,0,0.1,0,0.2,0c0,0,0,0,0.1,0\n                    c0.1,0.4,0.1,5.7,0,6.1c0,0,0,0,0,0c0,0,0,0,0,0c-1,0-2,0-3,0c-0.1,0-0.2,0-0.3,0c-0.1-0.1-0.2-0.2-0.2-0.4c-0.3-0.5-0.7-1-1.1-1.4\n                    c-0.9-0.9-2-1.4-3.2-1.5c-0.8-0.1-1.6-0.1-2.4,0c-0.5,0.1-0.9,0.2-1.4,0.4c-1.4,0.7-1.7,2.1-1.3,3.2c0.1,0.4,0.4,0.8,0.7,1.1\n                    c0.3,0.3,0.7,0.4,1,0.6c0.7,0.3,1.4,0.4,2.1,0.5c1.2,0.2,2.5,0.4,3.7,0.6c0.9,0.2,1.8,0.5,2.7,0.9c0.7,0.4,1.4,0.8,1.9,1.4\n                    c0.7,0.8,1.1,1.8,1.3,2.8c0.1,0.8,0.1,1.7-0.1,2.5c-0.3,1.4-1.1,2.5-2.3,3.3c-0.8,0.6-1.8,0.9-2.8,1.1C74.7,34,73,34,71.3,33.6\n                    c-1.5-0.3-2.8-1-3.8-2.1c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c-0.1,0-0.1,0.1-0.1,0.2c0,0.5,0,0.9,0,1.4c0,0.1,0,0.3,0,0.4\n                    c-0.1,0-0.1,0-0.2,0c-1,0-2.1,0-3.1,0C63.9,33.5,63.8,33.4,63.8,33.4z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_17_",
+              fill: "#FFFFFF",
+              d:
+                "M225.3,11.5c0.4-0.1,5.4-0.1,5.8,0c0,0.1,0,0.2,0,0.2c0,0.1,0,0.3,0,0.4c0,4.3,0,8.5,0,12.8\n                    c0,0.2,0,0.4,0,0.5c0.1,0.1,0.2,0,0.3-0.1c1.1-0.9,2.3-1.8,3.4-2.7c0.4-0.3,0.7-0.6,1.1-0.9c0-0.1,0-0.2,0-0.3c0-0.7,0-1.5,0-2.2\n                    c0-0.1,0-0.3,0-0.4c0.1,0,0.1,0,0.2,0c2.4,0,4.8,0,7.2,0c0,0.1,0,0.1,0,0.2c0,1,0,2,0,2.9c0,0,0,0.1,0,0.1c-0.1,0-0.2,0-0.3,0\n                    c-0.9,0-1.8,0-2.6,0c-0.2,0-0.3,0-0.5,0.2c-0.9,0.7-1.8,1.4-2.7,2.1c0,0-0.1,0.1-0.1,0.1c0,0,0,0,0,0c0,0,0,0,0,0\n                    c1.4,1.8,2.8,3.5,4.2,5.3c0.1,0.1,0.2,0.2,0.2,0.3c1,0,2.1,0,3.1,0c0,0,0,0,0.1,0.1c0,0,0,0,0,0c0,0.9,0,1.8,0,2.8\n                    c0,0.1,0,0.2,0,0.3c-0.2,0.1-0.3,0.1-0.5,0.1c-1.9,0-3.9,0-5.8,0c-0.2,0-0.3,0-0.5,0c0-0.1,0-0.2,0-0.3c0-0.6,0-1.2,0-1.8\n                    c0-0.2,0-0.4-0.2-0.5c-1.1-1.3-2.2-2.7-3.2-4c0-0.1-0.1-0.1-0.1-0.2c-0.3,0.2-2.6,2-3.4,2.7c0,0.1,0,0.2,0,0.4c0,0.1,0,0.2,0,0.4\n                    c0.1,0,0.2,0,0.3,0c0.6,0,1.2,0,1.8,0c0.1,0,0.3,0,0.4,0c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0,0.1,0,0.2,0,0.3c0,0.9,0,1.9,0,2.8\n                    c-0.1,0.1-0.3,0.1-0.4,0.1c-1.2,0-2.3,0-3.5,0c-1.4,0-2.7,0-4.1,0c-0.2,0-0.3,0-0.5,0c0-0.1-0.1-0.1-0.1-0.2c0-1,0-2,0-2.9\n                    c0,0,0-0.1,0-0.1c0.1,0,0.2,0,0.2,0c0.5,0,1.1,0,1.6,0c0.1,0,0.3,0,0.5,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c0-4.8,0-9.5,0-14.3\n                    c0-0.2,0-0.3,0-0.5c-0.4,0-0.8,0-1.1,0c-0.4,0-0.7,0-1.1,0c-0.1-0.4,0-0.7,0-1.1c0-0.4,0-0.7,0-1.1\n                    C225.3,12.3,225.3,11.9,225.3,11.5z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_14_",
+              fill: "#FFFFFF",
+              d:
+                "M125.7,36.6c0.1-0.5,0-14.1,0-14.5c-0.1,0-0.2,0-0.2,0c-0.6,0-1.1,0-1.7,0\n                    c-0.1,0-0.2,0-0.3,0c0,0-0.1,0-0.1-0.1c0,0,0,0,0,0c0-1,0-1.9,0-2.9c0-0.1,0-0.1,0-0.2c0.1,0,0.1,0,0.2,0c1.8,0,3.7,0,5.5,0\n                    c0,0,0.1,0,0.2,0c0.1,0.3,0,0.6,0,0.9c0.1,0.1,0.2,0,0.3-0.1c0.7-0.5,1.5-0.8,2.4-1c4.5-1,8.1,1.8,9,5.5c0.6,2.4,0.2,4.6-1.3,6.6\n                    c-1.2,1.7-2.9,2.7-4.9,3c-1.8,0.2-3.5-0.1-5.1-1c-0.1-0.1-0.2-0.2-0.4-0.2c-0.1,0.4-0.1,3.5,0,4.1c0.1,0,0.2,0,0.3,0\n                    c0.9,0,1.8,0,2.6,0c0.1,0,0.3,0,0.4,0c0.1,0.4,0.1,2.7,0,3.2c-0.1,0.1-0.2,0.1-0.4,0.1c-1.3,0-2.6,0-3.9,0c-1.5,0-3,0-4.5,0\n                    c-0.1,0-0.3,0-0.4,0c-0.1-0.3-0.1-2.6,0-3.2c0.1,0,0.2,0,0.2,0c0.5,0,1.1,0,1.6,0C125.4,36.6,125.5,36.6,125.7,36.6z M133.2,21.6\n                    c-0.2,0-0.5,0-0.7,0.1c-1.2,0.2-2.1,0.7-3,1.5c-0.1,0.1-0.2,0.2-0.2,0.4c0,1.7,0,3.4,0,5.2c0,0.2,0,0.3,0.2,0.4\n                    c1.1,1,2.3,1.6,3.8,1.6c1.3,0,2.4-0.5,3.3-1.6c1.3-1.5,1.4-3.8,0.3-5.5C136,22.3,134.8,21.6,133.2,21.6z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_13_",
+              fill: "#FFFFFF",
+              d:
+                "M34.9,7.9c-0.7,0-1.3,0-1.9,0c-0.1-0.3,0-0.5,0-0.8c0-0.3,0-0.5,0-0.8c0-0.2,0-0.5,0-0.7\n                    c0-0.2,0-0.5,0-0.7c0.4-0.1,5.6-0.1,6,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0.9,0,1.8,0,2.7c0,0.1,0,0.2,0,0.3c-0.1,0.1-0.2,0.2-0.4,0.3\n                    c-0.5,0.4-0.9,0.7-1.4,1.2c-0.9,0.9-1.5,2.1-1.6,3.4c-0.1,0.7-0.1,1.4,0,2.1c0.1,0.5,0.2,1,0.5,1.4c0.9,1.4,2.6,1.3,3.5,0.2\n                    c0.4-0.5,0.6-1.1,0.7-1.8c0.2-1.2,0.4-2.4,0.6-3.7c0.1-0.8,0.3-1.5,0.5-2.2c0.2-0.6,0.5-1.2,0.9-1.7c0.8-1.1,2-1.7,3.4-1.9\n                    c0.8-0.1,1.7,0,2.5,0.3c1.1,0.4,1.9,1.1,2.6,2c0.5,0.7,0.8,1.5,0.9,2.3c0.3,1.5,0.3,3,0,4.6c-0.3,1.1-0.8,2.1-1.6,2.9\n                    c0,0-0.1,0.1-0.1,0.1c0,0.1,0.1,0.1,0.2,0.1c0.3,0,0.7,0,1,0c0.1,0,0.2,0,0.2,0c0.1,0.4,0.1,2.4,0,2.8c-0.4,0.1-5.1,0.1-5.4,0\n                    c-0.1-0.4-0.1-1.9,0-2.9c0.1,0,0.1-0.1,0.2-0.2c0.3-0.2,0.7-0.5,1-0.7c1-0.9,1.6-2,1.8-3.3c0.1-0.8,0.1-1.5-0.1-2.3\n                    c-0.1-0.4-0.2-0.8-0.5-1.2c-0.6-0.9-1.8-1.3-2.9-0.9C45.3,9,45,9.3,44.8,9.7c-0.3,0.4-0.4,0.9-0.6,1.3c-0.1,0.6-0.2,1.3-0.4,1.9\n                    c-0.2,1-0.3,2-0.5,3c-0.1,0.7-0.4,1.4-0.7,2c-0.2,0.3-0.4,0.6-0.6,0.9c-0.8,1.1-1.9,1.7-3.2,1.8c-0.8,0.1-1.5,0-2.2-0.1\n                    c-1.3-0.3-2.3-1.1-2.9-2.2c-0.5-0.8-0.8-1.8-1-2.8c-0.2-1.1-0.2-2.3,0-3.4c0.2-1.5,0.8-2.9,1.9-4C34.7,8.1,34.8,8,34.9,7.9z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_12_",
+              fill: "#FFFFFF",
+              d:
+                "M223.1,23.3c-1.1,0-2.1,0-3.2,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.3-0.3-0.6-0.6-0.9-0.9\n                    c-1.1-0.9-2.3-1.1-3.6-0.8c-0.3,0.1-0.6,0.2-0.8,0.4c-0.7,0.5-0.7,1.6,0,2.1c0.2,0.2,0.5,0.3,0.8,0.4c0.3,0.1,0.7,0.2,1.1,0.3\n                    c1,0.2,2,0.3,3.1,0.5c0.7,0.1,1.4,0.4,2.1,0.7c0.4,0.2,0.8,0.5,1.2,0.8c0.6,0.6,1,1.4,1.1,2.3c0.1,0.6,0,1.1-0.1,1.7\n                    c-0.2,1.1-0.9,2-1.8,2.6c-0.6,0.4-1.2,0.6-1.9,0.8c-1.7,0.3-3.5,0.2-5.1-0.4c-0.6-0.2-1.1-0.5-1.6-0.9c-0.1-0.1-0.2-0.1-0.3-0.2\n                    c-0.1,0.1-0.1,0.3-0.1,0.4c0,0.1,0,0.3,0,0.4c0,0.1,0,0.3,0,0.4c-0.4,0.1-2.9,0.1-3.2,0c0-0.4,0-4.5,0-5c0.5-0.1,1.1,0,1.6,0\n                    c0.5,0,1.1,0,1.6,0c0.1,0.1,0.2,0.2,0.3,0.3c0.4,0.4,0.8,0.8,1.2,1.2c1.3,1,2.7,1.4,4.3,1.1c0.3,0,0.5-0.1,0.8-0.3\n                    c0.9-0.5,0.9-1.8,0.2-2.3c-0.2-0.2-0.4-0.3-0.7-0.4c-0.4-0.1-0.7-0.2-1.1-0.3c-0.9-0.1-1.8-0.3-2.6-0.4c-0.8-0.1-1.5-0.4-2.3-0.7\n                    c-0.5-0.2-0.9-0.5-1.3-0.8c-0.9-0.8-1.4-1.7-1.5-3c0-1,0.2-1.9,0.9-2.7c0.4-0.5,0.9-0.8,1.4-1.1c0.7-0.4,1.5-0.6,2.3-0.7\n                    c0.8-0.1,1.6-0.1,2.4,0c1,0.1,2,0.4,2.8,1.1c0,0,0.1,0,0.1,0.1c0,0,0,0,0.1,0c0.1-0.3,0-0.5,0.1-0.8c0.3-0.1,0.7,0,1,0\n                    c0.4,0,0.7,0,1.1,0c0.3,0,0.7,0,1,0c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0,1.4,0,2.7,0,4.1C223.1,23,223.1,23.1,223.1,23.3z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_9_",
+              fill: "#FFFFFF",
+              d:
+                "M167,27.5c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0\n                    c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.3,0c0,0.1,0,0.2,0,0.3\n                    c0.5,1.7,1.8,2.7,3.6,2.9c0.6,0.1,1.1,0,1.7-0.1c0.8-0.2,1.4-0.5,1.8-1.2c0,0,0,0,0.1-0.1c0.4-0.1,3.4-0.1,3.8,0\n                    c0,0.2-0.1,0.3-0.1,0.4c-0.4,1.1-1.2,2-2.1,2.7c-0.8,0.6-1.8,1-2.8,1.2c-1.6,0.3-3.3,0.3-4.8-0.3c-2.5-1-4-2.8-4.6-5.3\n                    c-0.4-1.8-0.3-3.6,0.5-5.4c1.1-2.3,2.9-3.6,5.4-4.1c1.3-0.3,2.6-0.2,3.9,0.2c2.4,0.8,3.9,2.4,4.6,4.8c0.2,0.6,0.3,1.3,0.3,2\n                    c0,0.4,0,0.9,0,1.3C167,27.1,167,27.3,167,27.5z M163.6,24.7c0-0.1,0-0.2,0-0.2c-0.1-0.6-0.3-1.2-0.7-1.7c-0.5-0.7-1.1-1.1-1.9-1.4\n                    c-0.5-0.2-1.1-0.2-1.6-0.1c-1,0.1-1.8,0.5-2.4,1.1c-0.6,0.6-1,1.3-1.2,2.1c0,0,0,0.1,0,0.1c0,0,0.1,0,0.1,0\n                    C158.4,24.7,161,24.7,163.6,24.7z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_6_",
+              fill: "#FFFFFF",
+              d:
+                "M207.7,27.5c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.2,0\n                    c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.3,0c0,0.1,0,0.2,0,0.3\n                    c0.5,1.7,1.8,2.7,3.6,2.9c0.6,0.1,1.2,0,1.8-0.1c0.7-0.2,1.3-0.5,1.7-1.1c0,0,0.1-0.1,0.1-0.1c0.4-0.1,3.4-0.1,3.8,0\n                    c0,0.2-0.1,0.3-0.1,0.4c-0.4,1.1-1.2,2-2.1,2.7c-0.8,0.6-1.8,1-2.8,1.2c-1.6,0.3-3.3,0.3-4.8-0.3c-2.5-1-4-2.8-4.6-5.3\n                    c-0.4-1.8-0.3-3.6,0.5-5.4c1.1-2.3,2.9-3.6,5.4-4.1c1.3-0.3,2.6-0.2,3.9,0.2c2.4,0.8,3.9,2.4,4.6,4.8c0.2,0.6,0.3,1.3,0.3,2\n                    c0,0.4,0,0.9,0,1.3C207.7,27.1,207.7,27.3,207.7,27.5z M196.4,24.7c2.6,0,5.2,0,7.7,0c0,0,0.1,0,0.1,0c0-0.1,0-0.1,0-0.2\n                    c-0.1-0.5-0.3-1.1-0.6-1.5c-0.5-0.7-1.1-1.3-2-1.5c-0.4-0.1-0.7-0.2-1.1-0.2c-1.2,0-2.3,0.4-3.2,1.3c-0.5,0.6-0.9,1.2-1.1,2\n                    C196.4,24.6,196.4,24.6,196.4,24.7z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_5_",
+              fill: "#FFFFFF",
+              d:
+                "M144.8,14.8c-0.4,0-0.8,0-1.2,0c-0.4,0-0.7,0-1.1,0c-0.1-0.4-0.1-2.9,0-3.2\n                    c0.1,0,0.2,0,0.2,0c1.9,0,5.2,0,5.6,0c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2\n                    c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2\n                    c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0.1,0,0.2,0,0.3,0c0.6,0,1.1,0,1.7,0c0.1,0,0.2,0,0.3,0\n                    c0,0,0.1,0.1,0.1,0.1c0,1,0,2,0,2.9c0,0.1,0,0.1,0,0.2c-0.2,0.1-0.3,0-0.5,0c-2.2,0-4.3,0-6.5,0c-0.3,0-0.6,0-0.9,0\n                    c-0.1,0-0.2,0-0.3,0c0-0.1,0-0.2,0-0.3c0-0.9,0-1.8,0-2.7c0-0.1,0-0.2,0-0.3c0.8,0,1.5,0,2.3,0c0-0.1,0-0.2,0-0.3\n                    c0-0.1,0-0.2,0-0.3c0-4.8,0-9.5,0-14.3C144.8,15.2,144.8,15,144.8,14.8z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_4_",
+              fill: "#FFFFFF",
+              d:
+                "M90.2,30.2c0.8,0,1.6,0,2.3,0c0.1,0.4,0.1,2.7,0,3.2c-0.2,0.1-0.3,0-0.5,0\n                    c-1.2,0-2.4,0-3.6,0c-1.2,0-2.4,0-3.6,0c-0.2,0-0.3,0-0.5,0c-0.1-0.3-0.1-2.4,0-3.2c0.1,0,0.2,0,0.2,0c0.6,0,1.1,0,1.7,0\n                    c0.1,0,0.2,0,0.3,0c0-0.1,0-0.1,0-0.1c0-2.6,0-5.2,0-7.9c-0.1,0-0.2,0-0.3,0c-0.6,0-1.1,0-1.7,0c-0.1,0-0.2,0-0.3,0\n                    c0-0.1,0-0.1,0-0.1c0-1,0-2,0-3.1c0.1,0,0.2,0,0.2,0c1.8,0,3.6,0,5.4,0c0.1,0,0.1,0,0.2,0c0.1,0.1,0.1,0.3,0.1,0.4\n                    c0,1.9,0,3.9,0,5.8c0,1.5,0,3.1,0,4.6C90.2,29.8,90.2,30,90.2,30.2z"
+            }
+          }),
+          _vm._v(" "),
+          _c("path", {
+            attrs: {
+              id: "XMLID_3_",
+              fill: "#FFFFFF",
+              d:
+                "M90.8,14c0,1.3-1.1,2.3-2.3,2.4c-0.4,0-0.7,0-1.1-0.2c-0.9-0.3-1.6-1.2-1.5-2.4\n                    c0.1-1,0.8-1.8,1.8-2.1c0.6-0.2,1.2-0.1,1.8,0.2C90.3,12.3,90.8,13,90.8,14z"
+            }
+          })
+        ])
+      ]
+    )
   ])
 }
 var staticRenderFns = []
@@ -63668,349 +63600,6 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Welcome.vue?vue&type=template&id=70e39c44&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Jetstream/Welcome.vue?vue&type=template&id=70e39c44& ***!
-  \******************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => /* binding */ render,
-/* harmony export */   "staticRenderFns": () => /* binding */ staticRenderFns
-/* harmony export */ });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "div",
-      { staticClass: "p-6 sm:px-20 bg-white border-b border-gray-200" },
-      [
-        _c(
-          "div",
-          [_c("jet-application-logo", { staticClass: "block h-12 w-auto" })],
-          1
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-8 text-2xl" }, [
-          _vm._v(
-            "\n            Welcome to your Jetstream application!\n        "
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "mt-6 text-gray-500" }, [
-          _vm._v(
-            "\n            Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed\n            to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe\n            you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel\n            ecosystem to be a breath of fresh air. We hope you love it.\n        "
-          )
-        ])
-      ]
-    ),
-    _vm._v(" "),
-    _c(
-      "div",
-      {
-        staticClass: "bg-gray-200 bg-opacity-25 grid grid-cols-1 md:grid-cols-2"
-      },
-      [
-        _c("div", { staticClass: "p-6" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(0)
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "ml-12" }, [
-            _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-              _vm._v(
-                "\n                    Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.\n                "
-              )
-            ]),
-            _vm._v(" "),
-            _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                },
-                [
-                  _c("div", [_vm._v("Explore the documentation")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "w-4 h-4",
-                        attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            "fill-rule": "evenodd",
-                            d:
-                              "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                            "clip-rule": "evenodd"
-                          }
-                        })
-                      ]
-                    )
-                  ])
-                ]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "p-6 border-t border-gray-200 md:border-t-0 md:border-l"
-          },
-          [
-            _c("div", { staticClass: "flex items-center" }, [
-              _c(
-                "svg",
-                {
-                  staticClass: "w-8 h-8 text-gray-400",
-                  attrs: {
-                    fill: "none",
-                    stroke: "currentColor",
-                    "stroke-linecap": "round",
-                    "stroke-linejoin": "round",
-                    "stroke-width": "2",
-                    viewBox: "0 0 24 24"
-                  }
-                },
-                [
-                  _c("path", {
-                    attrs: {
-                      d:
-                        "M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
-                    }
-                  }),
-                  _c("path", {
-                    attrs: { d: "M15 13a3 3 0 11-6 0 3 3 0 016 0z" }
-                  })
-                ]
-              ),
-              _vm._v(" "),
-              _vm._m(1)
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "ml-12" }, [
-              _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-                _vm._v(
-                  "\n                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "https://laracasts.com" } }, [
-                _c(
-                  "div",
-                  {
-                    staticClass:
-                      "mt-3 flex items-center text-sm font-semibold text-indigo-700"
-                  },
-                  [
-                    _c("div", [_vm._v("Start watching Laracasts")]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "ml-1 text-indigo-500" }, [
-                      _c(
-                        "svg",
-                        {
-                          staticClass: "w-4 h-4",
-                          attrs: { viewBox: "0 0 20 20", fill: "currentColor" }
-                        },
-                        [
-                          _c("path", {
-                            attrs: {
-                              "fill-rule": "evenodd",
-                              d:
-                                "M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z",
-                              "clip-rule": "evenodd"
-                            }
-                          })
-                        ]
-                      )
-                    ])
-                  ]
-                )
-              ])
-            ])
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _vm._m(2)
-          ]),
-          _vm._v(" "),
-          _vm._m(3)
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "p-6 border-t border-gray-200 md:border-l" }, [
-          _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "svg",
-              {
-                staticClass: "w-8 h-8 text-gray-400",
-                attrs: {
-                  fill: "none",
-                  stroke: "currentColor",
-                  "stroke-linecap": "round",
-                  "stroke-linejoin": "round",
-                  "stroke-width": "2",
-                  viewBox: "0 0 24 24"
-                }
-              },
-              [
-                _c("path", {
-                  attrs: {
-                    d:
-                      "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                  }
-                })
-              ]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              {
-                staticClass:
-                  "ml-4 text-lg text-gray-600 leading-7 font-semibold"
-              },
-              [_vm._v("Authentication")]
-            )
-          ]),
-          _vm._v(" "),
-          _vm._m(4)
-        ])
-      ]
-    )
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laravel.com/docs" } }, [
-          _vm._v("Documentation")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://laracasts.com" } }, [
-          _vm._v("Laracasts")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "ml-4 text-lg text-gray-600 leading-7 font-semibold" },
-      [
-        _c("a", { attrs: { href: "https://tailwindcss.com/" } }, [
-          _vm._v("Tailwind")
-        ])
-      ]
-    )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.\n                "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "ml-12" }, [
-      _c("div", { staticClass: "mt-2 text-sm text-gray-500" }, [
-        _vm._v(
-          "\n                    Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started what matters most: building your application.\n                "
-        )
-      ])
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Layouts/AdminLayout.vue?vue&type=template&id=5c4e0205&":
 /*!********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Layouts/AdminLayout.vue?vue&type=template&id=5c4e0205& ***!
@@ -64035,17 +63624,167 @@ var render = function() {
         "div",
         {
           staticClass:
-            "w-64 bg-gray-800 px-8 py-4 min-h-screen lg:block lg:relative",
+            "w-64 bg-gray-800 px-8 py-5 min-h-screen lg:block lg:relative",
           class: {
             "block fixed z-30 border-r": _vm.showingNavigationDropdown,
             hidden: !_vm.showingNavigationDropdown
           }
         },
         [
-          _c("img", {
-            staticClass: "h-9",
-            attrs: { src: "/images/main/SimpleDeskWhite.png", alt: "Logo" }
-          }),
+          _c(
+            "svg",
+            {
+              staticClass: "h-8",
+              attrs: {
+                version: "1.1",
+                xmlns: "http://www.w3.org/2000/svg",
+                "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                x: "0px",
+                y: "0px",
+                viewBox: "0 0 255.1 47.3",
+                "enable-background": "new 0 0 255.1 47.3",
+                "xml:space": "preserve"
+              }
+            },
+            [
+              _c("g", { attrs: { id: "XMLID_2_" } }, [
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_25_",
+                    fill: "#B6D435",
+                    d:
+                      "M10.2,2.6c0.4-0.1,19.9,0,20.3,0c0,0.1,0,0.2,0,0.2c0,0.1,0,0.2,0,0.3c0,6.4,0,12.8,0,19.2\n                    c0,0.2,0,0.3,0,0.5c-0.1,0-0.2,0-0.3,0c-0.1,0-0.2,0-0.3,0c-6.4,0-12.8,0-19.2,0c-0.2,0-0.3,0-0.5,0c0-0.1,0-0.2,0-0.2\n                    c0-0.1,0-0.2,0-0.3c0-6.4,0-12.8,0-19.2C10.2,3,10.2,2.8,10.2,2.6z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_24_",
+                    fill: "#BADB94",
+                    d:
+                      "M52.4,44.7c-0.5,0.1-17.9,0.1-20,0c-0.1,0-0.2,0-0.3,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.4\n                    c0-6.3,0-12.7,0-19c0-0.2,0-0.4,0-0.6c0.1,0,0.2-0.1,0.3-0.1c0.1,0,0.2,0,0.4,0c6.4,0,12.7,0,19.1,0c0.2,0,0.3,0,0.5,0\n                    c0,0.1,0,0.2,0.1,0.3c0,0.1,0,0.2,0,0.3c0,6.4,0,12.7,0,19.1C52.5,44.3,52.4,44.5,52.4,44.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_23_",
+                    fill: "#4DBFA7",
+                    d:
+                      "M20.4,24.7c5.4,0,10,4.3,10,10c0,5.5-4.4,9.9-10,9.9c-5.7,0-10-4.6-10-10\n                    C10.4,29.1,14.8,24.7,20.4,24.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_22_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M110.4,30.2c0.8,0,1.5,0,2.3,0c0,0.1,0,0.1,0,0.2c0,1,0,1.9,0,2.9c0,0.1,0,0.1,0,0.2\n                    c-0.4,0.1-7.8,0.1-8.2,0c-0.1-0.3-0.1-2.8,0-3.2c0.2-0.1,0.5,0,0.7,0c0.2,0,0.5,0,0.7,0c0.2,0,0.5,0,0.8,0c0-0.1,0-0.2,0-0.3\n                    c0-1.5,0-3,0-4.5c0-0.6-0.1-1.1-0.3-1.6c-0.4-1.2-1.3-1.9-2.6-2.1c-1.1-0.2-2.1,0.1-2.9,0.9c-0.3,0.2-0.5,0.5-0.8,0.8\n                    c-0.1,0.2-0.2,0.3-0.2,0.6c0,0.3,0,0.7,0,1c0,1.6,0,3.2,0,4.8c0,0.2,0,0.3,0,0.5c0.8,0.1,1.6,0,2.3,0c0.1,0.4,0.1,2.8,0,3.2\n                    c-0.1,0-0.1,0-0.2,0c-1,0-7.6,0-8,0c-0.1-0.3-0.1-2.6,0-3.2c0.1,0,0.2,0,0.2,0c0.5,0,1,0,1.5,0c0.1,0,0.3,0,0.4,0\n                    c0.1-0.1,0.1-0.3,0.1-0.4c0-1.4,0-2.9,0-4.3c0-1,0-1.9,0-2.9c0-0.1,0-0.3,0-0.5c-0.1,0-0.2,0-0.3,0c-0.5,0-1,0-1.5,0\n                    c-0.1,0-0.3,0-0.5,0c0-0.1-0.1-0.1-0.1-0.2c0-1,0-1.9,0-2.9c0,0,0-0.1,0-0.1c0.1,0,0.1,0,0.2,0c1.8,0,3.6,0,5.4,0\n                    c0.1,0,0.1,0,0.2,0c0.1,0.3,0,0.6,0.1,0.9c0.1,0,0.2,0,0.2-0.1c0.9-0.8,1.9-1.2,3.1-1.3c1-0.1,2,0.1,3,0.4c0.8,0.3,1.5,0.8,2.1,1.5\n                    c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0,0,0.1,0c0.2-0.2,0.4-0.3,0.6-0.5c0.8-0.6,1.6-1.1,2.6-1.4c1.3-0.4,2.7-0.5,4-0.1\n                    c2,0.5,3.4,1.8,4.2,3.7c0.4,1,0.6,2,0.6,3.1c0,1.4,0,2.8,0,4.3c0,0.2,0,0.3,0,0.5c0.1,0,0.2,0,0.3,0c0.5,0,1.1,0,1.6,0\n                    c0.1,0,0.3,0,0.4,0c0.1,0.4,0,0.7,0,1.1c0,0.4,0,0.7,0,1.1c0,0.3,0,0.7,0,1c-0.2,0.1-0.3,0.1-0.5,0.1c-2.2,0-4.4,0-6.5,0\n                    c-0.3,0-0.6,0-1,0c-0.1,0-0.2,0-0.3,0c-0.1-0.6,0-1.1,0-1.6c0-0.5,0-1,0-1.6c0.1,0,0.2,0,0.3,0c0.6,0,1.1,0,1.7,0\n                    c0.1,0,0.2,0,0.4,0c0-0.1,0-0.2,0-0.3c0-1.5,0-3,0-4.4c0-0.6-0.1-1.1-0.3-1.6c-0.4-1.3-1.3-2-2.6-2.2c-1.2-0.2-2.3,0.2-3.2,1\n                    c-0.3,0.2-0.5,0.5-0.7,0.8c-0.1,0.1-0.1,0.2-0.1,0.4c0.1,0.6,0.1,1.3,0.1,1.9c0,1.3,0,2.6,0,3.9C110.3,29.8,110.3,30,110.4,30.2z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_19_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M171.2,15.7c-0.9,0-1.7,0-2.6,0c0-0.1,0-0.1,0-0.2c0-1,0-2,0-2.9c0,0,0-0.1,0-0.1\n                    c0.1,0,0.2,0,0.3,0c3.4,0,6.9,0,10.3,0c1.9,0,3.8,0.4,5.5,1.3c2.9,1.5,4.7,3.8,5.4,7c0.7,3.3,0,6.3-2.1,8.9\n                    c-1.3,1.6-3.1,2.7-5.1,3.3c-1.2,0.4-2.4,0.5-3.7,0.6c-3.4,0-6.9,0-10.3,0c-0.1,0-0.2,0-0.3,0c-0.1-0.3-0.1-2.7,0-3.2\n                    c0.1,0,0.2,0,0.3,0c0.6,0,1.2,0,1.8,0c0.1,0,0.3,0,0.5,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c0-4.5,0-8.9,0-13.4\n                    C171.2,16.1,171.2,15.9,171.2,15.7z M174.9,30c0.1,0,0.2,0,0.3,0c1.4,0,2.7,0,4.1,0c0.8,0,1.5-0.1,2.2-0.4c3.5-1.1,5.5-4.4,4.9-8\n                    c-0.3-1.7-1.1-3.1-2.5-4.2c-1.3-1.1-2.9-1.6-4.6-1.6c-1.4,0-2.7,0-4.1,0c-0.1,0-0.2,0-0.3,0C174.9,20.6,174.9,25.3,174.9,30z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_18_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M63.8,33.4c0-2.3,0-4.5,0-6.8c0.1,0,0.2,0,0.3,0c1,0,2,0,3,0c0.1,0,0.1,0,0.2,0\n                    c0.2,0.3,0.4,0.5,0.6,0.8c0.4,0.5,0.7,0.9,1.2,1.3c1.1,1.1,2.5,1.6,4,1.8c0.6,0,1.2,0.1,1.8,0c0.6-0.1,1.1-0.2,1.6-0.4\n                    c0.2-0.1,0.4-0.2,0.6-0.4c1.2-0.9,1.1-2.6,0.3-3.4c-0.3-0.3-0.6-0.5-0.9-0.7c-0.5-0.3-1-0.4-1.6-0.5c-1.4-0.2-2.9-0.5-4.3-0.7\n                    c-0.9-0.2-1.9-0.4-2.7-0.8c-0.6-0.3-1.2-0.6-1.7-1.1c-1-0.9-1.6-2-1.7-3.4c-0.1-0.9-0.1-1.8,0.2-2.6c0.4-1.3,1.1-2.4,2.3-3.1\n                    c0.8-0.5,1.6-0.9,2.5-1.1c1.8-0.4,3.6-0.4,5.5,0c1.2,0.3,2.3,0.9,3.2,1.8c0,0,0.1,0.1,0.2,0.1c0.1-0.2,0-0.4,0-0.5\n                    c0-0.2,0-0.4,0-0.5c0-0.2,0-0.4,0-0.5c0,0,0-0.1,0.1-0.1c0,0,0,0,0,0c0.9,0,1.8,0,2.8,0c0.1,0,0.1,0,0.2,0c0,0,0,0,0.1,0\n                    c0.1,0.4,0.1,5.7,0,6.1c0,0,0,0,0,0c0,0,0,0,0,0c-1,0-2,0-3,0c-0.1,0-0.2,0-0.3,0c-0.1-0.1-0.2-0.2-0.2-0.4c-0.3-0.5-0.7-1-1.1-1.4\n                    c-0.9-0.9-2-1.4-3.2-1.5c-0.8-0.1-1.6-0.1-2.4,0c-0.5,0.1-0.9,0.2-1.4,0.4c-1.4,0.7-1.7,2.1-1.3,3.2c0.1,0.4,0.4,0.8,0.7,1.1\n                    c0.3,0.3,0.7,0.4,1,0.6c0.7,0.3,1.4,0.4,2.1,0.5c1.2,0.2,2.5,0.4,3.7,0.6c0.9,0.2,1.8,0.5,2.7,0.9c0.7,0.4,1.4,0.8,1.9,1.4\n                    c0.7,0.8,1.1,1.8,1.3,2.8c0.1,0.8,0.1,1.7-0.1,2.5c-0.3,1.4-1.1,2.5-2.3,3.3c-0.8,0.6-1.8,0.9-2.8,1.1C74.7,34,73,34,71.3,33.6\n                    c-1.5-0.3-2.8-1-3.8-2.1c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c-0.1,0-0.1,0.1-0.1,0.2c0,0.5,0,0.9,0,1.4c0,0.1,0,0.3,0,0.4\n                    c-0.1,0-0.1,0-0.2,0c-1,0-2.1,0-3.1,0C63.9,33.5,63.8,33.4,63.8,33.4z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_17_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M225.3,11.5c0.4-0.1,5.4-0.1,5.8,0c0,0.1,0,0.2,0,0.2c0,0.1,0,0.3,0,0.4c0,4.3,0,8.5,0,12.8\n                    c0,0.2,0,0.4,0,0.5c0.1,0.1,0.2,0,0.3-0.1c1.1-0.9,2.3-1.8,3.4-2.7c0.4-0.3,0.7-0.6,1.1-0.9c0-0.1,0-0.2,0-0.3c0-0.7,0-1.5,0-2.2\n                    c0-0.1,0-0.3,0-0.4c0.1,0,0.1,0,0.2,0c2.4,0,4.8,0,7.2,0c0,0.1,0,0.1,0,0.2c0,1,0,2,0,2.9c0,0,0,0.1,0,0.1c-0.1,0-0.2,0-0.3,0\n                    c-0.9,0-1.8,0-2.6,0c-0.2,0-0.3,0-0.5,0.2c-0.9,0.7-1.8,1.4-2.7,2.1c0,0-0.1,0.1-0.1,0.1c0,0,0,0,0,0c0,0,0,0,0,0\n                    c1.4,1.8,2.8,3.5,4.2,5.3c0.1,0.1,0.2,0.2,0.2,0.3c1,0,2.1,0,3.1,0c0,0,0,0,0.1,0.1c0,0,0,0,0,0c0,0.9,0,1.8,0,2.8\n                    c0,0.1,0,0.2,0,0.3c-0.2,0.1-0.3,0.1-0.5,0.1c-1.9,0-3.9,0-5.8,0c-0.2,0-0.3,0-0.5,0c0-0.1,0-0.2,0-0.3c0-0.6,0-1.2,0-1.8\n                    c0-0.2,0-0.4-0.2-0.5c-1.1-1.3-2.2-2.7-3.2-4c0-0.1-0.1-0.1-0.1-0.2c-0.3,0.2-2.6,2-3.4,2.7c0,0.1,0,0.2,0,0.4c0,0.1,0,0.2,0,0.4\n                    c0.1,0,0.2,0,0.3,0c0.6,0,1.2,0,1.8,0c0.1,0,0.3,0,0.4,0c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0,0.1,0,0.2,0,0.3c0,0.9,0,1.9,0,2.8\n                    c-0.1,0.1-0.3,0.1-0.4,0.1c-1.2,0-2.3,0-3.5,0c-1.4,0-2.7,0-4.1,0c-0.2,0-0.3,0-0.5,0c0-0.1-0.1-0.1-0.1-0.2c0-1,0-2,0-2.9\n                    c0,0,0-0.1,0-0.1c0.1,0,0.2,0,0.2,0c0.5,0,1.1,0,1.6,0c0.1,0,0.3,0,0.5,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c0-4.8,0-9.5,0-14.3\n                    c0-0.2,0-0.3,0-0.5c-0.4,0-0.8,0-1.1,0c-0.4,0-0.7,0-1.1,0c-0.1-0.4,0-0.7,0-1.1c0-0.4,0-0.7,0-1.1\n                    C225.3,12.3,225.3,11.9,225.3,11.5z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_14_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M125.7,36.6c0.1-0.5,0-14.1,0-14.5c-0.1,0-0.2,0-0.2,0c-0.6,0-1.1,0-1.7,0\n                    c-0.1,0-0.2,0-0.3,0c0,0-0.1,0-0.1-0.1c0,0,0,0,0,0c0-1,0-1.9,0-2.9c0-0.1,0-0.1,0-0.2c0.1,0,0.1,0,0.2,0c1.8,0,3.7,0,5.5,0\n                    c0,0,0.1,0,0.2,0c0.1,0.3,0,0.6,0,0.9c0.1,0.1,0.2,0,0.3-0.1c0.7-0.5,1.5-0.8,2.4-1c4.5-1,8.1,1.8,9,5.5c0.6,2.4,0.2,4.6-1.3,6.6\n                    c-1.2,1.7-2.9,2.7-4.9,3c-1.8,0.2-3.5-0.1-5.1-1c-0.1-0.1-0.2-0.2-0.4-0.2c-0.1,0.4-0.1,3.5,0,4.1c0.1,0,0.2,0,0.3,0\n                    c0.9,0,1.8,0,2.6,0c0.1,0,0.3,0,0.4,0c0.1,0.4,0.1,2.7,0,3.2c-0.1,0.1-0.2,0.1-0.4,0.1c-1.3,0-2.6,0-3.9,0c-1.5,0-3,0-4.5,0\n                    c-0.1,0-0.3,0-0.4,0c-0.1-0.3-0.1-2.6,0-3.2c0.1,0,0.2,0,0.2,0c0.5,0,1.1,0,1.6,0C125.4,36.6,125.5,36.6,125.7,36.6z M133.2,21.6\n                    c-0.2,0-0.5,0-0.7,0.1c-1.2,0.2-2.1,0.7-3,1.5c-0.1,0.1-0.2,0.2-0.2,0.4c0,1.7,0,3.4,0,5.2c0,0.2,0,0.3,0.2,0.4\n                    c1.1,1,2.3,1.6,3.8,1.6c1.3,0,2.4-0.5,3.3-1.6c1.3-1.5,1.4-3.8,0.3-5.5C136,22.3,134.8,21.6,133.2,21.6z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_13_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M34.9,7.9c-0.7,0-1.3,0-1.9,0c-0.1-0.3,0-0.5,0-0.8c0-0.3,0-0.5,0-0.8c0-0.2,0-0.5,0-0.7\n                    c0-0.2,0-0.5,0-0.7c0.4-0.1,5.6-0.1,6,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0.9,0,1.8,0,2.7c0,0.1,0,0.2,0,0.3c-0.1,0.1-0.2,0.2-0.4,0.3\n                    c-0.5,0.4-0.9,0.7-1.4,1.2c-0.9,0.9-1.5,2.1-1.6,3.4c-0.1,0.7-0.1,1.4,0,2.1c0.1,0.5,0.2,1,0.5,1.4c0.9,1.4,2.6,1.3,3.5,0.2\n                    c0.4-0.5,0.6-1.1,0.7-1.8c0.2-1.2,0.4-2.4,0.6-3.7c0.1-0.8,0.3-1.5,0.5-2.2c0.2-0.6,0.5-1.2,0.9-1.7c0.8-1.1,2-1.7,3.4-1.9\n                    c0.8-0.1,1.7,0,2.5,0.3c1.1,0.4,1.9,1.1,2.6,2c0.5,0.7,0.8,1.5,0.9,2.3c0.3,1.5,0.3,3,0,4.6c-0.3,1.1-0.8,2.1-1.6,2.9\n                    c0,0-0.1,0.1-0.1,0.1c0,0.1,0.1,0.1,0.2,0.1c0.3,0,0.7,0,1,0c0.1,0,0.2,0,0.2,0c0.1,0.4,0.1,2.4,0,2.8c-0.4,0.1-5.1,0.1-5.4,0\n                    c-0.1-0.4-0.1-1.9,0-2.9c0.1,0,0.1-0.1,0.2-0.2c0.3-0.2,0.7-0.5,1-0.7c1-0.9,1.6-2,1.8-3.3c0.1-0.8,0.1-1.5-0.1-2.3\n                    c-0.1-0.4-0.2-0.8-0.5-1.2c-0.6-0.9-1.8-1.3-2.9-0.9C45.3,9,45,9.3,44.8,9.7c-0.3,0.4-0.4,0.9-0.6,1.3c-0.1,0.6-0.2,1.3-0.4,1.9\n                    c-0.2,1-0.3,2-0.5,3c-0.1,0.7-0.4,1.4-0.7,2c-0.2,0.3-0.4,0.6-0.6,0.9c-0.8,1.1-1.9,1.7-3.2,1.8c-0.8,0.1-1.5,0-2.2-0.1\n                    c-1.3-0.3-2.3-1.1-2.9-2.2c-0.5-0.8-0.8-1.8-1-2.8c-0.2-1.1-0.2-2.3,0-3.4c0.2-1.5,0.8-2.9,1.9-4C34.7,8.1,34.8,8,34.9,7.9z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_12_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M223.1,23.3c-1.1,0-2.1,0-3.2,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.3-0.3-0.6-0.6-0.9-0.9\n                    c-1.1-0.9-2.3-1.1-3.6-0.8c-0.3,0.1-0.6,0.2-0.8,0.4c-0.7,0.5-0.7,1.6,0,2.1c0.2,0.2,0.5,0.3,0.8,0.4c0.3,0.1,0.7,0.2,1.1,0.3\n                    c1,0.2,2,0.3,3.1,0.5c0.7,0.1,1.4,0.4,2.1,0.7c0.4,0.2,0.8,0.5,1.2,0.8c0.6,0.6,1,1.4,1.1,2.3c0.1,0.6,0,1.1-0.1,1.7\n                    c-0.2,1.1-0.9,2-1.8,2.6c-0.6,0.4-1.2,0.6-1.9,0.8c-1.7,0.3-3.5,0.2-5.1-0.4c-0.6-0.2-1.1-0.5-1.6-0.9c-0.1-0.1-0.2-0.1-0.3-0.2\n                    c-0.1,0.1-0.1,0.3-0.1,0.4c0,0.1,0,0.3,0,0.4c0,0.1,0,0.3,0,0.4c-0.4,0.1-2.9,0.1-3.2,0c0-0.4,0-4.5,0-5c0.5-0.1,1.1,0,1.6,0\n                    c0.5,0,1.1,0,1.6,0c0.1,0.1,0.2,0.2,0.3,0.3c0.4,0.4,0.8,0.8,1.2,1.2c1.3,1,2.7,1.4,4.3,1.1c0.3,0,0.5-0.1,0.8-0.3\n                    c0.9-0.5,0.9-1.8,0.2-2.3c-0.2-0.2-0.4-0.3-0.7-0.4c-0.4-0.1-0.7-0.2-1.1-0.3c-0.9-0.1-1.8-0.3-2.6-0.4c-0.8-0.1-1.5-0.4-2.3-0.7\n                    c-0.5-0.2-0.9-0.5-1.3-0.8c-0.9-0.8-1.4-1.7-1.5-3c0-1,0.2-1.9,0.9-2.7c0.4-0.5,0.9-0.8,1.4-1.1c0.7-0.4,1.5-0.6,2.3-0.7\n                    c0.8-0.1,1.6-0.1,2.4,0c1,0.1,2,0.4,2.8,1.1c0,0,0.1,0,0.1,0.1c0,0,0,0,0.1,0c0.1-0.3,0-0.5,0.1-0.8c0.3-0.1,0.7,0,1,0\n                    c0.4,0,0.7,0,1.1,0c0.3,0,0.7,0,1,0c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0,1.4,0,2.7,0,4.1C223.1,23,223.1,23.1,223.1,23.3z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_9_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M167,27.5c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0\n                    c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.3,0c0,0.1,0,0.2,0,0.3\n                    c0.5,1.7,1.8,2.7,3.6,2.9c0.6,0.1,1.1,0,1.7-0.1c0.8-0.2,1.4-0.5,1.8-1.2c0,0,0,0,0.1-0.1c0.4-0.1,3.4-0.1,3.8,0\n                    c0,0.2-0.1,0.3-0.1,0.4c-0.4,1.1-1.2,2-2.1,2.7c-0.8,0.6-1.8,1-2.8,1.2c-1.6,0.3-3.3,0.3-4.8-0.3c-2.5-1-4-2.8-4.6-5.3\n                    c-0.4-1.8-0.3-3.6,0.5-5.4c1.1-2.3,2.9-3.6,5.4-4.1c1.3-0.3,2.6-0.2,3.9,0.2c2.4,0.8,3.9,2.4,4.6,4.8c0.2,0.6,0.3,1.3,0.3,2\n                    c0,0.4,0,0.9,0,1.3C167,27.1,167,27.3,167,27.5z M163.6,24.7c0-0.1,0-0.2,0-0.2c-0.1-0.6-0.3-1.2-0.7-1.7c-0.5-0.7-1.1-1.1-1.9-1.4\n                    c-0.5-0.2-1.1-0.2-1.6-0.1c-1,0.1-1.8,0.5-2.4,1.1c-0.6,0.6-1,1.3-1.2,2.1c0,0,0,0.1,0,0.1c0,0,0.1,0,0.1,0\n                    C158.4,24.7,161,24.7,163.6,24.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_6_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M207.7,27.5c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.2,0\n                    c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.3,0c0,0.1,0,0.2,0,0.3\n                    c0.5,1.7,1.8,2.7,3.6,2.9c0.6,0.1,1.2,0,1.8-0.1c0.7-0.2,1.3-0.5,1.7-1.1c0,0,0.1-0.1,0.1-0.1c0.4-0.1,3.4-0.1,3.8,0\n                    c0,0.2-0.1,0.3-0.1,0.4c-0.4,1.1-1.2,2-2.1,2.7c-0.8,0.6-1.8,1-2.8,1.2c-1.6,0.3-3.3,0.3-4.8-0.3c-2.5-1-4-2.8-4.6-5.3\n                    c-0.4-1.8-0.3-3.6,0.5-5.4c1.1-2.3,2.9-3.6,5.4-4.1c1.3-0.3,2.6-0.2,3.9,0.2c2.4,0.8,3.9,2.4,4.6,4.8c0.2,0.6,0.3,1.3,0.3,2\n                    c0,0.4,0,0.9,0,1.3C207.7,27.1,207.7,27.3,207.7,27.5z M196.4,24.7c2.6,0,5.2,0,7.7,0c0,0,0.1,0,0.1,0c0-0.1,0-0.1,0-0.2\n                    c-0.1-0.5-0.3-1.1-0.6-1.5c-0.5-0.7-1.1-1.3-2-1.5c-0.4-0.1-0.7-0.2-1.1-0.2c-1.2,0-2.3,0.4-3.2,1.3c-0.5,0.6-0.9,1.2-1.1,2\n                    C196.4,24.6,196.4,24.6,196.4,24.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_5_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M144.8,14.8c-0.4,0-0.8,0-1.2,0c-0.4,0-0.7,0-1.1,0c-0.1-0.4-0.1-2.9,0-3.2\n                    c0.1,0,0.2,0,0.2,0c1.9,0,5.2,0,5.6,0c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2\n                    c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2\n                    c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0.1,0,0.2,0,0.3,0c0.6,0,1.1,0,1.7,0c0.1,0,0.2,0,0.3,0\n                    c0,0,0.1,0.1,0.1,0.1c0,1,0,2,0,2.9c0,0.1,0,0.1,0,0.2c-0.2,0.1-0.3,0-0.5,0c-2.2,0-4.3,0-6.5,0c-0.3,0-0.6,0-0.9,0\n                    c-0.1,0-0.2,0-0.3,0c0-0.1,0-0.2,0-0.3c0-0.9,0-1.8,0-2.7c0-0.1,0-0.2,0-0.3c0.8,0,1.5,0,2.3,0c0-0.1,0-0.2,0-0.3\n                    c0-0.1,0-0.2,0-0.3c0-4.8,0-9.5,0-14.3C144.8,15.2,144.8,15,144.8,14.8z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_4_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M90.2,30.2c0.8,0,1.6,0,2.3,0c0.1,0.4,0.1,2.7,0,3.2c-0.2,0.1-0.3,0-0.5,0\n                    c-1.2,0-2.4,0-3.6,0c-1.2,0-2.4,0-3.6,0c-0.2,0-0.3,0-0.5,0c-0.1-0.3-0.1-2.4,0-3.2c0.1,0,0.2,0,0.2,0c0.6,0,1.1,0,1.7,0\n                    c0.1,0,0.2,0,0.3,0c0-0.1,0-0.1,0-0.1c0-2.6,0-5.2,0-7.9c-0.1,0-0.2,0-0.3,0c-0.6,0-1.1,0-1.7,0c-0.1,0-0.2,0-0.3,0\n                    c0-0.1,0-0.1,0-0.1c0-1,0-2,0-3.1c0.1,0,0.2,0,0.2,0c1.8,0,3.6,0,5.4,0c0.1,0,0.1,0,0.2,0c0.1,0.1,0.1,0.3,0.1,0.4\n                    c0,1.9,0,3.9,0,5.8c0,1.5,0,3.1,0,4.6C90.2,29.8,90.2,30,90.2,30.2z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_3_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M90.8,14c0,1.3-1.1,2.3-2.3,2.4c-0.4,0-0.7,0-1.1-0.2c-0.9-0.3-1.6-1.2-1.5-2.4\n                    c0.1-1,0.8-1.8,1.8-2.1c0.6-0.2,1.2-0.1,1.8,0.2C90.3,12.3,90.8,13,90.8,14z"
+                  }
+                })
+              ])
+            ]
+          ),
           _vm._v(" "),
           _c("div", { staticClass: "md:hidden mt-4" }, [
             _c("div", { staticClass: "flex items-center " }, [
@@ -65000,17 +64739,167 @@ var render = function() {
         "div",
         {
           staticClass:
-            "w-64 bg-gray-800 px-8 py-4 min-h-screen lg:block lg:relative",
+            "w-64 bg-gray-800 px-8 py-5 min-h-screen lg:block lg:relative",
           class: {
             "block fixed z-30 border-r": _vm.showingNavigationDropdown,
             hidden: !_vm.showingNavigationDropdown
           }
         },
         [
-          _c("img", {
-            staticClass: "h-9",
-            attrs: { src: "/images/main/SimpleDeskWhite.png", alt: "" }
-          }),
+          _c(
+            "svg",
+            {
+              staticClass: "h-8",
+              attrs: {
+                version: "1.1",
+                xmlns: "http://www.w3.org/2000/svg",
+                "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                x: "0px",
+                y: "0px",
+                viewBox: "0 0 255.1 47.3",
+                "enable-background": "new 0 0 255.1 47.3",
+                "xml:space": "preserve"
+              }
+            },
+            [
+              _c("g", { attrs: { id: "XMLID_2_" } }, [
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_25_",
+                    fill: "#B6D435",
+                    d:
+                      "M10.2,2.6c0.4-0.1,19.9,0,20.3,0c0,0.1,0,0.2,0,0.2c0,0.1,0,0.2,0,0.3c0,6.4,0,12.8,0,19.2\n                    c0,0.2,0,0.3,0,0.5c-0.1,0-0.2,0-0.3,0c-0.1,0-0.2,0-0.3,0c-6.4,0-12.8,0-19.2,0c-0.2,0-0.3,0-0.5,0c0-0.1,0-0.2,0-0.2\n                    c0-0.1,0-0.2,0-0.3c0-6.4,0-12.8,0-19.2C10.2,3,10.2,2.8,10.2,2.6z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_24_",
+                    fill: "#BADB94",
+                    d:
+                      "M52.4,44.7c-0.5,0.1-17.9,0.1-20,0c-0.1,0-0.2,0-0.3,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.4\n                    c0-6.3,0-12.7,0-19c0-0.2,0-0.4,0-0.6c0.1,0,0.2-0.1,0.3-0.1c0.1,0,0.2,0,0.4,0c6.4,0,12.7,0,19.1,0c0.2,0,0.3,0,0.5,0\n                    c0,0.1,0,0.2,0.1,0.3c0,0.1,0,0.2,0,0.3c0,6.4,0,12.7,0,19.1C52.5,44.3,52.4,44.5,52.4,44.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_23_",
+                    fill: "#4DBFA7",
+                    d:
+                      "M20.4,24.7c5.4,0,10,4.3,10,10c0,5.5-4.4,9.9-10,9.9c-5.7,0-10-4.6-10-10\n                    C10.4,29.1,14.8,24.7,20.4,24.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_22_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M110.4,30.2c0.8,0,1.5,0,2.3,0c0,0.1,0,0.1,0,0.2c0,1,0,1.9,0,2.9c0,0.1,0,0.1,0,0.2\n                    c-0.4,0.1-7.8,0.1-8.2,0c-0.1-0.3-0.1-2.8,0-3.2c0.2-0.1,0.5,0,0.7,0c0.2,0,0.5,0,0.7,0c0.2,0,0.5,0,0.8,0c0-0.1,0-0.2,0-0.3\n                    c0-1.5,0-3,0-4.5c0-0.6-0.1-1.1-0.3-1.6c-0.4-1.2-1.3-1.9-2.6-2.1c-1.1-0.2-2.1,0.1-2.9,0.9c-0.3,0.2-0.5,0.5-0.8,0.8\n                    c-0.1,0.2-0.2,0.3-0.2,0.6c0,0.3,0,0.7,0,1c0,1.6,0,3.2,0,4.8c0,0.2,0,0.3,0,0.5c0.8,0.1,1.6,0,2.3,0c0.1,0.4,0.1,2.8,0,3.2\n                    c-0.1,0-0.1,0-0.2,0c-1,0-7.6,0-8,0c-0.1-0.3-0.1-2.6,0-3.2c0.1,0,0.2,0,0.2,0c0.5,0,1,0,1.5,0c0.1,0,0.3,0,0.4,0\n                    c0.1-0.1,0.1-0.3,0.1-0.4c0-1.4,0-2.9,0-4.3c0-1,0-1.9,0-2.9c0-0.1,0-0.3,0-0.5c-0.1,0-0.2,0-0.3,0c-0.5,0-1,0-1.5,0\n                    c-0.1,0-0.3,0-0.5,0c0-0.1-0.1-0.1-0.1-0.2c0-1,0-1.9,0-2.9c0,0,0-0.1,0-0.1c0.1,0,0.1,0,0.2,0c1.8,0,3.6,0,5.4,0\n                    c0.1,0,0.1,0,0.2,0c0.1,0.3,0,0.6,0.1,0.9c0.1,0,0.2,0,0.2-0.1c0.9-0.8,1.9-1.2,3.1-1.3c1-0.1,2,0.1,3,0.4c0.8,0.3,1.5,0.8,2.1,1.5\n                    c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0,0,0.1,0c0.2-0.2,0.4-0.3,0.6-0.5c0.8-0.6,1.6-1.1,2.6-1.4c1.3-0.4,2.7-0.5,4-0.1\n                    c2,0.5,3.4,1.8,4.2,3.7c0.4,1,0.6,2,0.6,3.1c0,1.4,0,2.8,0,4.3c0,0.2,0,0.3,0,0.5c0.1,0,0.2,0,0.3,0c0.5,0,1.1,0,1.6,0\n                    c0.1,0,0.3,0,0.4,0c0.1,0.4,0,0.7,0,1.1c0,0.4,0,0.7,0,1.1c0,0.3,0,0.7,0,1c-0.2,0.1-0.3,0.1-0.5,0.1c-2.2,0-4.4,0-6.5,0\n                    c-0.3,0-0.6,0-1,0c-0.1,0-0.2,0-0.3,0c-0.1-0.6,0-1.1,0-1.6c0-0.5,0-1,0-1.6c0.1,0,0.2,0,0.3,0c0.6,0,1.1,0,1.7,0\n                    c0.1,0,0.2,0,0.4,0c0-0.1,0-0.2,0-0.3c0-1.5,0-3,0-4.4c0-0.6-0.1-1.1-0.3-1.6c-0.4-1.3-1.3-2-2.6-2.2c-1.2-0.2-2.3,0.2-3.2,1\n                    c-0.3,0.2-0.5,0.5-0.7,0.8c-0.1,0.1-0.1,0.2-0.1,0.4c0.1,0.6,0.1,1.3,0.1,1.9c0,1.3,0,2.6,0,3.9C110.3,29.8,110.3,30,110.4,30.2z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_19_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M171.2,15.7c-0.9,0-1.7,0-2.6,0c0-0.1,0-0.1,0-0.2c0-1,0-2,0-2.9c0,0,0-0.1,0-0.1\n                    c0.1,0,0.2,0,0.3,0c3.4,0,6.9,0,10.3,0c1.9,0,3.8,0.4,5.5,1.3c2.9,1.5,4.7,3.8,5.4,7c0.7,3.3,0,6.3-2.1,8.9\n                    c-1.3,1.6-3.1,2.7-5.1,3.3c-1.2,0.4-2.4,0.5-3.7,0.6c-3.4,0-6.9,0-10.3,0c-0.1,0-0.2,0-0.3,0c-0.1-0.3-0.1-2.7,0-3.2\n                    c0.1,0,0.2,0,0.3,0c0.6,0,1.2,0,1.8,0c0.1,0,0.3,0,0.5,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c0-4.5,0-8.9,0-13.4\n                    C171.2,16.1,171.2,15.9,171.2,15.7z M174.9,30c0.1,0,0.2,0,0.3,0c1.4,0,2.7,0,4.1,0c0.8,0,1.5-0.1,2.2-0.4c3.5-1.1,5.5-4.4,4.9-8\n                    c-0.3-1.7-1.1-3.1-2.5-4.2c-1.3-1.1-2.9-1.6-4.6-1.6c-1.4,0-2.7,0-4.1,0c-0.1,0-0.2,0-0.3,0C174.9,20.6,174.9,25.3,174.9,30z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_18_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M63.8,33.4c0-2.3,0-4.5,0-6.8c0.1,0,0.2,0,0.3,0c1,0,2,0,3,0c0.1,0,0.1,0,0.2,0\n                    c0.2,0.3,0.4,0.5,0.6,0.8c0.4,0.5,0.7,0.9,1.2,1.3c1.1,1.1,2.5,1.6,4,1.8c0.6,0,1.2,0.1,1.8,0c0.6-0.1,1.1-0.2,1.6-0.4\n                    c0.2-0.1,0.4-0.2,0.6-0.4c1.2-0.9,1.1-2.6,0.3-3.4c-0.3-0.3-0.6-0.5-0.9-0.7c-0.5-0.3-1-0.4-1.6-0.5c-1.4-0.2-2.9-0.5-4.3-0.7\n                    c-0.9-0.2-1.9-0.4-2.7-0.8c-0.6-0.3-1.2-0.6-1.7-1.1c-1-0.9-1.6-2-1.7-3.4c-0.1-0.9-0.1-1.8,0.2-2.6c0.4-1.3,1.1-2.4,2.3-3.1\n                    c0.8-0.5,1.6-0.9,2.5-1.1c1.8-0.4,3.6-0.4,5.5,0c1.2,0.3,2.3,0.9,3.2,1.8c0,0,0.1,0.1,0.2,0.1c0.1-0.2,0-0.4,0-0.5\n                    c0-0.2,0-0.4,0-0.5c0-0.2,0-0.4,0-0.5c0,0,0-0.1,0.1-0.1c0,0,0,0,0,0c0.9,0,1.8,0,2.8,0c0.1,0,0.1,0,0.2,0c0,0,0,0,0.1,0\n                    c0.1,0.4,0.1,5.7,0,6.1c0,0,0,0,0,0c0,0,0,0,0,0c-1,0-2,0-3,0c-0.1,0-0.2,0-0.3,0c-0.1-0.1-0.2-0.2-0.2-0.4c-0.3-0.5-0.7-1-1.1-1.4\n                    c-0.9-0.9-2-1.4-3.2-1.5c-0.8-0.1-1.6-0.1-2.4,0c-0.5,0.1-0.9,0.2-1.4,0.4c-1.4,0.7-1.7,2.1-1.3,3.2c0.1,0.4,0.4,0.8,0.7,1.1\n                    c0.3,0.3,0.7,0.4,1,0.6c0.7,0.3,1.4,0.4,2.1,0.5c1.2,0.2,2.5,0.4,3.7,0.6c0.9,0.2,1.8,0.5,2.7,0.9c0.7,0.4,1.4,0.8,1.9,1.4\n                    c0.7,0.8,1.1,1.8,1.3,2.8c0.1,0.8,0.1,1.7-0.1,2.5c-0.3,1.4-1.1,2.5-2.3,3.3c-0.8,0.6-1.8,0.9-2.8,1.1C74.7,34,73,34,71.3,33.6\n                    c-1.5-0.3-2.8-1-3.8-2.1c0,0-0.1-0.1-0.1-0.1c0,0,0,0,0,0c-0.1,0-0.1,0.1-0.1,0.2c0,0.5,0,0.9,0,1.4c0,0.1,0,0.3,0,0.4\n                    c-0.1,0-0.1,0-0.2,0c-1,0-2.1,0-3.1,0C63.9,33.5,63.8,33.4,63.8,33.4z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_17_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M225.3,11.5c0.4-0.1,5.4-0.1,5.8,0c0,0.1,0,0.2,0,0.2c0,0.1,0,0.3,0,0.4c0,4.3,0,8.5,0,12.8\n                    c0,0.2,0,0.4,0,0.5c0.1,0.1,0.2,0,0.3-0.1c1.1-0.9,2.3-1.8,3.4-2.7c0.4-0.3,0.7-0.6,1.1-0.9c0-0.1,0-0.2,0-0.3c0-0.7,0-1.5,0-2.2\n                    c0-0.1,0-0.3,0-0.4c0.1,0,0.1,0,0.2,0c2.4,0,4.8,0,7.2,0c0,0.1,0,0.1,0,0.2c0,1,0,2,0,2.9c0,0,0,0.1,0,0.1c-0.1,0-0.2,0-0.3,0\n                    c-0.9,0-1.8,0-2.6,0c-0.2,0-0.3,0-0.5,0.2c-0.9,0.7-1.8,1.4-2.7,2.1c0,0-0.1,0.1-0.1,0.1c0,0,0,0,0,0c0,0,0,0,0,0\n                    c1.4,1.8,2.8,3.5,4.2,5.3c0.1,0.1,0.2,0.2,0.2,0.3c1,0,2.1,0,3.1,0c0,0,0,0,0.1,0.1c0,0,0,0,0,0c0,0.9,0,1.8,0,2.8\n                    c0,0.1,0,0.2,0,0.3c-0.2,0.1-0.3,0.1-0.5,0.1c-1.9,0-3.9,0-5.8,0c-0.2,0-0.3,0-0.5,0c0-0.1,0-0.2,0-0.3c0-0.6,0-1.2,0-1.8\n                    c0-0.2,0-0.4-0.2-0.5c-1.1-1.3-2.2-2.7-3.2-4c0-0.1-0.1-0.1-0.1-0.2c-0.3,0.2-2.6,2-3.4,2.7c0,0.1,0,0.2,0,0.4c0,0.1,0,0.2,0,0.4\n                    c0.1,0,0.2,0,0.3,0c0.6,0,1.2,0,1.8,0c0.1,0,0.3,0,0.4,0c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0,0.1,0,0.2,0,0.3c0,0.9,0,1.9,0,2.8\n                    c-0.1,0.1-0.3,0.1-0.4,0.1c-1.2,0-2.3,0-3.5,0c-1.4,0-2.7,0-4.1,0c-0.2,0-0.3,0-0.5,0c0-0.1-0.1-0.1-0.1-0.2c0-1,0-2,0-2.9\n                    c0,0,0-0.1,0-0.1c0.1,0,0.2,0,0.2,0c0.5,0,1.1,0,1.6,0c0.1,0,0.3,0,0.5,0c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c0-4.8,0-9.5,0-14.3\n                    c0-0.2,0-0.3,0-0.5c-0.4,0-0.8,0-1.1,0c-0.4,0-0.7,0-1.1,0c-0.1-0.4,0-0.7,0-1.1c0-0.4,0-0.7,0-1.1\n                    C225.3,12.3,225.3,11.9,225.3,11.5z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_14_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M125.7,36.6c0.1-0.5,0-14.1,0-14.5c-0.1,0-0.2,0-0.2,0c-0.6,0-1.1,0-1.7,0\n                    c-0.1,0-0.2,0-0.3,0c0,0-0.1,0-0.1-0.1c0,0,0,0,0,0c0-1,0-1.9,0-2.9c0-0.1,0-0.1,0-0.2c0.1,0,0.1,0,0.2,0c1.8,0,3.7,0,5.5,0\n                    c0,0,0.1,0,0.2,0c0.1,0.3,0,0.6,0,0.9c0.1,0.1,0.2,0,0.3-0.1c0.7-0.5,1.5-0.8,2.4-1c4.5-1,8.1,1.8,9,5.5c0.6,2.4,0.2,4.6-1.3,6.6\n                    c-1.2,1.7-2.9,2.7-4.9,3c-1.8,0.2-3.5-0.1-5.1-1c-0.1-0.1-0.2-0.2-0.4-0.2c-0.1,0.4-0.1,3.5,0,4.1c0.1,0,0.2,0,0.3,0\n                    c0.9,0,1.8,0,2.6,0c0.1,0,0.3,0,0.4,0c0.1,0.4,0.1,2.7,0,3.2c-0.1,0.1-0.2,0.1-0.4,0.1c-1.3,0-2.6,0-3.9,0c-1.5,0-3,0-4.5,0\n                    c-0.1,0-0.3,0-0.4,0c-0.1-0.3-0.1-2.6,0-3.2c0.1,0,0.2,0,0.2,0c0.5,0,1.1,0,1.6,0C125.4,36.6,125.5,36.6,125.7,36.6z M133.2,21.6\n                    c-0.2,0-0.5,0-0.7,0.1c-1.2,0.2-2.1,0.7-3,1.5c-0.1,0.1-0.2,0.2-0.2,0.4c0,1.7,0,3.4,0,5.2c0,0.2,0,0.3,0.2,0.4\n                    c1.1,1,2.3,1.6,3.8,1.6c1.3,0,2.4-0.5,3.3-1.6c1.3-1.5,1.4-3.8,0.3-5.5C136,22.3,134.8,21.6,133.2,21.6z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_13_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M34.9,7.9c-0.7,0-1.3,0-1.9,0c-0.1-0.3,0-0.5,0-0.8c0-0.3,0-0.5,0-0.8c0-0.2,0-0.5,0-0.7\n                    c0-0.2,0-0.5,0-0.7c0.4-0.1,5.6-0.1,6,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0.9,0,1.8,0,2.7c0,0.1,0,0.2,0,0.3c-0.1,0.1-0.2,0.2-0.4,0.3\n                    c-0.5,0.4-0.9,0.7-1.4,1.2c-0.9,0.9-1.5,2.1-1.6,3.4c-0.1,0.7-0.1,1.4,0,2.1c0.1,0.5,0.2,1,0.5,1.4c0.9,1.4,2.6,1.3,3.5,0.2\n                    c0.4-0.5,0.6-1.1,0.7-1.8c0.2-1.2,0.4-2.4,0.6-3.7c0.1-0.8,0.3-1.5,0.5-2.2c0.2-0.6,0.5-1.2,0.9-1.7c0.8-1.1,2-1.7,3.4-1.9\n                    c0.8-0.1,1.7,0,2.5,0.3c1.1,0.4,1.9,1.1,2.6,2c0.5,0.7,0.8,1.5,0.9,2.3c0.3,1.5,0.3,3,0,4.6c-0.3,1.1-0.8,2.1-1.6,2.9\n                    c0,0-0.1,0.1-0.1,0.1c0,0.1,0.1,0.1,0.2,0.1c0.3,0,0.7,0,1,0c0.1,0,0.2,0,0.2,0c0.1,0.4,0.1,2.4,0,2.8c-0.4,0.1-5.1,0.1-5.4,0\n                    c-0.1-0.4-0.1-1.9,0-2.9c0.1,0,0.1-0.1,0.2-0.2c0.3-0.2,0.7-0.5,1-0.7c1-0.9,1.6-2,1.8-3.3c0.1-0.8,0.1-1.5-0.1-2.3\n                    c-0.1-0.4-0.2-0.8-0.5-1.2c-0.6-0.9-1.8-1.3-2.9-0.9C45.3,9,45,9.3,44.8,9.7c-0.3,0.4-0.4,0.9-0.6,1.3c-0.1,0.6-0.2,1.3-0.4,1.9\n                    c-0.2,1-0.3,2-0.5,3c-0.1,0.7-0.4,1.4-0.7,2c-0.2,0.3-0.4,0.6-0.6,0.9c-0.8,1.1-1.9,1.7-3.2,1.8c-0.8,0.1-1.5,0-2.2-0.1\n                    c-1.3-0.3-2.3-1.1-2.9-2.2c-0.5-0.8-0.8-1.8-1-2.8c-0.2-1.1-0.2-2.3,0-3.4c0.2-1.5,0.8-2.9,1.9-4C34.7,8.1,34.8,8,34.9,7.9z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_12_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M223.1,23.3c-1.1,0-2.1,0-3.2,0c-0.1-0.1-0.2-0.2-0.4-0.4c-0.3-0.3-0.6-0.6-0.9-0.9\n                    c-1.1-0.9-2.3-1.1-3.6-0.8c-0.3,0.1-0.6,0.2-0.8,0.4c-0.7,0.5-0.7,1.6,0,2.1c0.2,0.2,0.5,0.3,0.8,0.4c0.3,0.1,0.7,0.2,1.1,0.3\n                    c1,0.2,2,0.3,3.1,0.5c0.7,0.1,1.4,0.4,2.1,0.7c0.4,0.2,0.8,0.5,1.2,0.8c0.6,0.6,1,1.4,1.1,2.3c0.1,0.6,0,1.1-0.1,1.7\n                    c-0.2,1.1-0.9,2-1.8,2.6c-0.6,0.4-1.2,0.6-1.9,0.8c-1.7,0.3-3.5,0.2-5.1-0.4c-0.6-0.2-1.1-0.5-1.6-0.9c-0.1-0.1-0.2-0.1-0.3-0.2\n                    c-0.1,0.1-0.1,0.3-0.1,0.4c0,0.1,0,0.3,0,0.4c0,0.1,0,0.3,0,0.4c-0.4,0.1-2.9,0.1-3.2,0c0-0.4,0-4.5,0-5c0.5-0.1,1.1,0,1.6,0\n                    c0.5,0,1.1,0,1.6,0c0.1,0.1,0.2,0.2,0.3,0.3c0.4,0.4,0.8,0.8,1.2,1.2c1.3,1,2.7,1.4,4.3,1.1c0.3,0,0.5-0.1,0.8-0.3\n                    c0.9-0.5,0.9-1.8,0.2-2.3c-0.2-0.2-0.4-0.3-0.7-0.4c-0.4-0.1-0.7-0.2-1.1-0.3c-0.9-0.1-1.8-0.3-2.6-0.4c-0.8-0.1-1.5-0.4-2.3-0.7\n                    c-0.5-0.2-0.9-0.5-1.3-0.8c-0.9-0.8-1.4-1.7-1.5-3c0-1,0.2-1.9,0.9-2.7c0.4-0.5,0.9-0.8,1.4-1.1c0.7-0.4,1.5-0.6,2.3-0.7\n                    c0.8-0.1,1.6-0.1,2.4,0c1,0.1,2,0.4,2.8,1.1c0,0,0.1,0,0.1,0.1c0,0,0,0,0.1,0c0.1-0.3,0-0.5,0.1-0.8c0.3-0.1,0.7,0,1,0\n                    c0.4,0,0.7,0,1.1,0c0.3,0,0.7,0,1,0c0,0,0.1,0,0.1,0.1c0,0,0,0,0,0c0,1.4,0,2.7,0,4.1C223.1,23,223.1,23.1,223.1,23.3z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_9_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M167,27.5c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0\n                    c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.3,0c0,0.1,0,0.2,0,0.3\n                    c0.5,1.7,1.8,2.7,3.6,2.9c0.6,0.1,1.1,0,1.7-0.1c0.8-0.2,1.4-0.5,1.8-1.2c0,0,0,0,0.1-0.1c0.4-0.1,3.4-0.1,3.8,0\n                    c0,0.2-0.1,0.3-0.1,0.4c-0.4,1.1-1.2,2-2.1,2.7c-0.8,0.6-1.8,1-2.8,1.2c-1.6,0.3-3.3,0.3-4.8-0.3c-2.5-1-4-2.8-4.6-5.3\n                    c-0.4-1.8-0.3-3.6,0.5-5.4c1.1-2.3,2.9-3.6,5.4-4.1c1.3-0.3,2.6-0.2,3.9,0.2c2.4,0.8,3.9,2.4,4.6,4.8c0.2,0.6,0.3,1.3,0.3,2\n                    c0,0.4,0,0.9,0,1.3C167,27.1,167,27.3,167,27.5z M163.6,24.7c0-0.1,0-0.2,0-0.2c-0.1-0.6-0.3-1.2-0.7-1.7c-0.5-0.7-1.1-1.1-1.9-1.4\n                    c-0.5-0.2-1.1-0.2-1.6-0.1c-1,0.1-1.8,0.5-2.4,1.1c-0.6,0.6-1,1.3-1.2,2.1c0,0,0,0.1,0,0.1c0,0,0.1,0,0.1,0\n                    C158.4,24.7,161,24.7,163.6,24.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_6_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M207.7,27.5c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0c-0.4,0-0.8,0-1.2,0\n                    c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.2,0s-0.8,0-1.2,0c-0.4,0-0.8,0-1.3,0c-0.4,0-0.8,0-1.3,0c0,0.1,0,0.2,0,0.3\n                    c0.5,1.7,1.8,2.7,3.6,2.9c0.6,0.1,1.2,0,1.8-0.1c0.7-0.2,1.3-0.5,1.7-1.1c0,0,0.1-0.1,0.1-0.1c0.4-0.1,3.4-0.1,3.8,0\n                    c0,0.2-0.1,0.3-0.1,0.4c-0.4,1.1-1.2,2-2.1,2.7c-0.8,0.6-1.8,1-2.8,1.2c-1.6,0.3-3.3,0.3-4.8-0.3c-2.5-1-4-2.8-4.6-5.3\n                    c-0.4-1.8-0.3-3.6,0.5-5.4c1.1-2.3,2.9-3.6,5.4-4.1c1.3-0.3,2.6-0.2,3.9,0.2c2.4,0.8,3.9,2.4,4.6,4.8c0.2,0.6,0.3,1.3,0.3,2\n                    c0,0.4,0,0.9,0,1.3C207.7,27.1,207.7,27.3,207.7,27.5z M196.4,24.7c2.6,0,5.2,0,7.7,0c0,0,0.1,0,0.1,0c0-0.1,0-0.1,0-0.2\n                    c-0.1-0.5-0.3-1.1-0.6-1.5c-0.5-0.7-1.1-1.3-2-1.5c-0.4-0.1-0.7-0.2-1.1-0.2c-1.2,0-2.3,0.4-3.2,1.3c-0.5,0.6-0.9,1.2-1.1,2\n                    C196.4,24.6,196.4,24.6,196.4,24.7z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_5_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M144.8,14.8c-0.4,0-0.8,0-1.2,0c-0.4,0-0.7,0-1.1,0c-0.1-0.4-0.1-2.9,0-3.2\n                    c0.1,0,0.2,0,0.2,0c1.9,0,5.2,0,5.6,0c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2\n                    c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2\n                    c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0,0.4,0,0.8,0,1.1c0,0.4,0,0.8,0,1.2c0.1,0,0.2,0,0.3,0c0.6,0,1.1,0,1.7,0c0.1,0,0.2,0,0.3,0\n                    c0,0,0.1,0.1,0.1,0.1c0,1,0,2,0,2.9c0,0.1,0,0.1,0,0.2c-0.2,0.1-0.3,0-0.5,0c-2.2,0-4.3,0-6.5,0c-0.3,0-0.6,0-0.9,0\n                    c-0.1,0-0.2,0-0.3,0c0-0.1,0-0.2,0-0.3c0-0.9,0-1.8,0-2.7c0-0.1,0-0.2,0-0.3c0.8,0,1.5,0,2.3,0c0-0.1,0-0.2,0-0.3\n                    c0-0.1,0-0.2,0-0.3c0-4.8,0-9.5,0-14.3C144.8,15.2,144.8,15,144.8,14.8z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_4_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M90.2,30.2c0.8,0,1.6,0,2.3,0c0.1,0.4,0.1,2.7,0,3.2c-0.2,0.1-0.3,0-0.5,0\n                    c-1.2,0-2.4,0-3.6,0c-1.2,0-2.4,0-3.6,0c-0.2,0-0.3,0-0.5,0c-0.1-0.3-0.1-2.4,0-3.2c0.1,0,0.2,0,0.2,0c0.6,0,1.1,0,1.7,0\n                    c0.1,0,0.2,0,0.3,0c0-0.1,0-0.1,0-0.1c0-2.6,0-5.2,0-7.9c-0.1,0-0.2,0-0.3,0c-0.6,0-1.1,0-1.7,0c-0.1,0-0.2,0-0.3,0\n                    c0-0.1,0-0.1,0-0.1c0-1,0-2,0-3.1c0.1,0,0.2,0,0.2,0c1.8,0,3.6,0,5.4,0c0.1,0,0.1,0,0.2,0c0.1,0.1,0.1,0.3,0.1,0.4\n                    c0,1.9,0,3.9,0,5.8c0,1.5,0,3.1,0,4.6C90.2,29.8,90.2,30,90.2,30.2z"
+                  }
+                }),
+                _vm._v(" "),
+                _c("path", {
+                  attrs: {
+                    id: "XMLID_3_",
+                    fill: "#FFFFFF",
+                    d:
+                      "M90.8,14c0,1.3-1.1,2.3-2.3,2.4c-0.4,0-0.7,0-1.1-0.2c-0.9-0.3-1.6-1.2-1.5-2.4\n                    c0.1-1,0.8-1.8,1.8-2.1c0.6-0.2,1.2-0.1,1.8,0.2C90.3,12.3,90.8,13,90.8,14z"
+                  }
+                })
+              ])
+            ]
+          ),
           _vm._v(" "),
           _c("div", { staticClass: "md:hidden mt-4" }, [
             _c("div", { staticClass: "flex items-center " }, [
@@ -65213,7 +65102,9 @@ var render = function() {
                   {
                     attrs: {
                       href: _vm.route("client.ticket.index"),
-                      active: _vm.route().current("client.ticket.index")
+                      active:
+                        _vm.route().current("client.ticket.index") ||
+                        _vm.route().current("client.ticket.show")
                     },
                     scopedSlots: _vm._u([
                       {
@@ -65336,153 +65227,7 @@ var render = function() {
                   "jet-nav-link",
                   {
                     attrs: {
-                      href: _vm.route("client.dashboard.index"),
-                      active: _vm.route().current("client.dashboard.isndex")
-                    },
-                    scopedSlots: _vm._u([
-                      {
-                        key: "svg",
-                        fn: function() {
-                          return [
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M466.395,88.411C395.95,69.109,325.091,39.054,261.478,1.496c-3.379-1.995-7.572-1.995-10.95,0\n                                C185.08,40.133,118.05,68.562,45.605,88.411c-4.68,1.281-7.924,5.535-7.924,10.388v110.046\n                                c0,113.323,52.279,188.335,96.137,231.306c47.216,46.265,102.216,71.85,122.185,71.85c19.967,0,74.967-25.585,122.183-71.85\n                                c43.857-42.97,96.133-117.982,96.133-231.306V98.798C474.319,93.946,471.075,89.692,466.395,88.411z M452.779,208.844\n                                c0,105.843-48.761,175.838-89.669,215.92c-46.431,45.495-96.074,65.695-107.107,65.695c-11.033,0-60.679-20.2-107.111-65.695\n                                c-40.907-40.083-89.67-110.077-89.67-215.92V106.974C128.5,87.304,193.018,59.853,256.005,23.25\n                                c61.414,35.632,129.151,64.448,196.774,83.72V208.844z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M160.538,105.769c-2.18-5.535-8.433-8.254-13.969-6.073c-19.24,7.581-38.988,14.559-58.695,20.741\n                                c-4.491,1.41-7.547,5.57-7.547,10.276v41.591c0,5.948,4.823,10.77,10.77,10.77s10.77-4.822,10.77-10.77v-33.72\n                                c17.679-5.72,35.339-12.047,52.598-18.848C160,117.557,162.719,111.304,160.538,105.769z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M180.997,107.812c1.445,0,2.912-0.291,4.319-0.905l0.198-0.086c5.449-2.388,7.903-8.731,5.515-14.178\n                                c-2.39-5.449-8.769-7.914-14.212-5.528l-0.174,0.075c-5.452,2.381-7.914,8.719-5.533,14.169\n                                C172.877,105.405,176.842,107.812,180.997,107.812z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M384.322,347.283c-4.977-3.253-11.651-1.854-14.908,3.125c-8.875,13.584-19.287,26.592-30.951,38.659\n                                c-9.592,9.922-19.986,19.17-30.893,27.485c-4.729,3.606-5.639,10.364-2.034,15.095c2.121,2.779,5.328,4.241,8.572,4.241\n                                c2.278,0,4.573-0.719,6.523-2.207c11.765-8.971,22.975-18.944,33.317-29.642c12.611-13.044,23.881-27.124,33.499-41.849\n                                C390.702,357.21,389.301,350.536,384.322,347.283z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M282.558,433.443l-0.618,0.364c-5.147,2.981-6.906,9.569-3.926,14.716c1.997,3.45,5.612,5.376,9.331,5.376\n                                c1.83,0,3.688-0.467,5.385-1.452l0.713-0.419c5.133-3.006,6.857-9.603,3.851-14.736\n                                C294.286,432.161,287.688,430.44,282.558,433.443z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M182.589,234.019c-6.613-6.614-15.408-10.254-24.762-10.254s-18.15,3.641-24.766,10.254\n                                    c-13.653,13.656-13.653,35.876,0,49.531l63.596,63.594c6.614,6.612,15.409,10.253,24.764,10.253s18.15-3.641,24.765-10.255\n                                    L378.947,214.38c13.652-13.659,13.652-35.876-0.002-49.527c-6.614-6.614-15.409-10.254-24.765-10.254\n                                    c-9.355,0-18.15,3.641-24.765,10.254L221.42,272.848L182.589,234.019z M344.647,180.085c2.545-2.545,5.932-3.946,9.534-3.946\n                                    c3.604,0,6.988,1.401,9.535,3.946c5.255,5.255,5.255,13.809-0.002,19.066l-132.759,132.76c-2.545,2.545-5.932,3.946-9.534,3.946\n                                    s-6.989-1.401-9.535-3.946l-63.594-63.592c-5.257-5.257-5.257-13.811-0.002-19.066c2.546-2.545,5.933-3.948,9.536-3.948\n                                    s6.988,1.401,9.533,3.946l46.445,46.446c2.021,2.019,4.759,3.154,7.616,3.154s5.595-1.134,7.614-3.154L344.647,180.085z"
-                              }
-                            })
-                          ]
-                        },
-                        proxy: true
-                      }
-                    ])
-                  },
-                  [
-                    _vm._v(
-                      "\n                        Notifications\n                    "
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "jet-nav-link",
-                  {
-                    attrs: {
-                      href: _vm.route("client.dashboard.index"),
-                      active: _vm.route().current("client.dashboard.indexs")
-                    },
-                    scopedSlots: _vm._u([
-                      {
-                        key: "svg",
-                        fn: function() {
-                          return [
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M322.773,191.746l-11.051-4.875c-0.43-1.543-0.893-3.036-1.391-4.481l6.148-10.609c1.414-2.441,1.438-5.447,0.062-7.91\n\tc-3.232-5.773-7.092-11.171-11.512-16.094c-1.941-2.17-4.909-3.113-7.746-2.461l-9.223,2.112V96.121\n\tc-0.015-17.489-9.535-33.587-24.854-42.025c12.203-12.783,11.733-33.039-1.05-45.243C249.374-3.35,229.118-2.88,216.915,9.904\n\tc-11.805,12.366-11.805,31.827,0,44.192c-15.318,8.438-24.839,24.536-24.854,42.025v51.307l-9.223-2.112\n\tc-2.836-0.651-5.801,0.29-7.742,2.457c-4.419,4.923-8.281,10.319-11.516,16.09c-1.375,2.465-1.351,5.471,0.063,7.914l6.148,10.609\n\tc-0.492,1.43-0.951,2.904-1.375,4.422l-11.492,4.898c-2.949,1.257-4.863,4.153-4.863,7.359v18.109\n\tc0,3.206,1.914,6.102,4.863,7.359l11.492,4.898c0.426,1.523,0.883,2.992,1.375,4.418l-6.148,10.609\n\tc-1.414,2.441-1.438,5.447-0.063,7.91c3.233,5.772,7.094,11.17,11.512,16.094c1.94,2.172,4.908,3.115,7.746,2.461l11.617-2.66\n\tc1.141,0.894,2.314,1.76,3.52,2.598l1.125,12.324c0.261,2.843,2.016,5.331,4.606,6.531c5.93,2.775,12.156,4.867,18.559,6.234\n\tc2.848,0.588,5.792-0.41,7.695-2.609l8.152-9.457h3.898l8.152,9.457c1.901,2.203,4.847,3.202,7.695,2.609\n\tc6.401-1.369,12.626-3.46,18.555-6.234c2.589-1.198,4.343-3.686,4.602-6.527l1.129-12.328c1.207-0.836,2.381-1.702,3.523-2.598\n\tl11.617,2.66c2.838,0.653,5.806-0.29,7.746-2.461c4.416-4.923,8.276-10.318,11.512-16.086c1.375-2.465,1.351-5.471-0.062-7.914\n\tl-6.148-10.609c0.5-1.449,0.964-2.944,1.391-4.484l11.051-4.875c2.898-1.281,4.768-4.151,4.77-7.32v-18.11\n\tC327.541,195.897,325.671,193.027,322.773,191.746z M240.061,16.121c8.837,0,16,7.163,16,16s-7.163,16-16,16s-16-7.163-16-16\n\tC224.07,23.288,231.228,16.13,240.061,16.121z M208.061,96.121c0-17.673,14.327-32,32-32c17.673,0,32,14.327,32,32v28.663\n\tc-4.593-1.912-9.346-3.416-14.203-4.495c-2.848-0.59-5.793,0.409-7.695,2.609l-8.152,9.457h-3.898l-8.145-9.457\n\tc-1.904-2.201-4.85-3.2-7.699-2.609c-4.859,1.079-9.613,2.583-14.207,4.495V96.121z M311.541,211.961l-9.852,4.348\n\tc-2.313,1.023-4.007,3.078-4.57,5.543c-0.729,3.302-1.737,6.536-3.012,9.668c-0.951,2.302-0.776,4.915,0.473,7.07l5.691,9.816\n\tc-1.289,2-2.681,3.945-4.176,5.836l-10.711-2.453c-2.511-0.583-5.149,0.086-7.078,1.797c-2.491,2.19-5.163,4.165-7.988,5.902\n\tc-2.136,1.323-3.526,3.572-3.754,6.074l-1.047,11.426c-2.152,0.848-4.299,1.577-6.441,2.188l-7.34-8.512\n\tc-1.52-1.763-3.731-2.777-6.059-2.777h-11.234c-2.327,0.001-4.539,1.015-6.059,2.777l-7.34,8.516\n\tc-2.141-0.613-4.293-1.344-6.441-2.191l-1.043-11.422c-0.23-2.504-1.623-4.755-3.762-6.078c-2.823-1.739-5.494-3.713-7.984-5.902\n\tc-1.93-1.709-4.567-2.379-7.078-1.797l-10.711,2.453c-1.496-1.891-2.888-3.836-4.176-5.836l5.691-9.816\n\tc1.249-2.155,1.423-4.768,0.473-7.07c-1.276-3.131-2.284-6.366-3.012-9.668c-0.57-2.501-2.304-4.577-4.664-5.582l-10.277-4.379\n\tv-7.539l10.277-4.379c2.36-1.005,4.094-3.081,4.664-5.582c0.729-3.302,1.737-6.536,3.012-9.668c0.95-2.302,0.776-4.915-0.473-7.07\n\tl-5.691-9.816c1.289-2,2.68-3.945,4.172-5.836l10.715,2.453c2.511,0.572,5.144-0.096,7.078-1.797\n\tc2.491-2.19,5.163-4.164,7.988-5.902c2.136-1.323,3.526-3.572,3.754-6.074l1.047-11.426c2.148-0.848,4.297-1.578,6.445-2.191\n\tl7.332,8.516c1.521,1.763,3.734,2.777,6.062,2.777h11.234c2.327-0.001,4.539-1.015,6.059-2.777l7.34-8.516\n\tc2.141,0.613,4.293,1.344,6.441,2.191l1.043,11.422c0.23,2.504,1.623,4.755,3.762,6.078c2.823,1.739,5.494,3.713,7.984,5.902\n\tc1.933,1.702,4.567,2.371,7.078,1.797L296.096,162c1.496,1.891,2.888,3.836,4.176,5.836l-5.691,9.816\n\tc-1.249,2.155-1.423,4.768-0.473,7.07c1.275,3.132,2.282,6.366,3.012,9.668c0.563,2.465,2.258,4.52,4.57,5.543l9.852,4.348\n\tV211.961z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M392.061,352.121c-22.091,0-40,17.909-40,40c0,22.091,17.909,40,40,40c22.091,0,40-17.909,40-40\n\tC432.035,370.04,414.142,352.147,392.061,352.121z M392.061,416.121c-13.255,0-24-10.745-24-24s10.745-24,24-24s24,10.745,24,24\n\tC416.047,405.37,405.31,416.107,392.061,416.121z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M474.773,375.746l-11.051-4.875c-0.43-1.543-0.893-3.036-1.391-4.48l6.148-10.609c1.414-2.441,1.438-5.447,0.062-7.91\n\tc-3.232-5.773-7.092-11.171-11.512-16.094c-1.943-2.167-4.909-3.11-7.746-2.461l-9.223,2.112v-51.307\n\tc-0.015-17.489-9.535-33.587-24.854-42.025c12.203-12.783,11.733-33.039-1.05-45.243s-33.039-11.733-45.243,1.05\n\tc-11.805,12.366-11.805,31.827,0,44.192c-15.318,8.438-24.839,24.536-24.854,42.025v51.307l-9.223-2.112\n\tc-2.835-0.646-5.798,0.294-7.742,2.457c-4.419,4.923-8.281,10.319-11.516,16.09c-1.375,2.465-1.351,5.471,0.063,7.914\n\tl6.148,10.609c-0.492,1.43-0.951,2.904-1.375,4.422l-11.492,4.898c-2.949,1.257-4.863,4.153-4.863,7.359v18.109\n\tc0,3.206,1.914,6.102,4.863,7.359l11.492,4.898c0.426,1.523,0.883,2.992,1.375,4.418l-6.148,10.609\n\tc-1.414,2.441-1.438,5.447-0.063,7.91c3.233,5.772,7.094,11.17,11.512,16.094c1.938,2.174,4.908,3.118,7.746,2.461l11.617-2.66\n\tc1.141,0.894,2.314,1.76,3.52,2.598l1.125,12.324c0.261,2.843,2.016,5.331,4.606,6.531c5.93,2.775,12.156,4.867,18.559,6.234\n\tc2.849,0.595,5.796-0.405,7.695-2.609l8.152-9.457h3.898l8.152,9.457c1.901,2.203,4.847,3.202,7.695,2.609\n\tc6.401-1.369,12.626-3.46,18.555-6.234c2.589-1.198,4.343-3.686,4.602-6.527l1.129-12.328c1.207-0.836,2.382-1.702,3.523-2.598\n\tl11.617,2.66c2.838,0.659,5.809-0.285,7.746-2.461c4.416-4.923,8.276-10.318,11.512-16.086c1.375-2.465,1.351-5.471-0.062-7.914\n\tl-6.148-10.609c0.5-1.449,0.964-2.944,1.391-4.484l11.051-4.875c2.898-1.281,4.768-4.151,4.77-7.32v-18.11\n\tC479.541,379.897,477.671,377.027,474.773,375.746z M392.061,200.121c8.837,0,16,7.163,16,16s-7.163,16-16,16s-16-7.163-16-16\n\tC376.07,207.288,383.228,200.13,392.061,200.121z M360.061,280.121c0-17.673,14.327-32,32-32c17.673,0,32,14.327,32,32v28.663\n\tc-4.593-1.912-9.346-3.416-14.203-4.495c-2.848-0.586-5.791,0.411-7.695,2.609l-8.152,9.457h-3.898l-8.145-9.457\n\tc-1.906-2.198-4.85-3.196-7.699-2.609c-4.859,1.079-9.613,2.583-14.207,4.495V280.121z M463.542,395.961l-9.852,4.348\n\tc-2.313,1.023-4.007,3.078-4.57,5.543c-0.729,3.302-1.737,6.536-3.012,9.668c-0.951,2.302-0.776,4.915,0.473,7.07l5.691,9.816\n\tc-1.289,2-2.681,3.945-4.176,5.836l-10.711-2.453c-2.511-0.585-5.15,0.085-7.078,1.797c-2.491,2.19-5.163,4.165-7.988,5.902\n\tc-2.136,1.323-3.526,3.572-3.754,6.074l-1.047,11.426c-2.152,0.848-4.299,1.577-6.441,2.188l-7.34-8.512\n\tc-1.52-1.763-3.731-2.777-6.059-2.777h-11.234c-2.327,0.001-4.539,1.015-6.059,2.777l-7.34,8.516\n\tc-2.141-0.613-4.293-1.344-6.441-2.191l-1.043-11.422c-0.23-2.504-1.623-4.755-3.762-6.078c-2.823-1.739-5.494-3.713-7.984-5.902\n\tc-1.928-1.711-4.567-2.381-7.078-1.797l-10.711,2.453c-1.496-1.891-2.888-3.836-4.176-5.836l5.691-9.816\n\tc1.249-2.155,1.423-4.768,0.473-7.07c-1.276-3.131-2.284-6.366-3.012-9.668c-0.57-2.501-2.304-4.577-4.664-5.582l-10.278-4.379\n\tv-7.539l10.277-4.379c2.36-1.005,4.094-3.081,4.664-5.582c0.729-3.302,1.737-6.536,3.012-9.668\n\tc0.951-2.302,0.776-4.915-0.473-7.07l-5.691-9.816c1.289-2,2.68-3.945,4.172-5.836l10.715,2.453\n\tc2.511,0.577,5.146-0.092,7.078-1.797c2.491-2.19,5.163-4.164,7.988-5.902c2.136-1.323,3.526-3.572,3.754-6.074l1.047-11.426\n\tc2.148-0.848,4.297-1.578,6.445-2.191l7.332,8.516c1.521,1.763,3.734,2.777,6.062,2.777h11.234\n\tc2.327-0.001,4.539-1.015,6.059-2.777l7.34-8.516c2.141,0.613,4.293,1.344,6.441,2.191l1.043,11.422\n\tc0.23,2.504,1.623,4.755,3.762,6.078c2.823,1.739,5.494,3.713,7.984,5.902c1.932,1.705,4.567,2.374,7.078,1.797L448.096,346\n\tc1.496,1.891,2.888,3.836,4.176,5.836l-5.691,9.816c-1.249,2.155-1.423,4.768-0.473,7.07c1.275,3.132,2.282,6.366,3.012,9.668\n\tc0.563,2.465,2.258,4.52,4.57,5.543l9.852,4.348V395.961z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M88.061,352.121c-22.091,0-40,17.909-40,40c0.026,22.081,17.919,39.974,40,40c22.091,0,40-17.909,40-40\n\tC128.061,370.03,110.152,352.121,88.061,352.121z M88.061,416.121c-13.255,0-24-10.745-24-24c0.014-13.249,10.751-23.986,24-24\n\tc13.255,0,24,10.745,24,24S101.316,416.121,88.061,416.121z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M170.772,375.746l-11.051-4.875c-0.43-1.543-0.893-3.036-1.391-4.48l6.148-10.609c1.414-2.441,1.438-5.447,0.063-7.91\n\tc-3.233-5.772-7.094-11.17-11.512-16.094c-1.944-2.166-4.909-3.108-7.746-2.461l-9.223,2.112v-51.307\n\tc-0.015-17.489-9.535-33.587-24.854-42.025c12.203-12.783,11.733-33.039-1.05-45.243s-33.039-11.733-45.243,1.05\n\tc-11.805,12.366-11.805,31.827,0,44.192c-15.318,8.438-24.839,24.536-24.854,42.025v51.307l-9.223-2.112\n\tc-2.835-0.645-5.798,0.295-7.742,2.457c-4.419,4.923-8.281,10.319-11.516,16.09c-1.375,2.465-1.351,5.471,0.062,7.914\n\tl6.148,10.609c-0.5,1.449-0.964,2.944-1.391,4.484L5.35,375.746c-2.898,1.281-4.769,4.151-4.77,7.32v18.109\n\tc0.001,3.169,1.871,6.04,4.77,7.321l11.051,4.875c0.43,1.543,0.893,3.036,1.391,4.48l-6.148,10.609\n\tc-1.414,2.441-1.438,5.447-0.063,7.91c3.233,5.772,7.094,11.17,11.512,16.094c1.938,2.174,4.908,3.118,7.746,2.461l11.617-2.66\n\tc1.141,0.894,2.314,1.76,3.52,2.598l1.125,12.324c0.261,2.843,2.015,5.331,4.605,6.531c5.93,2.775,12.156,4.867,18.559,6.234\n\tc2.849,0.596,5.797-0.404,7.695-2.609l8.152-9.457h3.898l8.152,9.457c1.901,2.203,4.847,3.202,7.695,2.609\n\tc6.401-1.369,12.626-3.46,18.555-6.234c2.589-1.198,4.343-3.686,4.602-6.527l1.129-12.328c1.207-0.836,2.382-1.702,3.523-2.598\n\tl11.617,2.66c2.838,0.658,5.808-0.286,7.746-2.461c4.416-4.923,8.277-10.318,11.512-16.086c1.375-2.465,1.351-5.471-0.063-7.914\n\tl-6.148-10.609c0.5-1.449,0.964-2.944,1.391-4.484l11.051-4.875c2.898-1.281,4.768-4.151,4.77-7.32v-18.11\n\tC175.541,379.897,173.671,377.027,170.772,375.746z M88.061,200.121c8.837,0,16,7.163,16,16s-7.163,16-16,16s-16-7.163-16-16\n\tC72.07,207.288,79.228,200.13,88.061,200.121z M56.061,280.121c0-17.673,14.327-32,32-32s32,14.327,32,32v28.663\n\tc-4.593-1.912-9.346-3.416-14.203-4.495c-2.848-0.589-5.793,0.409-7.695,2.609l-8.152,9.457h-3.898l-8.145-9.457\n\tc-1.905-2.199-4.85-3.196-7.699-2.609c-4.859,1.079-9.613,2.583-14.207,4.495V280.121z M159.541,395.961l-9.852,4.348\n\tc-2.313,1.023-4.007,3.078-4.57,5.543c-0.727,3.302-1.735,6.537-3.012,9.668c-0.951,2.302-0.776,4.915,0.473,7.07l5.691,9.816\n\tc-1.289,2-2.681,3.945-4.176,5.836l-10.711-2.453c-2.511-0.586-5.151,0.084-7.078,1.797c-2.491,2.19-5.163,4.165-7.988,5.902\n\tc-2.136,1.323-3.526,3.572-3.754,6.074l-1.047,11.426c-2.152,0.848-4.299,1.577-6.441,2.188l-7.34-8.512\n\tc-1.52-1.763-3.731-2.777-6.059-2.777H82.443c-2.327,0.001-4.539,1.015-6.059,2.777l-7.34,8.516\n\tc-2.141-0.613-4.293-1.344-6.441-2.191l-1.043-11.422c-0.23-2.504-1.623-4.755-3.762-6.078c-2.823-1.739-5.494-3.713-7.984-5.902\n\tc-1.929-1.71-4.567-2.38-7.078-1.797l-10.711,2.453c-1.496-1.891-2.888-3.836-4.176-5.836l5.691-9.816\n\tc1.249-2.155,1.423-4.768,0.473-7.07c-1.276-3.131-2.284-6.366-3.012-9.668c-0.563-2.465-2.258-4.52-4.57-5.543l-9.851-4.348\n\tv-7.68l9.852-4.348c2.313-1.023,4.007-3.078,4.57-5.543c0.727-3.302,1.735-6.537,3.012-9.668c0.951-2.302,0.776-4.915-0.473-7.07\n\tl-5.691-9.816c1.289-2,2.68-3.945,4.172-5.836l10.715,2.453c2.511,0.575,5.145-0.094,7.078-1.797\n\tc2.491-2.19,5.163-4.164,7.988-5.902c2.136-1.323,3.526-3.572,3.754-6.074l1.047-11.426c2.148-0.848,4.297-1.578,6.445-2.191\n\tl7.332,8.516c1.521,1.763,3.734,2.777,6.063,2.777h11.234c2.327-0.001,4.539-1.015,6.059-2.777l7.34-8.516\n\tc2.141,0.613,4.293,1.344,6.441,2.191l1.043,11.422c0.23,2.504,1.623,4.755,3.762,6.078c2.823,1.739,5.494,3.713,7.984,5.902\n\tc1.931,1.706,4.567,2.375,7.078,1.797L144.096,346c1.496,1.891,2.888,3.836,4.176,5.836l-5.691,9.816\n\tc-1.249,2.155-1.423,4.768-0.473,7.07c1.277,3.131,2.284,6.366,3.012,9.668c0.563,2.465,2.258,4.52,4.57,5.543l9.852,4.348\n\tV395.961z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M155.979,65.098c-48.463,20.498-87.79,57.962-110.613,105.375l14.414,6.945c21.134-43.909,57.553-78.604,102.433-97.586\n\tL155.979,65.098z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M302.94,454.043c-39.693,12.998-82.438,13.377-122.355,1.086l-4.75,15.281c43.097,13.339,89.277,12.927,132.129-1.18\n\tL302.94,454.043z"
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c("path", {
-                              attrs: {
-                                d:
-                                  "M321.983,64.199l-6.07,14.805c46.536,19.042,84.18,54.93,105.422,100.504l14.492-6.773\n\tC412.89,123.518,372.237,84.762,321.983,64.199z"
-                              }
-                            })
-                          ]
-                        },
-                        proxy: true
-                      }
-                    ])
-                  },
-                  [
-                    _vm._v(
-                      "\n                        Company\n                    "
-                    )
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "jet-nav-link",
-                  {
-                    attrs: {
-                      href: _vm.route("profile.show"),
+                      href: _vm.route(),
                       active: _vm.route().current("profile.show")
                     },
                     scopedSlots: _vm._u([
@@ -65546,6 +65291,7 @@ var render = function() {
                       _c(
                         "jet-nav-link",
                         {
+                          attrs: { href: _vm.route("logout") },
                           scopedSlots: _vm._u([
                             {
                               key: "svg",
@@ -65601,124 +65347,74 @@ var render = function() {
         ]
       ),
       _vm._v(" "),
-      _c("main", { staticClass: "w-full flex-1 bg-white sm:min-w-0" }, [
-        _c(
-          "header",
-          {
-            staticClass:
-              "border-b-2 border-gray-200 px-8 py-3 flex justify-between"
-          },
-          [
-            _c("div", { staticClass: "flex" }, [
-              _c("div", { staticClass: "items-center lg:hidden" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass:
-                      "inline-flex items-center justify-center p-2 rounded-md text-gray-400 focus:outline-none  transition duration-150 ease-in-out",
-                    on: {
-                      click: function($event) {
-                        _vm.showingNavigationDropdown = true
-                      }
-                    }
-                  },
-                  [
-                    _c(
-                      "svg",
-                      {
-                        staticClass: "h-5 w-5 fill-current",
-                        class: {
-                          hidden: _vm.showingNavigationDropdown,
-                          "inline-flex": !_vm.showingNavigationDropdown
-                        },
-                        attrs: {
-                          version: "1.1",
-                          viewBox: "0 0 384.97 384.97",
-                          "xml:space": "preserve",
-                          xmlns: "http://www.w3.org/2000/svg"
+      _c(
+        "main",
+        { staticClass: "w-full bg-gray-100 flex-1 bg-white sm:min-w-0" },
+        [
+          _c(
+            "header",
+            {
+              staticClass:
+                "border-b-2 bg-white border-gray-200 px-8 py-3 flex justify-between"
+            },
+            [
+              _c("div", { staticClass: "flex" }, [
+                _c("div", { staticClass: "items-center lg:hidden" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass:
+                        "inline-flex items-center justify-center p-2 rounded-md text-gray-400 focus:outline-none  transition duration-150 ease-in-out",
+                      on: {
+                        click: function($event) {
+                          _vm.showingNavigationDropdown = true
                         }
-                      },
-                      [
-                        _c("path", {
-                          attrs: {
-                            d:
-                              "m12.03 120.3h360.91c6.641 0 12.03-5.39 12.03-12.03 0-6.641-5.39-12.03-12.03-12.03h-360.91c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03z"
-                          }
-                        }),
-                        _c("path", {
-                          attrs: {
-                            d:
-                              "m372.94 180.46h-360.91c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03h360.91c6.641 0 12.03-5.39 12.03-12.03s-5.389-12.03-12.03-12.03z"
-                          }
-                        }),
-                        _c("path", {
-                          attrs: {
-                            d:
-                              "m372.94 264.67h-240.61c-6.641 0-12.03 5.39-12.03 12.03 0 6.641 5.39 12.03 12.03 12.03h240.61c6.641 0 12.03-5.39 12.03-12.03 1e-3 -6.641-5.389-12.03-12.03-12.03z"
-                          }
-                        })
-                      ]
-                    )
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "relative text-gray-400" }, [
-                _c(
-                  "span",
-                  {
-                    staticClass:
-                      "absolute inset-y-0 left-0 flex items-center pl-2"
-                  },
-                  [
-                    _c(
-                      "button",
-                      {
-                        staticClass:
-                          "p-1 focus:outline-none focus:shadow-outline",
-                        attrs: { type: "submit" }
-                      },
-                      [
-                        _c(
-                          "svg",
-                          {
-                            staticClass: "w-6 h-6",
-                            attrs: {
-                              fill: "none",
-                              stroke: "currentColor",
-                              "stroke-linecap": "round",
-                              "stroke-linejoin": "round",
-                              "stroke-width": "2",
-                              viewBox: "0 0 24 24"
-                            }
+                      }
+                    },
+                    [
+                      _c(
+                        "svg",
+                        {
+                          staticClass: "h-5 w-5 fill-current",
+                          class: {
+                            hidden: _vm.showingNavigationDropdown,
+                            "inline-flex": !_vm.showingNavigationDropdown
                           },
-                          [
-                            _c("path", {
-                              attrs: {
-                                d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                              }
-                            })
-                          ]
-                        )
-                      ]
-                    )
-                  ]
-                ),
+                          attrs: {
+                            version: "1.1",
+                            viewBox: "0 0 384.97 384.97",
+                            "xml:space": "preserve",
+                            xmlns: "http://www.w3.org/2000/svg"
+                          }
+                        },
+                        [
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m12.03 120.3h360.91c6.641 0 12.03-5.39 12.03-12.03 0-6.641-5.39-12.03-12.03-12.03h-360.91c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03z"
+                            }
+                          }),
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m372.94 180.46h-360.91c-6.641 0-12.03 5.39-12.03 12.03s5.39 12.03 12.03 12.03h360.91c6.641 0 12.03-5.39 12.03-12.03s-5.389-12.03-12.03-12.03z"
+                            }
+                          }),
+                          _c("path", {
+                            attrs: {
+                              d:
+                                "m372.94 264.67h-240.61c-6.641 0-12.03 5.39-12.03 12.03 0 6.641 5.39 12.03 12.03 12.03h240.61c6.641 0 12.03-5.39 12.03-12.03 1e-3 -6.641-5.389-12.03-12.03-12.03z"
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ]),
                 _vm._v(" "),
-                _c("input", {
-                  staticClass: "py-2 text-sm  pl-10 outline-none text-gray-900",
-                  attrs: { type: "search", name: "search", autocomplete: "off" }
-                })
-              ])
-            ]),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "hidden md:flex md:items-center md:ml-6" },
-              [
                 _c(
                   "div",
-                  { staticClass: "ml-3 relative" },
+                  { staticClass: "relative text-gray-400" },
                   [
                     _c("jet-dropdown", {
                       attrs: { align: "right", width: "48" },
@@ -65728,50 +65424,76 @@ var render = function() {
                           fn: function() {
                             return [
                               _c(
-                                "button",
+                                "span",
                                 {
                                   staticClass:
-                                    "flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out"
+                                    "absolute inset-y-0 left-0 flex items-center pl-2"
                                 },
                                 [
-                                  _c("div", [
-                                    _vm._v(_vm._s(_vm.$page.props.user.name))
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("img", {
-                                    staticClass:
-                                      "h-8 w-8 rounded-full mx-2 object-cover",
-                                    attrs: {
-                                      src:
-                                        _vm.$page.props.user.profile_photo_url,
-                                      alt: _vm.$page.props.user.name
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("div", { staticClass: "ml-1" }, [
-                                    _c(
-                                      "svg",
-                                      {
-                                        staticClass: "fill-current h-4 w-4",
-                                        attrs: {
-                                          xmlns: "http://www.w3.org/2000/svg",
-                                          viewBox: "0 0 20 20"
-                                        }
-                                      },
-                                      [
-                                        _c("path", {
+                                  _c(
+                                    "button",
+                                    {
+                                      staticClass:
+                                        "p-1 focus:outline-none focus:shadow-outline",
+                                      attrs: { type: "submit" }
+                                    },
+                                    [
+                                      _c(
+                                        "svg",
+                                        {
+                                          staticClass: "w-6 h-6",
                                           attrs: {
-                                            "fill-rule": "evenodd",
-                                            d:
-                                              "M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z",
-                                            "clip-rule": "evenodd"
+                                            fill: "none",
+                                            stroke: "currentColor",
+                                            "stroke-linecap": "round",
+                                            "stroke-linejoin": "round",
+                                            "stroke-width": "2",
+                                            viewBox: "0 0 24 24"
                                           }
-                                        })
-                                      ]
-                                    )
-                                  ])
+                                        },
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              d:
+                                                "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                                            }
+                                          })
+                                        ]
+                                      )
+                                    ]
+                                  )
                                 ]
-                              )
+                              ),
+                              _vm._v(" "),
+                              _c("input", {
+                                directives: [
+                                  {
+                                    name: "model",
+                                    rawName: "v-model",
+                                    value: _vm.search,
+                                    expression: "search"
+                                  }
+                                ],
+                                staticClass:
+                                  "py-2 text-sm  pl-10 outline-none text-gray-900",
+                                attrs: {
+                                  type: "search",
+                                  name: "search",
+                                  autocomplete: "off"
+                                },
+                                domProps: { value: _vm.search },
+                                on: {
+                                  input: [
+                                    function($event) {
+                                      if ($event.target.composing) {
+                                        return
+                                      }
+                                      _vm.search = $event.target.value
+                                    },
+                                    _vm.searchResult
+                                  ]
+                                }
+                              })
                             ]
                           },
                           proxy: true
@@ -65780,29 +65502,54 @@ var render = function() {
                           key: "content",
                           fn: function() {
                             return [
-                              _c(
-                                "form",
-                                {
-                                  on: {
-                                    submit: function($event) {
-                                      $event.preventDefault()
-                                      return _vm.logout($event)
-                                    }
-                                  }
-                                },
-                                [
-                                  _c(
-                                    "jet-dropdown-link",
-                                    { attrs: { as: "button" } },
+                              Object.keys(_vm.searchResponse).length === 0
+                                ? _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out"
+                                    },
                                     [
                                       _vm._v(
-                                        "\n                                            Logout\n                                        "
+                                        "\n                                        No results were found\n                                    "
                                       )
                                     ]
                                   )
-                                ],
-                                1
-                              )
+                                : _c(
+                                    "div",
+                                    _vm._l(_vm.searchResponse, function(
+                                      searchItem
+                                    ) {
+                                      return _c("div", { key: searchItem.id }, [
+                                        _c(
+                                          "div",
+                                          [
+                                            _c(
+                                              "jet-dropdown-link",
+                                              {
+                                                attrs: {
+                                                  classes: "truncate",
+                                                  href: _vm.route(
+                                                    "client.ticket.show",
+                                                    searchItem.id
+                                                  )
+                                                }
+                                              },
+                                              [
+                                                _vm._v(
+                                                  "\n                                                " +
+                                                    _vm._s(searchItem.subject) +
+                                                    "\n                                            "
+                                                )
+                                              ]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ])
+                                    }),
+                                    0
+                                  )
                             ]
                           },
                           proxy: true
@@ -65812,13 +65559,117 @@ var render = function() {
                   ],
                   1
                 )
-              ]
-            )
-          ]
-        ),
-        _vm._v(" "),
-        _c("section", { staticClass: "py-4" }, [_vm._t("default")], 2)
-      ]),
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "hidden md:flex md:items-center md:ml-6" },
+                [
+                  _c(
+                    "div",
+                    { staticClass: "ml-3 relative" },
+                    [
+                      _c("jet-dropdown", {
+                        attrs: { align: "right", width: "48" },
+                        scopedSlots: _vm._u([
+                          {
+                            key: "trigger",
+                            fn: function() {
+                              return [
+                                _c(
+                                  "button",
+                                  {
+                                    staticClass:
+                                      "flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out"
+                                  },
+                                  [
+                                    _c("div", [
+                                      _vm._v(_vm._s(_vm.$page.props.user.name))
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("img", {
+                                      staticClass:
+                                        "h-8 w-8 rounded-full mx-2 object-cover",
+                                      attrs: {
+                                        src:
+                                          _vm.$page.props.user
+                                            .profile_photo_url,
+                                        alt: _vm.$page.props.user.name
+                                      }
+                                    }),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "ml-1" }, [
+                                      _c(
+                                        "svg",
+                                        {
+                                          staticClass: "fill-current h-4 w-4",
+                                          attrs: {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            viewBox: "0 0 20 20"
+                                          }
+                                        },
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              "fill-rule": "evenodd",
+                                              d:
+                                                "M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z",
+                                              "clip-rule": "evenodd"
+                                            }
+                                          })
+                                        ]
+                                      )
+                                    ])
+                                  ]
+                                )
+                              ]
+                            },
+                            proxy: true
+                          },
+                          {
+                            key: "content",
+                            fn: function() {
+                              return [
+                                _c(
+                                  "form",
+                                  {
+                                    on: {
+                                      submit: function($event) {
+                                        $event.preventDefault()
+                                        return _vm.logout($event)
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c(
+                                      "jet-dropdown-link",
+                                      { attrs: { as: "button" } },
+                                      [
+                                        _vm._v(
+                                          "\n                                            Logout\n                                        "
+                                        )
+                                      ]
+                                    )
+                                  ],
+                                  1
+                                )
+                              ]
+                            },
+                            proxy: true
+                          }
+                        ])
+                      })
+                    ],
+                    1
+                  )
+                ]
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c("section", { staticClass: "p-10" }, [_vm._t("default")], 2)
+        ]
+      ),
       _vm._v(" "),
       _c("portal-target", { attrs: { name: "modal", multiple: "" } })
     ],
@@ -68852,42 +68703,37 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "client-layout",
-    {
-      scopedSlots: _vm._u([
-        {
-          key: "header",
-          fn: function() {
-            return [
-              _c(
-                "h2",
-                {
-                  staticClass:
-                    "font-semibold text-xl text-gray-800 leading-tight"
-                },
-                [_vm._v("\n            Dashboard\n        ")]
-              )
-            ]
-          },
-          proxy: true
-        }
-      ])
-    },
-    [
-      _vm._v(" "),
-      _c("div", { staticClass: "py-12" }, [
-        _c("div", { staticClass: "max-w-7xl mx-auto sm:px-6 lg:px-8" }, [
-          _c(
-            "div",
-            { staticClass: "bg-white overflow-hidden shadow-xl sm:rounded-lg" },
-            [_c("welcome")],
-            1
-          )
-        ])
-      ])
-    ]
-  )
+  return _c("client-layout", [
+    _c(
+      "div",
+      { staticClass: "py-12 grid grid-cols-3 gap-x-15" },
+      [
+        _c("stat-message", {
+          attrs: {
+            head: "In progress",
+            stat: _vm.pendingTickets,
+            background: "bg-orange-500"
+          }
+        }),
+        _vm._v(" "),
+        _c("stat-message", {
+          attrs: {
+            head: "Today's Closed Tickets",
+            stat: _vm.closedTicketsToday
+          }
+        }),
+        _vm._v(" "),
+        _c("stat-message", {
+          attrs: {
+            head: "Monthly Closed Tickets",
+            stat: _vm.closedTicketsMonth,
+            background: "bg-green-600"
+          }
+        })
+      ],
+      1
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -68963,7 +68809,8 @@ var render = function() {
               expression: "keyOnChangeView"
             }
           ],
-          staticClass: "p-4 mb-3 outline-none rounded-l-md",
+          staticClass:
+            "px-4 py-2 mb-3 outline-none rounded-md text-white bg-gray-700",
           on: {
             change: [
               function($event) {
@@ -68994,31 +68841,6 @@ var render = function() {
     ]),
     _vm._v(" "),
     _c("table", { staticClass: "w-full whitespace-no-wrap" }, [
-      _c("thead", [
-        _c(
-          "tr",
-          {
-            staticClass:
-              "text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800"
-          },
-          [
-            _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Subject")]),
-            _vm._v(" "),
-            _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Status")]),
-            _vm._v(" "),
-            _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Priority")]),
-            _vm._v(" "),
-            _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Category")]),
-            _vm._v(" "),
-            _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Created On")]),
-            _vm._v(" "),
-            _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Last Reply")]),
-            _vm._v(" "),
-            _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Action")])
-          ]
-        )
-      ]),
-      _vm._v(" "),
       _c(
         "tbody",
         {
@@ -69033,116 +68855,65 @@ var render = function() {
                 "td",
                 {
                   staticClass:
-                    "px-4 py-3 text-sm max-w-max overflow-hidden truncate"
+                    "px-4 py-3 text-sm font-bold max-w-max overflow-hidden truncate"
                 },
                 [
                   _vm._v(
-                    "\n                    " +
-                      _vm._s(ticket.subject) +
-                      "\n                  "
-                  )
+                    "\n          " + _vm._s(ticket.subject) + "\n          "
+                  ),
+                  ticket.category
+                    ? _c(
+                        "span",
+                        {
+                          staticClass:
+                            "px-2 py-1 font-semibold leading-tight text-xs mr-2 text-white rounded-full ",
+                          style: "background-color:" + ticket.category.color
+                        },
+                        [
+                          _vm._v(
+                            "\n            " +
+                              _vm._s(ticket.category.name) +
+                              "\n          "
+                          )
+                        ]
+                      )
+                    : _vm._e()
                 ]
               ),
               _vm._v(" "),
-              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
                 _c(
-                  "span",
-                  {
-                    staticClass:
-                      "px-2 py-1 font-semibold leading-tight  rounded-full",
-                    class:
-                      ticket.status.bg_color + " " + ticket.status.text_color
-                  },
+                  "div",
+                  { staticClass: "flex items-center text-sm justify-center" },
                   [
-                    _vm._v(
-                      "\n                      " +
-                        _vm._s(ticket.status.name) +
-                        "\n                    "
+                    _c(
+                      "span",
+                      {
+                        staticClass:
+                          "px-2 py-1 font-semibold leading-tight text-xs mr-2 text-white rounded-full ",
+                        class: ticket.status.bg_color
+                      },
+                      [
+                        _vm._v(
+                          "\n                  " +
+                            _vm._s(ticket.status.name) +
+                            "\n                "
+                        )
+                      ]
                     )
                   ]
                 )
               ]),
               _vm._v(" "),
-              _c("td", { staticClass: "px-4 py-4 text-sm flex align-bottom" }, [
-                _c(
-                  "svg",
-                  {
-                    staticClass: "h-5 mr-1",
-                    staticStyle: {
-                      "enable-background": "new 0 0 403.04 403.04"
-                    },
-                    attrs: {
-                      version: "1.1",
-                      xmlns: "http://www.w3.org/2000/svg",
-                      "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                      x: "0px",
-                      y: "0px",
-                      viewBox: "0 0 403.04 403.04",
-                      "xml:space": "preserve"
-                    }
-                  },
-                  [
-                    _c("path", {
-                      staticClass: "fill-current",
-                      class: ticket.priority.color,
-                      attrs: {
-                        d:
-                          "M370.604,50.16L370.604,50.16c-2.948-1.487-6.507-1.011-8.96,1.2c-21.68,19.44-41.6,28.88-60.96,28.88\n                          s-38.16-8.96-61.52-29.2c-50.72-43.28-100.56-43.2-158.8-1.84c-4.08,2.88-4.08,2.88-3.36,86.16c0,32.72,0.56,73.28,0,78.96\n                          c-1.106,4.278,1.465,8.642,5.742,9.748c2.572,0.665,5.306,0.01,7.298-1.748c20.301-15.662,45.085-24.409,70.72-24.96\n                          c16.693,0.091,33.132,4.092,48,11.68c16.247,8.709,34.294,13.529,52.72,14.08c96.64,0,112.56-158.16,113.2-164.88\n                          C375.125,54.962,373.504,51.751,370.604,50.16z"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("path", {
-                      attrs: {
-                        d:
-                          "M52.364,0h-7.52c-9.146,0-16.56,7.414-16.56,16.56v369.92c0,9.146,7.414,16.56,16.56,16.56h7.52\n                          c9.146,0,16.56-7.414,16.56-16.56V16.56C68.924,7.414,61.51,0,52.364,0z"
-                      }
-                    })
-                  ]
-                ),
-                _vm._v(
-                  "\n                      " +
-                    _vm._s(ticket.priority.name) +
-                    "                        \n                  "
-                )
-              ]),
-              _vm._v(" "),
               _c(
                 "td",
-                { staticClass: "px-4 py-3 text-sm max-w-xs overflow-hidden" },
+                { staticClass: "px-4 py-3 text-right text-xs font-semibold" },
                 [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "px-2 py-1 font-semibold leading-tight  text-white rounded-full ",
-                      style: "background-color:" + ticket.category.color
-                    },
-                    [
-                      _vm._v(
-                        "\n                      " +
-                          _vm._s(ticket.category.name) +
-                          "\n                    "
-                      )
-                    ]
+                  _vm._v(
+                    "\n          " + _vm._s(ticket.created_at) + "\n        "
                   )
                 ]
               ),
-              _vm._v(" "),
-              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                _vm._v(
-                  "\n                    " +
-                    _vm._s(ticket.created_at) +
-                    "\n                  "
-                )
-              ]),
-              _vm._v(" "),
-              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
-                _vm._v(
-                  "\n                    " +
-                    _vm._s(ticket.updated_at) +
-                    "\n                  "
-                )
-              ]),
               _vm._v(" "),
               _c(
                 "td",
@@ -69160,7 +68931,7 @@ var render = function() {
                         "svg",
                         {
                           staticClass:
-                            "h-5 fill-current ml-2 text-gray-500 hover:text-gray-700 cursor-pointer",
+                            "h-4 fill-current text-gray-300 hover:text-gray-500 cursor-pointer",
                           attrs: {
                             "enable-background": "new 0 0 515.555 515.555",
                             viewBox: "0 0 515.56 515.56",
@@ -69289,12 +69060,12 @@ var render = function() {
                     [_vm._v(_vm._s(_vm.ticket.user.name))]
                   ),
                   _vm._v(" "),
-                  !_vm.ticket.user.is_admin
+                  _vm.ticket.user.id == _vm.user.id
                     ? _c(
                         "span",
                         {
                           staticClass:
-                            "bg-yellow-200 text-white p-1 ml-2 text-xs rounded"
+                            "bg-green-400 text-white p-1 ml-2 text-xs rounded"
                         },
                         [_vm._v("Client")]
                       )
@@ -69344,12 +69115,12 @@ var render = function() {
                       [_vm._v(_vm._s(comment.user.name))]
                     ),
                     _vm._v(" "),
-                    !comment.user.is_admin
+                    comment.user.id == _vm.user.id
                       ? _c(
                           "span",
                           {
                             staticClass:
-                              "bg-yellow-200 text-white p-1 ml-2 text-xs rounded"
+                              "bg-green-400 text-white p-1 ml-2 text-xs rounded"
                           },
                           [_vm._v("Client")]
                         )
