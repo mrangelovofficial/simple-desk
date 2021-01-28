@@ -1,10 +1,15 @@
 <template>
     <client-layout>
-       <div class="-mt-7">
+       <div class="-mt-7 flex justify-between items-center">
         <select @change="onChangeView($event)"  v-model="keyOnChangeView" class="px-4 py-2 mb-3 outline-none rounded-md text-white bg-gray-700">
           <option value="pending">Pending</option>
           <option value="closed">Closed</option>
         </select>
+        <inertia-link :href="route('client.ticket.create')">
+            <div class="bg-gray-700 text-white px-3 py-1 rounded">
+              Create Ticket
+          </div>
+        </inertia-link>
       </div>
       <table class="w-full whitespace-no-wrap">
         <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">

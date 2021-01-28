@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Comment;
 use App\Models\Ticket;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
 
 class TicketController extends Controller
@@ -58,7 +59,17 @@ class TicketController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $ticket = new Ticket([
+            'subject'       =>  $request->subject,
+            'content'       =>  $request->content,
+            'priority_id'   =>  3,
+            'user_id'       =>  auth()->user()->id,
+            'status_id'     =>  1,
+            'category_id'   =>  1,
+        ]);
+        $ticket->save();
+
+        return Redirect::route('client.ticket.index');
     }
 
     /**

@@ -186,11 +186,11 @@
 
                 </div>
 
-                <h2 class="text-sm font-bold text-gray-200 mt-8 uppercase tracking-wide">Settings</h2>
+                <!-- <h2 class="text-sm font-bold text-gray-200 mt-8 uppercase tracking-wide">Settings</h2> -->
                 <div class="mt-2 -mx-1">
                    
                  
-                    <jet-nav-link :href="route()" :active="route().current('profile.show')">
+                    <!-- <jet-nav-link :href="route()" :active="route().current('profile.show')">
                         <template v-slot:svg>
                             <path d="M296,280h-8.8c-3.31,0.006-6.271-2.059-7.408-5.168c-0.976-2.56-2.024-5.064-3.152-7.544
                                 c-1.402-3.016-0.762-6.587,1.6-8.928l6.272-6.28c9.311-9.393,9.294-24.541-0.04-33.912l-22.608-22.608
@@ -277,7 +277,7 @@
 	
                         </template>
                         My Settings
-                    </jet-nav-link>
+                    </jet-nav-link> -->
 
                      <!-- Show only on mobile -->
                      <div class="md:hidden">

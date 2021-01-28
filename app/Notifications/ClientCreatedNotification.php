@@ -44,7 +44,7 @@ class ClientCreatedNotification extends Notification
             ->line('You have been added as a customer to the system.')
             ->line('Email: ' . $notifiable->email)
             ->line('Password:' . $this->password)
-            ->line('Note: After your first login you will need to change your password.')
+            // ->line('Note: After your first login you will need to change your password.')
             ->action('Login', route('login'))
             ->line('Thank you for using our application!');
     }
